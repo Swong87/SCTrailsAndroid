@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LandingActivity">
+
+    <ImageButton
+        android:id="@+id/ib_profile_pic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/profile_default"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/profile_pic" />
+
+    <TableLayout
+        android:id="@+id/tl_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ib_profile_pic">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_name"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_email"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/nav_button"
+        style="@style/viewCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="38dp"
+        android:background="@color/colorPrimary"
+        android:text="List View"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:id="@+id/logoutBtn"
+        style="@style/viewCustom"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="@string/logout"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

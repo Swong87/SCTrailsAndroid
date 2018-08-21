@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.CreateAccountActivity">
+
+    <EditText
+        android:id="@+id/et_name"
+        style="@style/viewCustom"
+        android:ems="10"
+        android:hint="@string/full_name"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/et_email"
+        style="@style/viewCustom"
+        android:ems="10"
+        android:layout_below="@id/et_name"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:id="@+id/et_password"
+        style="@style/viewCustom"
+        android:layout_below="@id/et_email"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+    <EditText
+        android:id="@+id/et_confirm_password"
+        style="@style/viewCustom"
+        android:layout_below="@id/et_password"
+        android:ems="10"
+        android:hint="@string/confirm_password"
+        android:inputType="textPassword" />
+    <Button
+        android:id="@+id/btn_register"
+        style="@style/viewCustom"
+        android:layout_below="@id/et_confirm_password"
+        android:background="@color/colorAccent"
+        android:text="@string/sign_up"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/fbLogin"
+        style="@style/viewCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_register"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp" />
+
+    <ProgressBar
+        android:id="@+id/indeterminateBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/alreadyHaveAccount"
+        style="@style/viewCustom"
+        android:layout_alignParentBottom="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_horizontal"
+        android:text="@string/alreadyHave"
+        android:textSize="20sp" />
+
+</RelativeLayout>
