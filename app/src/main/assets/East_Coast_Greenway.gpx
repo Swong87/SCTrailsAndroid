@@ -1,0 +1,2361 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 2.1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ogr="http://osgeo.org/gdal" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata><bounds minlat="27.839469058911092" minlon="-80.944138484806459" maxlat="28.790575340463956" maxlon="-80.448225263593784"/></metadata>                
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>335.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>All Aboard Florida Rail with Trail Corridor</ogr:CORRIDOR>
+    <ogr:SEG_NAME>All Aboard Florida Rail with Trail Corridor</ogr:SEG_NAME>
+    <ogr:SEG_DSCRPT>Seg. 04</ogr:SEG_DSCRPT>
+    <ogr:FGTS_RANK>PRIORITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>GAP REQUIRING ACQUISITION</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>NO</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>NO</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>ALT</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:GIS_MILES_>22.4144</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>DIAZ_D</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/01/15</ogr:ModifiedOn>
+    <ogr:Shape_Leng>36072.4932867000025</ogr:Shape_Leng>
+    <ogr:PAVING_INT>YES</ogr:PAVING_INT>
+  </extensions>
+  <trkseg>
+    <trkpt lat="27.839469058911092" lon="-80.499082581157793">
+    </trkpt>
+    <trkpt lat="27.839559240174715" lon="-80.499199236702495">
+    </trkpt>
+    <trkpt lat="27.840201241370039" lon="-80.500000233762364">
+    </trkpt>
+    <trkpt lat="27.840498240455272" lon="-80.500482235188926">
+    </trkpt>
+    <trkpt lat="27.841255241078823" lon="-80.50113523762316">
+    </trkpt>
+    <trkpt lat="27.842310242268852" lon="-80.501547237265427">
+    </trkpt>
+    <trkpt lat="27.845717239853641" lon="-80.50164823576587">
+    </trkpt>
+    <trkpt lat="27.846552243002701" lon="-80.501673234482425">
+    </trkpt>
+    <trkpt lat="27.853284241564989" lon="-80.501937233592272">
+    </trkpt>
+    <trkpt lat="27.854315239882894" lon="-80.501977236056462">
+    </trkpt>
+    <trkpt lat="27.857934243535745" lon="-80.502119237013687">
+    </trkpt>
+    <trkpt lat="27.870606243103644" lon="-80.502614237012111">
+    </trkpt>
+    <trkpt lat="27.875000242233696" lon="-80.502961235622479">
+    </trkpt>
+    <trkpt lat="27.875659241709819" lon="-80.503045234925764">
+    </trkpt>
+    <trkpt lat="27.876714242221105" lon="-80.503179233840342">
+    </trkpt>
+    <trkpt lat="27.878297240987109" lon="-80.503669236940269">
+    </trkpt>
+    <trkpt lat="27.879938239647625" lon="-80.504374236854659">
+    </trkpt>
+    <trkpt lat="27.881117240299204" lon="-80.50488023537531">
+    </trkpt>
+    <trkpt lat="27.883264241080902" lon="-80.505898235067249">
+    </trkpt>
+    <trkpt lat="27.884902240470691" lon="-80.506674234229735">
+    </trkpt>
+    <trkpt lat="27.894680242826951" lon="-80.511308238242165">
+    </trkpt>
+    <trkpt lat="27.894807242809144" lon="-80.511368233578835">
+    </trkpt>
+    <trkpt lat="27.900085241869121" lon="-80.513870233885143">
+    </trkpt>
+    <trkpt lat="27.902214241567066" lon="-80.514879237066026">
+    </trkpt>
+    <trkpt lat="27.903240240643942" lon="-80.515365238267435">
+    </trkpt>
+    <trkpt lat="27.904671240209723" lon="-80.516043233996939">
+    </trkpt>
+    <trkpt lat="27.908322240598199" lon="-80.517793236810604">
+    </trkpt>
+    <trkpt lat="27.909181240587628" lon="-80.518205236631886">
+    </trkpt>
+    <trkpt lat="27.918437241884163" lon="-80.522642233465817">
+    </trkpt>
+    <trkpt lat="27.928131243754148" lon="-80.527288234379768">
+    </trkpt>
+    <trkpt lat="27.92855924235862" lon="-80.527489237393155">
+    </trkpt>
+    <trkpt lat="27.936513241608477" lon="-80.531224233693081">
+    </trkpt>
+    <trkpt lat="27.937500242972298" lon="-80.531706233729878">
+    </trkpt>
+    <trkpt lat="27.939494242540153" lon="-80.532718234091803">
+    </trkpt>
+    <trkpt lat="27.941144242537955" lon="-80.533487233633608">
+    </trkpt>
+    <trkpt lat="27.948190242227394" lon="-80.536767236468393">
+    </trkpt>
+    <trkpt lat="27.953581241166368" lon="-80.539389237109063">
+    </trkpt>
+    <trkpt lat="27.958166242544483" lon="-80.541536234452735">
+    </trkpt>
+    <trkpt lat="27.959703242488256" lon="-80.542199235553525">
+    </trkpt>
+    <trkpt lat="27.959706239857923" lon="-80.54219823369786">
+    </trkpt>
+    <trkpt lat="27.961342240073218" lon="-80.543006234919233">
+    </trkpt>
+    <trkpt lat="27.963507243963491" lon="-80.544029234774243">
+    </trkpt>
+    <trkpt lat="27.967195242476727" lon="-80.545787235260718">
+    </trkpt>
+    <trkpt lat="27.968278243155776" lon="-80.546362237716409">
+    </trkpt>
+    <trkpt lat="27.968578242471693" lon="-80.546522234740834">
+    </trkpt>
+    <trkpt lat="27.96876524243784" lon="-80.54665323789196">
+    </trkpt>
+    <trkpt lat="27.972037241539237" lon="-80.548957234703295">
+    </trkpt>
+    <trkpt lat="27.977212244099047" lon="-80.552429236678819">
+    </trkpt>
+    <trkpt lat="27.98270724106187" lon="-80.556276237222789">
+    </trkpt>
+    <trkpt lat="27.982716244069216" lon="-80.556282235194544">
+    </trkpt>
+    <trkpt lat="27.984167243046191" lon="-80.557255236378239">
+    </trkpt>
+    <trkpt lat="27.984859241018899" lon="-80.557630237888958">
+    </trkpt>
+    <trkpt lat="27.987856240293716" lon="-80.559027233953557">
+    </trkpt>
+    <trkpt lat="27.997563244086393" lon="-80.563552237954269">
+    </trkpt>
+    <trkpt lat="28.000057240407592" lon="-80.564711233406825">
+    </trkpt>
+    <trkpt lat="28.003312243993459" lon="-80.566250237860316">
+    </trkpt>
+    <trkpt lat="28.005619240729104" lon="-80.567440234180864">
+    </trkpt>
+    <trkpt lat="28.012235242110592" lon="-80.570489236572016">
+    </trkpt>
+    <trkpt lat="28.014201241578306" lon="-80.571601237070169">
+    </trkpt>
+    <trkpt lat="28.022901240244202" lon="-80.57770123407883">
+    </trkpt>
+    <trkpt lat="28.026601242311671" lon="-80.579701233330809">
+    </trkpt>
+    <trkpt lat="28.031401242057903" lon="-80.582201236515985">
+    </trkpt>
+    <trkpt lat="28.031601241059647" lon="-80.582201236262307">
+    </trkpt>
+    <trkpt lat="28.032001241284011" lon="-80.582501236568717">
+    </trkpt>
+    <trkpt lat="28.035501241598595" lon="-80.584301235071294">
+    </trkpt>
+    <trkpt lat="28.036801241201154" lon="-80.585001235587569">
+    </trkpt>
+    <trkpt lat="28.04133924376422" lon="-80.587192236378229">
+    </trkpt>
+    <trkpt lat="28.042601239832386" lon="-80.587801234708024">
+    </trkpt>
+    <trkpt lat="28.043427240991541" lon="-80.588233235752213">
+    </trkpt>
+    <trkpt lat="28.045253242088013" lon="-80.589187235545751">
+    </trkpt>
+    <trkpt lat="28.047001240504937" lon="-80.590101235791494">
+    </trkpt>
+    <trkpt lat="28.047504243307909" lon="-80.590360237952822">
+    </trkpt>
+    <trkpt lat="28.047801243271959" lon="-80.59051323341204">
+    </trkpt>
+    <trkpt lat="28.048345241704087" lon="-80.590794234924161">
+    </trkpt>
+    <trkpt lat="28.049164240967631" lon="-80.591216237330755">
+    </trkpt>
+    <trkpt lat="28.049533243162088" lon="-80.591406236177079">
+    </trkpt>
+    <trkpt lat="28.050101241390042" lon="-80.591699236347367">
+    </trkpt>
+    <trkpt lat="28.053401240139205" lon="-80.593401235184842">
+    </trkpt>
+    <trkpt lat="28.055625241938621" lon="-80.594513235683621">
+    </trkpt>
+    <trkpt lat="28.056201240228432" lon="-80.594801235533737">
+    </trkpt>
+    <trkpt lat="28.058901240739601" lon="-80.596201236047051">
+    </trkpt>
+    <trkpt lat="28.062101243029105" lon="-80.597901236342082">
+    </trkpt>
+    <trkpt lat="28.062202242004084" lon="-80.597963235295168">
+    </trkpt>
+    <trkpt lat="28.063401240683344" lon="-80.598701238090825">
+    </trkpt>
+    <trkpt lat="28.067701241079465" lon="-80.60090123622318">
+    </trkpt>
+    <trkpt lat="28.071101241250528" lon="-80.602101234323669">
+    </trkpt>
+    <trkpt lat="28.072113240746916" lon="-80.602390238375108">
+    </trkpt>
+    <trkpt lat="28.072606242055574" lon="-80.60253123417273">
+    </trkpt>
+    <trkpt lat="28.074601240294601" lon="-80.603101233925344">
+    </trkpt>
+    <trkpt lat="28.075401240721238" lon="-80.60360123440384">
+    </trkpt>
+    <trkpt lat="28.076001240311832" lon="-80.60390123745816">
+    </trkpt>
+    <trkpt lat="28.076501242623692" lon="-80.604201236414113">
+    </trkpt>
+    <trkpt lat="28.076701240493033" lon="-80.604301234127789">
+    </trkpt>
+    <trkpt lat="28.077901239807897" lon="-80.604801238457881">
+    </trkpt>
+    <trkpt lat="28.079001240128964" lon="-80.60540123564617">
+    </trkpt>
+    <trkpt lat="28.079801240845242" lon="-80.605801236088524">
+    </trkpt>
+    <trkpt lat="28.080501240253234" lon="-80.606101236580542">
+    </trkpt>
+    <trkpt lat="28.081401242719952" lon="-80.606601234079221">
+    </trkpt>
+    <trkpt lat="28.083001241173093" lon="-80.607301236170116">
+    </trkpt>
+    <trkpt lat="28.083801242387313" lon="-80.607801234161741">
+    </trkpt>
+    <trkpt lat="28.08480124123346" lon="-80.608201235541685">
+    </trkpt>
+    <trkpt lat="28.088401241738744" lon="-80.610501235163085">
+    </trkpt>
+    <trkpt lat="28.092701243810637" lon="-80.614601233301457">
+    </trkpt>
+    <trkpt lat="28.096248244273188" lon="-80.618054237396066">
+    </trkpt>
+    <trkpt lat="28.100201242557095" lon="-80.621901235911963">
+    </trkpt>
+    <trkpt lat="28.106827241534514" lon="-80.628389234066901">
+    </trkpt>
+    <trkpt lat="28.108270240811908" lon="-80.629809237489454">
+    </trkpt>
+    <trkpt lat="28.110801242964669" lon="-80.632301235398501">
+    </trkpt>
+    <trkpt lat="28.113901244147293" lon="-80.63350123616992">
+    </trkpt>
+    <trkpt lat="28.121107240253021" lon="-80.634000236906829">
+    </trkpt>
+    <trkpt lat="28.123001242606023" lon="-80.634001234092395">
+    </trkpt>
+    <trkpt lat="28.12374224249022" lon="-80.63393923731148">
+    </trkpt>
+    <trkpt lat="28.12420124182227" lon="-80.633901236361297">
+    </trkpt>
+    <trkpt lat="28.125488243221028" lon="-80.633989237950999">
+    </trkpt>
+    <trkpt lat="28.130103000022913" lon="-80.625580999506056">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>363.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>East Coast Greenway -  Brevard Corridor</ogr:CORRIDOR>
+    <ogr:SEG_NAME>East Coast Greenway -  Brevard Corridor</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>PRIORITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>EXISTING PAVED</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>NO</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>NO</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>YES</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:GIS_MILES_>23.6316</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>DIAZ_D</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/01/15</ogr:ModifiedOn>
+    <ogr:Shape_Leng>38031.480303500000446</ogr:Shape_Leng>
+    <ogr:PAVING_INT>YES</ogr:PAVING_INT>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.091516823549252" lon="-80.566752336631112">
+    </trkpt>
+    <trkpt lat="28.079016630795248" lon="-80.561890870414246">
+    </trkpt>
+    <trkpt lat="28.075664421072279" lon="-80.560785121998592">
+    </trkpt>
+    <trkpt lat="28.060584461613377" lon="-80.560589642488011">
+    </trkpt>
+    <trkpt lat="28.049896992555578" lon="-80.54904855674144">
+    </trkpt>
+    <trkpt lat="27.995022576903178" lon="-80.52258038755474">
+    </trkpt>
+    <trkpt lat="27.983735604114457" lon="-80.516669885622264">
+    </trkpt>
+    <trkpt lat="27.971100162710396" lon="-80.510373946961153">
+    </trkpt>
+    <trkpt lat="27.960186510881226" lon="-80.504748299270787">
+    </trkpt>
+    <trkpt lat="27.91393070413892" lon="-80.477392372019949">
+    </trkpt>
+    <trkpt lat="27.904575003962766" lon="-80.473545956875654">
+    </trkpt>
+    <trkpt lat="27.889692703731441" lon="-80.46421782180218">
+    </trkpt>
+    <trkpt lat="27.880789589038603" lon="-80.459011240563498">
+    </trkpt>
+    <trkpt lat="27.867187694746509" lon="-80.451188001471991">
+    </trkpt>
+    <trkpt lat="27.861356109011346" lon="-80.448225263593784">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>802.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>East Central Regional Rail Trail</ogr:CORRIDOR>
+    <ogr:SEG_NAME>East Central Regional Rail Trail</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>PRIORITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>EXISTING PAVED</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>YES</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>YES</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>YES</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>YES</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>YES</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:MANAGER>City of Titusville</ogr:MANAGER>
+    <ogr:GIS_MILES_>1.49567</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>Sarah Kraum, SCTPO</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/12/29</ogr:ModifiedOn>
+    <ogr:Shape_Leng>2893.695551329999944</ogr:Shape_Leng>
+    <ogr:PAVING_INT>YES</ogr:PAVING_INT>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.637285183909128" lon="-80.830373994279071">
+    </trkpt>
+    <trkpt lat="28.630790138079664" lon="-80.826499414203212">
+    </trkpt>
+    <trkpt lat="28.618614187515732" lon="-80.819240997169246">
+    </trkpt>
+    <trkpt lat="28.618102882270762" lon="-80.818893208099524">
+    </trkpt>
+    <trkpt lat="28.615128532319716" lon="-80.816870135121334">
+    </trkpt>
+    <trkpt lat="28.614653342516124" lon="-80.815977987061672">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>960.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>State Road A1A Urban Trail Corridor</ogr:CORRIDOR>
+    <ogr:SEG_NAME>State Road A1A Urban Trail Corridor</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>PRIORITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>GAP REQUIRING ACQUISITION</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>NO</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>NO</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>YES</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:CONTACT>Sarah Kraum, Space Coast TPO</ogr:CONTACT>
+    <ogr:GIS_MILES_>13.4681</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>DIAZ_D</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/01/15</ogr:ModifiedOn>
+    <ogr:Shape_Leng>21674.905350900000485</ogr:Shape_Leng>
+    <ogr:PAVING_INT>YES</ogr:PAVING_INT>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.212724087187333" lon="-80.59768118857869">
+    </trkpt>
+    <trkpt lat="28.25909280678453" lon="-80.60489956472081">
+    </trkpt>
+    <trkpt lat="28.305954767142101" lon="-80.608709072621636">
+    </trkpt>
+    <trkpt lat="28.330330437574801" lon="-80.610801726618845">
+    </trkpt>
+    <trkpt lat="28.348447948647149" lon="-80.609118921685223">
+    </trkpt>
+    <trkpt lat="28.363014325694049" lon="-80.607209678076174">
+    </trkpt>
+    <trkpt lat="28.374810517165091" lon="-80.605475468946878">
+    </trkpt>
+    <trkpt lat="28.384795065087765" lon="-80.605465987149614">
+    </trkpt>
+    <trkpt lat="28.392648869564933" lon="-80.6088495283025">
+    </trkpt>
+    <trkpt lat="28.403086341659328" lon="-80.619132487700426">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>961.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>Pineda Causeway Corridor</ogr:CORRIDOR>
+    <ogr:SEG_NAME>Pineda Causeway Corridor</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>OPPORTUNITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>NO</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>NO</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>ALT</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:CONTACT>Open House comments</ogr:CONTACT>
+    <ogr:GIS_MILES_>4.65222</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>DIAZ_D</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/01/15</ogr:ModifiedOn>
+    <ogr:Shape_Leng>7487.040323090000129</ogr:Shape_Leng>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.2009449422934" lon="-80.67199196999961">
+    </trkpt>
+    <trkpt lat="28.203298676879786" lon="-80.667976732591526">
+    </trkpt>
+    <trkpt lat="28.20424819494605" lon="-80.665936019360188">
+    </trkpt>
+    <trkpt lat="28.205365050650745" lon="-80.656975101952369">
+    </trkpt>
+    <trkpt lat="28.207762233556871" lon="-80.64131077384684">
+    </trkpt>
+    <trkpt lat="28.208336570746997" lon="-80.637521079070822">
+    </trkpt>
+    <trkpt lat="28.20944073193629" lon="-80.63270907371907">
+    </trkpt>
+    <trkpt lat="28.210745160780043" lon="-80.627010610339212">
+    </trkpt>
+    <trkpt lat="28.212237595484435" lon="-80.619923055838058">
+    </trkpt>
+    <trkpt lat="28.212866216546189" lon="-80.617389364861594">
+    </trkpt>
+    <trkpt lat="28.212806623786857" lon="-80.611059647506252">
+    </trkpt>
+    <trkpt lat="28.213068630665585" lon="-80.605553435677848">
+    </trkpt>
+    <trkpt lat="28.21283012666926" lon="-80.600148430985669">
+    </trkpt>
+    <trkpt lat="28.212724087187333" lon="-80.59768118857869">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>1363.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>East Coast Greenway -  Brevard Corridor (Alternate Alignment)</ogr:CORRIDOR>
+    <ogr:SEG_NAME>State Road A1A Urban Trail Corridor</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>PRIORITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>GAP NO ACQUISITION</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>NO</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>NO</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>YES</ogr:ECG>
+    <ogr:CONTACT>Sarah Kraum, Space Coast TPO</ogr:CONTACT>
+    <ogr:GIS_MILES_>5.34958</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>DIAZ_D</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/01/15</ogr:ModifiedOn>
+    <ogr:Shape_Leng>8609.336090049999257</ogr:Shape_Leng>
+    <ogr:PAVING_INT>YES</ogr:PAVING_INT>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.403086341659328" lon="-80.619132487700426">
+    </trkpt>
+    <trkpt lat="28.405066467311492" lon="-80.620376027318827">
+    </trkpt>
+    <trkpt lat="28.405595961442049" lon="-80.621577565099741">
+    </trkpt>
+    <trkpt lat="28.405723684684897" lon="-80.622426206113701">
+    </trkpt>
+    <trkpt lat="28.405782893252596" lon="-80.623398782833505">
+    </trkpt>
+    <trkpt lat="28.405819540182886" lon="-80.62640210088432">
+    </trkpt>
+    <trkpt lat="28.405627546631031" lon="-80.630305732119254">
+    </trkpt>
+    <trkpt lat="28.405307200150588" lon="-80.639288386854631">
+    </trkpt>
+    <trkpt lat="28.405279832210717" lon="-80.648586728057197">
+    </trkpt>
+    <trkpt lat="28.405154599870926" lon="-80.662800684432398">
+    </trkpt>
+    <trkpt lat="28.405417865581544" lon="-80.702580704185465">
+    </trkpt>
+    <trkpt lat="28.405392166720663" lon="-80.705674795811319">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>1364.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>State Road A1A Urban Trail Corridor</ogr:CORRIDOR>
+    <ogr:SEG_NAME>State Road A1A Urban Trail Corridor</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>PRIORITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>GAP NO ACQUISITION</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>NO</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>NO</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>YES</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:CONTACT>Sarah Kraum, Space Coast TPO</ogr:CONTACT>
+    <ogr:GIS_MILES_>8.57093</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>DIAZ_D</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/01/15</ogr:ModifiedOn>
+    <ogr:Shape_Leng>13793.59704199999942</ogr:Shape_Leng>
+    <ogr:PAVING_INT>YES</ogr:PAVING_INT>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.091620555220093" lon="-80.566902877807777">
+    </trkpt>
+    <trkpt lat="28.131666695300282" lon="-80.579413658510333">
+    </trkpt>
+    <trkpt lat="28.179086986555781" lon="-80.591055411811453">
+    </trkpt>
+    <trkpt lat="28.212724087187333" lon="-80.59768118857869">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>1482.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>All Aboard Florida Rail with Trail Corridor (ECG Alternate Alignment)</ogr:CORRIDOR>
+    <ogr:SEG_NAME>All Aboard Florida Rail with Trail Corridor (ECG Alternate Alignment)</ogr:SEG_NAME>
+    <ogr:SEG_DSCRPT>Seg. 03</ogr:SEG_DSCRPT>
+    <ogr:FGTS_RANK>PRIORITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>GAP REQUIRING ACQUISITION</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>NO</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>NO</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>ALT</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:CONTACT>Sarah Kraum, Space Coast TPO</ogr:CONTACT>
+    <ogr:GIS_MILES_>20.2865</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>DIAZ_D</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/01/15</ogr:ModifiedOn>
+    <ogr:Shape_Leng>32647.969840300000214</ogr:Shape_Leng>
+    <ogr:PAVING_INT>YES</ogr:PAVING_INT>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.125488243221028" lon="-80.633989237950999">
+    </trkpt>
+    <trkpt lat="28.130601242647071" lon="-80.63440123618588">
+    </trkpt>
+    <trkpt lat="28.134001240843592" lon="-80.634501237922507">
+    </trkpt>
+    <trkpt lat="28.135740241274632" lon="-80.634654235104264">
+    </trkpt>
+    <trkpt lat="28.137401242509451" lon="-80.634801235296848">
+    </trkpt>
+    <trkpt lat="28.139201240497538" lon="-80.634901233777256">
+    </trkpt>
+    <trkpt lat="28.140901242879067" lon="-80.635001235552409">
+    </trkpt>
+    <trkpt lat="28.142601243219019" lon="-80.635401236528111">
+    </trkpt>
+    <trkpt lat="28.14750124301867" lon="-80.63870123423645">
+    </trkpt>
+    <trkpt lat="28.153201240553315" lon="-80.642601233722942">
+    </trkpt>
+    <trkpt lat="28.157101244188912" lon="-80.64440123375131">
+    </trkpt>
+    <trkpt lat="28.164601242114024" lon="-80.647801238366569">
+    </trkpt>
+    <trkpt lat="28.171712243013701" lon="-80.651005235509572">
+    </trkpt>
+    <trkpt lat="28.172001241453746" lon="-80.651150235443765">
+    </trkpt>
+    <trkpt lat="28.172135243118991" lon="-80.651217235137963">
+    </trkpt>
+    <trkpt lat="28.172301242391157" lon="-80.651301236683622">
+    </trkpt>
+    <trkpt lat="28.172601242018104" lon="-80.651501237727828">
+    </trkpt>
+    <trkpt lat="28.172917243025029" lon="-80.65168223490339">
+    </trkpt>
+    <trkpt lat="28.17545424349257" lon="-80.653449235062979">
+    </trkpt>
+    <trkpt lat="28.176801242288953" lon="-80.654401236791188">
+    </trkpt>
+    <trkpt lat="28.17879124158269" lon="-80.655763236533289">
+    </trkpt>
+    <trkpt lat="28.179277243952637" lon="-80.656046237101904">
+    </trkpt>
+    <trkpt lat="28.183501242036762" lon="-80.658501237328892">
+    </trkpt>
+    <trkpt lat="28.193201243613377" lon="-80.662701237144461">
+    </trkpt>
+    <trkpt lat="28.194186241319695" lon="-80.663095233996827">
+    </trkpt>
+    <trkpt lat="28.19463124334559" lon="-80.663273236156485">
+    </trkpt>
+    <trkpt lat="28.195201240714404" lon="-80.663501233513756">
+    </trkpt>
+    <trkpt lat="28.195426240174495" lon="-80.663581235685996">
+    </trkpt>
+    <trkpt lat="28.195681244285407" lon="-80.663671237657866">
+    </trkpt>
+    <trkpt lat="28.198301243801357" lon="-80.664601236836319">
+    </trkpt>
+    <trkpt lat="28.201724242097296" lon="-80.66592223605096">
+    </trkpt>
+    <trkpt lat="28.20400124173155" lon="-80.6668012344646">
+    </trkpt>
+    <trkpt lat="28.205101244153315" lon="-80.667201238361983">
+    </trkpt>
+    <trkpt lat="28.207401240553608" lon="-80.668101234057829">
+    </trkpt>
+    <trkpt lat="28.21351524187244" lon="-80.6703692377381">
+    </trkpt>
+    <trkpt lat="28.213601243961705" lon="-80.670401238213941">
+    </trkpt>
+    <trkpt lat="28.225862244032037" lon="-80.675104233800738">
+    </trkpt>
+    <trkpt lat="28.22820124297531" lon="-80.676001234823872">
+    </trkpt>
+    <trkpt lat="28.258803240297151" lon="-80.687665236477287">
+    </trkpt>
+    <trkpt lat="28.264838242495195" lon="-80.689928235459917">
+    </trkpt>
+    <trkpt lat="28.273301244419077" lon="-80.693101236664631">
+    </trkpt>
+    <trkpt lat="28.274995241097166" lon="-80.693760233740008">
+    </trkpt>
+    <trkpt lat="28.276901244034832" lon="-80.694501238272636">
+    </trkpt>
+    <trkpt lat="28.277601243166057" lon="-80.694701236850861">
+    </trkpt>
+    <trkpt lat="28.28258824321577" lon="-80.69655223560919">
+    </trkpt>
+    <trkpt lat="28.293501240483767" lon="-80.70060123663707">
+    </trkpt>
+    <trkpt lat="28.297901240775765" lon="-80.702001235026472">
+    </trkpt>
+    <trkpt lat="28.302101241652817" lon="-80.70440123764574">
+    </trkpt>
+    <trkpt lat="28.303287241745839" lon="-80.705051234966618">
+    </trkpt>
+    <trkpt lat="28.30830124269059" lon="-80.70780123712116">
+    </trkpt>
+    <trkpt lat="28.312949242918613" lon="-80.711644237272566">
+    </trkpt>
+    <trkpt lat="28.313501241883891" lon="-80.712101237433529">
+    </trkpt>
+    <trkpt lat="28.317101243859039" lon="-80.713486235600769">
+    </trkpt>
+    <trkpt lat="28.320001242252037" lon="-80.714601236842185">
+    </trkpt>
+    <trkpt lat="28.32420124298195" lon="-80.718201237078418">
+    </trkpt>
+    <trkpt lat="28.325724244151161" lon="-80.719479236637682">
+    </trkpt>
+    <trkpt lat="28.330401243700699" lon="-80.723401234660031">
+    </trkpt>
+    <trkpt lat="28.333144242677786" lon="-80.725517235068438">
+    </trkpt>
+    <trkpt lat="28.333901240223366" lon="-80.726101233582767">
+    </trkpt>
+    <trkpt lat="28.335933240226328" lon="-80.72683623617209">
+    </trkpt>
+    <trkpt lat="28.349101242257412" lon="-80.731601235596955">
+    </trkpt>
+    <trkpt lat="28.350101242217082" lon="-80.731901234196158">
+    </trkpt>
+    <trkpt lat="28.354101241971442" lon="-80.7333232373973">
+    </trkpt>
+    <trkpt lat="28.354201242021034" lon="-80.733359237944867">
+    </trkpt>
+    <trkpt lat="28.354601240390693" lon="-80.733501236743663">
+    </trkpt>
+    <trkpt lat="28.355401240741948" lon="-80.73380123453633">
+    </trkpt>
+    <trkpt lat="28.357501244443075" lon="-80.734401234796664">
+    </trkpt>
+    <trkpt lat="28.358501241978839" lon="-80.734701236252931">
+    </trkpt>
+    <trkpt lat="28.360901241053416" lon="-80.735601235022585">
+    </trkpt>
+    <trkpt lat="28.363201242963768" lon="-80.736301234253276">
+    </trkpt>
+    <trkpt lat="28.364401242675701" lon="-80.736701235231749">
+    </trkpt>
+    <trkpt lat="28.366001240460154" lon="-80.737301233910628">
+    </trkpt>
+    <trkpt lat="28.369101242062271" lon="-80.737201235955794">
+    </trkpt>
+    <trkpt lat="28.373495241237251" lon="-80.737219233778973">
+    </trkpt>
+    <trkpt lat="28.374201244339872" lon="-80.737401238129962">
+    </trkpt>
+    <trkpt lat="28.377401240782806" lon="-80.739201235804558">
+    </trkpt>
+    <trkpt lat="28.378118243201982" lon="-80.739662234936773">
+    </trkpt>
+    <trkpt lat="28.38020124062442" lon="-80.741001235284983">
+    </trkpt>
+    <trkpt lat="28.389401241663162" lon="-80.747301237049697">
+    </trkpt>
+    <trkpt lat="28.394138242488985" lon="-80.750000235207992">
+    </trkpt>
+    <trkpt lat="28.39461524014807" lon="-80.750271236231612">
+    </trkpt>
+    <trkpt lat="28.394778241927899" lon="-80.750364236263323">
+    </trkpt>
+    <trkpt lat="28.398001240300388" lon="-80.752201236956523">
+    </trkpt>
+    <trkpt lat="28.400101241550196" lon="-80.753401236074808">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>1655.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>East Coast Greenway -  Brevard Corridor</ogr:CORRIDOR>
+    <ogr:SEG_NAME>East Coast Greenway -  Brevard Corridor</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>PRIORITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>GAP REQUIRING ACQUISITION</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>NO</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>NO</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>ALT</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:CONTACT>Sarah Kraum, Space Coast TPO</ogr:CONTACT>
+    <ogr:GIS_MILES_>5.87896</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>DIAZ_D</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/01/15</ogr:ModifiedOn>
+    <ogr:Shape_Leng>9461.28800199999932</ogr:Shape_Leng>
+    <ogr:PAVING_INT>YES</ogr:PAVING_INT>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.525793692105442" lon="-80.692987093079097">
+    </trkpt>
+    <trkpt lat="28.526223722603362" lon="-80.692995867899953">
+    </trkpt>
+    <trkpt lat="28.526342631485118" lon="-80.716625628260232">
+    </trkpt>
+    <trkpt lat="28.526868496385369" lon="-80.745659174989015">
+    </trkpt>
+    <trkpt lat="28.527746461781074" lon="-80.78120550382485">
+    </trkpt>
+    <trkpt lat="28.527665526138854" lon="-80.789347431652587">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>1656.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>North Merritt Island Pioneer Trail Corridor</ogr:CORRIDOR>
+    <ogr:SEG_NAME>North Merritt Island Pioneer Trail Corridor</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>PRIORITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>GAP NO ACQUISITION</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>NO</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>NO</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>ALT</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:CONTACT>Sarah Kraum, Space Coast TPO</ogr:CONTACT>
+    <ogr:GIS_MILES_>12.3312</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>DIAZ_D</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/01/15</ogr:ModifiedOn>
+    <ogr:Shape_Leng>19845.118346100000053</ogr:Shape_Leng>
+    <ogr:PAVING_INT>YES</ogr:PAVING_INT>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.525793692105442" lon="-80.692987093079068">
+    </trkpt>
+    <trkpt lat="28.524815242272204" lon="-80.693002238099041">
+    </trkpt>
+    <trkpt lat="28.523325780265072" lon="-80.693006553323372">
+    </trkpt>
+    <trkpt lat="28.521434110309894" lon="-80.693036652140961">
+    </trkpt>
+    <trkpt lat="28.520412087821708" lon="-80.693014993441409">
+    </trkpt>
+    <trkpt lat="28.518899907011594" lon="-80.692588543764572">
+    </trkpt>
+    <trkpt lat="28.518007261208627" lon="-80.69208645116386">
+    </trkpt>
+    <trkpt lat="28.51733196841224" lon="-80.691546806460337">
+    </trkpt>
+    <trkpt lat="28.516699854497787" lon="-80.690871642164069">
+    </trkpt>
+    <trkpt lat="28.516154488509866" lon="-80.690097759938268">
+    </trkpt>
+    <trkpt lat="28.515783323424063" lon="-80.689434155934919">
+    </trkpt>
+    <trkpt lat="28.515422434148135" lon="-80.688512037778139">
+    </trkpt>
+    <trkpt lat="28.515170117579935" lon="-80.687528060542945">
+    </trkpt>
+    <trkpt lat="28.51504828608908" lon="-80.686556011124736">
+    </trkpt>
+    <trkpt lat="28.515085242362179" lon="-80.683737148596066">
+    </trkpt>
+    <trkpt lat="28.515080875323889" lon="-80.681866199130098">
+    </trkpt>
+    <trkpt lat="28.51508880175928" lon="-80.680610661579294">
+    </trkpt>
+    <trkpt lat="28.515085902592027" lon="-80.679379773601397">
+    </trkpt>
+    <trkpt lat="28.515008286755339" lon="-80.6787399427282">
+    </trkpt>
+    <trkpt lat="28.514854594079786" lon="-80.678112652596411">
+    </trkpt>
+    <trkpt lat="28.514515752268796" lon="-80.677350530447896">
+    </trkpt>
+    <trkpt lat="28.513981415881101" lon="-80.676675170336395">
+    </trkpt>
+    <trkpt lat="28.513218940904338" lon="-80.676074367513181">
+    </trkpt>
+    <trkpt lat="28.512511528146117" lon="-80.675768812624725">
+    </trkpt>
+    <trkpt lat="28.511619878125288" lon="-80.675709996121228">
+    </trkpt>
+    <trkpt lat="28.510217392222543" lon="-80.675714285559479">
+    </trkpt>
+    <trkpt lat="28.508880196261885" lon="-80.675742992045471">
+    </trkpt>
+    <trkpt lat="28.50744515203036" lon="-80.675771996826057">
+    </trkpt>
+    <trkpt lat="28.506738414271556" lon="-80.675749541175904">
+    </trkpt>
+    <trkpt lat="28.504759652330854" lon="-80.675730976207475">
+    </trkpt>
+    <trkpt lat="28.503378967054672" lon="-80.675759812959129">
+    </trkpt>
+    <trkpt lat="28.502519903243272" lon="-80.675688594304958">
+    </trkpt>
+    <trkpt lat="28.501954089656351" lon="-80.675493404828828">
+    </trkpt>
+    <trkpt lat="28.501376756066477" lon="-80.675027491065194">
+    </trkpt>
+    <trkpt lat="28.500972959978817" lon="-80.674388747987635">
+    </trkpt>
+    <trkpt lat="28.500743084559662" lon="-80.673737166534494">
+    </trkpt>
+    <trkpt lat="28.500501147697975" lon="-80.672593335738767">
+    </trkpt>
+    <trkpt lat="28.500413815923856" lon="-80.672445917649242">
+    </trkpt>
+    <trkpt lat="28.500196405406442" lon="-80.672458895963075">
+    </trkpt>
+    <trkpt lat="28.499696709222931" lon="-80.672632740129472">
+    </trkpt>
+    <trkpt lat="28.495894347423995" lon="-80.673825919478531">
+    </trkpt>
+    <trkpt lat="28.493069835819849" lon="-80.674757583441419">
+    </trkpt>
+    <trkpt lat="28.493005662843348" lon="-80.675200810264244">
+    </trkpt>
+    <trkpt lat="28.493169183759885" lon="-80.675384906058653">
+    </trkpt>
+    <trkpt lat="28.49312076607216" lon="-80.677883255767043">
+    </trkpt>
+    <trkpt lat="28.493157192335861" lon="-80.6794952860607">
+    </trkpt>
+    <trkpt lat="28.493089627520359" lon="-80.683138188171796">
+    </trkpt>
+    <trkpt lat="28.493061187788804" lon="-80.684935008490797">
+    </trkpt>
+    <trkpt lat="28.493080086170472" lon="-80.688417667775738">
+    </trkpt>
+    <trkpt lat="28.49306831262156" lon="-80.692798785381669">
+    </trkpt>
+    <trkpt lat="28.492989766374748" lon="-80.696552467779966">
+    </trkpt>
+    <trkpt lat="28.493019429795815" lon="-80.700121243479288">
+    </trkpt>
+    <trkpt lat="28.492780217449603" lon="-80.700109613153359">
+    </trkpt>
+    <trkpt lat="28.492781247925045" lon="-80.700577252322631">
+    </trkpt>
+    <trkpt lat="28.492597315663446" lon="-80.700724994170088">
+    </trkpt>
+    <trkpt lat="28.492505981493835" lon="-80.700632414597763">
+    </trkpt>
+    <trkpt lat="28.492407848619088" lon="-80.700589734614908">
+    </trkpt>
+    <trkpt lat="28.492199091412672" lon="-80.70057600569784">
+    </trkpt>
+    <trkpt lat="28.491910242119385" lon="-80.700543401578727">
+    </trkpt>
+    <trkpt lat="28.491221746868089" lon="-80.70049339824719">
+    </trkpt>
+    <trkpt lat="28.490586753974316" lon="-80.700425930000733">
+    </trkpt>
+    <trkpt lat="28.490104829651958" lon="-80.70040131818827">
+    </trkpt>
+    <trkpt lat="28.489607761372682" lon="-80.700446008468987">
+    </trkpt>
+    <trkpt lat="28.488927200373258" lon="-80.700525846496618">
+    </trkpt>
+    <trkpt lat="28.488009605882084" lon="-80.700640982425853">
+    </trkpt>
+    <trkpt lat="28.487535521477625" lon="-80.700702920286986">
+    </trkpt>
+    <trkpt lat="28.486862590027631" lon="-80.70077407610745">
+    </trkpt>
+    <trkpt lat="28.486097835468239" lon="-80.700828176320073">
+    </trkpt>
+    <trkpt lat="28.485256575466046" lon="-80.700873832801335">
+    </trkpt>
+    <trkpt lat="28.484139962154686" lon="-80.700920264702845">
+    </trkpt>
+    <trkpt lat="28.482533852769262" lon="-80.700976731788657">
+    </trkpt>
+    <trkpt lat="28.481011934227958" lon="-80.701058929955124">
+    </trkpt>
+    <trkpt lat="28.479176457728379" lon="-80.701159322305699">
+    </trkpt>
+    <trkpt lat="28.478044527027642" lon="-80.701197134469936">
+    </trkpt>
+    <trkpt lat="28.476430671661497" lon="-80.701210332545713">
+    </trkpt>
+    <trkpt lat="28.475168663528407" lon="-80.701194097692834">
+    </trkpt>
+    <trkpt lat="28.474325609181623" lon="-80.701134639859674">
+    </trkpt>
+    <trkpt lat="28.473619188628188" lon="-80.701096879955827">
+    </trkpt>
+    <trkpt lat="28.47233521258898" lon="-80.701060746233821">
+    </trkpt>
+    <trkpt lat="28.471257994558766" lon="-80.70099311779245">
+    </trkpt>
+    <trkpt lat="28.47059061690813" lon="-80.700964082140359">
+    </trkpt>
+    <trkpt lat="28.469197324780946" lon="-80.700906177738673">
+    </trkpt>
+    <trkpt lat="28.468330903803452" lon="-80.700868871829996">
+    </trkpt>
+    <trkpt lat="28.467800138478466" lon="-80.700852701479491">
+    </trkpt>
+    <trkpt lat="28.466687819095256" lon="-80.700794008374942">
+    </trkpt>
+    <trkpt lat="28.465079854826676" lon="-80.700719048504396">
+    </trkpt>
+    <trkpt lat="28.464888616980279" lon="-80.700710755299724">
+    </trkpt>
+    <trkpt lat="28.464369539359147" lon="-80.700685721071864">
+    </trkpt>
+    <trkpt lat="28.463721702150067" lon="-80.700669882007801">
+    </trkpt>
+    <trkpt lat="28.462976265509411" lon="-80.700636655071648">
+    </trkpt>
+    <trkpt lat="28.462418182778684" lon="-80.700620563027812">
+    </trkpt>
+    <trkpt lat="28.461821105272993" lon="-80.700617829691481">
+    </trkpt>
+    <trkpt lat="28.460642472003347" lon="-80.700572576060267">
+    </trkpt>
+    <trkpt lat="28.45977220692507" lon="-80.700561781597145">
+    </trkpt>
+    <trkpt lat="28.459093139243208" lon="-80.700541615479764">
+    </trkpt>
+    <trkpt lat="28.458336033980927" lon="-80.700526086635648">
+    </trkpt>
+    <trkpt lat="28.457508675058758" lon="-80.70050633957446">
+    </trkpt>
+    <trkpt lat="28.456661814491707" lon="-80.700491062755063">
+    </trkpt>
+    <trkpt lat="28.455982737491279" lon="-80.700466482713637">
+    </trkpt>
+    <trkpt lat="28.455174909494531" lon="-80.700455512378497">
+    </trkpt>
+    <trkpt lat="28.454421715658921" lon="-80.700444389410634">
+    </trkpt>
+    <trkpt lat="28.453715321210097" lon="-80.700419886585948">
+    </trkpt>
+    <trkpt lat="28.452755231444947" lon="-80.700378436950146">
+    </trkpt>
+    <trkpt lat="28.451779580560448" lon="-80.700359109779427">
+    </trkpt>
+    <trkpt lat="28.451315164710866" lon="-80.700347172723696">
+    </trkpt>
+    <trkpt lat="28.45110972641595" lon="-80.700352111936652">
+    </trkpt>
+    <trkpt lat="28.450571295842757" lon="-80.700311621924527">
+    </trkpt>
+    <trkpt lat="28.450302057008273" lon="-80.700280875530012">
+    </trkpt>
+    <trkpt lat="28.450060594132214" lon="-80.700218544474794">
+    </trkpt>
+    <trkpt lat="28.449605489608288" lon="-80.700083303518554">
+    </trkpt>
+    <trkpt lat="28.449150293313561" lon="-80.699906055859202">
+    </trkpt>
+    <trkpt lat="28.448927462351175" lon="-80.699875179759758">
+    </trkpt>
+    <trkpt lat="28.44892681420361" lon="-80.699581130809861">
+    </trkpt>
+    <trkpt lat="28.448943799261055" lon="-80.698866957794237">
+    </trkpt>
+    <trkpt lat="28.44892218447243" lon="-80.697491280077401">
+    </trkpt>
+    <trkpt lat="28.448938128043356" lon="-80.696315029003472">
+    </trkpt>
+    <trkpt lat="28.448935545204403" lon="-80.695159835120847">
+    </trkpt>
+    <trkpt lat="28.448923671077722" lon="-80.694004668228203">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>1659.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>North Merritt Island Pioneer Trail Corridor</ogr:CORRIDOR>
+    <ogr:SEG_NAME>North Merritt Island Pioneer Trail Corridor</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>OPPORTUNITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>NO</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>NO</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>NO</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:CONTACT>Space Coast TPO</ogr:CONTACT>
+    <ogr:GIS_MILES_>1.41277</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>DIAZ_D</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/01/15</ogr:ModifiedOn>
+    <ogr:Shape_Leng>2273.640640640000129</ogr:Shape_Leng>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.492597315663446" lon="-80.700724994170088">
+    </trkpt>
+    <trkpt lat="28.492596748994753" lon="-80.700725449597485">
+    </trkpt>
+    <trkpt lat="28.492694813859298" lon="-80.700823624496451">
+    </trkpt>
+    <trkpt lat="28.492700341821916" lon="-80.703346416970206">
+    </trkpt>
+    <trkpt lat="28.492694605722718" lon="-80.705709257471725">
+    </trkpt>
+    <trkpt lat="28.492676606748454" lon="-80.707444506527423">
+    </trkpt>
+    <trkpt lat="28.492659610699835" lon="-80.709659702265455">
+    </trkpt>
+    <trkpt lat="28.492654493823519" lon="-80.712367119312034">
+    </trkpt>
+    <trkpt lat="28.492625900380585" lon="-80.714274685877186">
+    </trkpt>
+    <trkpt lat="28.492630255195216" lon="-80.71635445175923">
+    </trkpt>
+    <trkpt lat="28.492644940701499" lon="-80.718188063574274">
+    </trkpt>
+    <trkpt lat="28.492617606560255" lon="-80.720747863465675">
+    </trkpt>
+    <trkpt lat="28.492608476190966" lon="-80.721597027676836">
+    </trkpt>
+    <trkpt lat="28.492613446361254" lon="-80.722704326774164">
+    </trkpt>
+    <trkpt lat="28.492664910386654" lon="-80.723941532780572">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>1661.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>East Coast Greenway -  Brevard Corridor (Alternate Alignment)</ogr:CORRIDOR>
+    <ogr:SEG_NAME>State Road A1A Urban Trail Corridor (Proposed ECG Alternate)</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>PRIORITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>NO</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>NO</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>YES</ogr:ECG>
+    <ogr:CONTACT>Sarah Kraum, Space Coast TPO</ogr:CONTACT>
+    <ogr:GIS_MILES_>2.88634</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>DIAZ_D</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/01/15</ogr:ModifiedOn>
+    <ogr:Shape_Leng>4645.119115020000208</ogr:Shape_Leng>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.405392166720663" lon="-80.705674795811319">
+    </trkpt>
+    <trkpt lat="28.405286622109017" lon="-80.718296821323435">
+    </trkpt>
+    <trkpt lat="28.403379902675855" lon="-80.730006370872559">
+    </trkpt>
+    <trkpt lat="28.401931893090918" lon="-80.74149872045605">
+    </trkpt>
+    <trkpt lat="28.400480904042404" lon="-80.752739680471237">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>1662.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>East Coast Greenway -  Brevard Corridor</ogr:CORRIDOR>
+    <ogr:SEG_NAME>East Coast Greenway -  Brevard Corridor</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>PRIORITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>GAP REQUIRING ACQUISITION</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>NO</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>NO</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>YES</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:CONTACT>Sarah Kraum, SCTPO</ogr:CONTACT>
+    <ogr:GIS_MILES_>6.02178</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>DIAZ_D</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/01/15</ogr:ModifiedOn>
+    <ogr:Shape_Leng>9691.142079670000385</ogr:Shape_Leng>
+    <ogr:PAVING_INT>YES</ogr:PAVING_INT>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.527662093617931" lon="-80.789361206346186">
+    </trkpt>
+    <trkpt lat="28.530080000011456" lon="-80.790139999972226">
+    </trkpt>
+    <trkpt lat="28.543010000146978" lon="-80.794299999904922">
+    </trkpt>
+    <trkpt lat="28.545479999922563" lon="-80.795100000413342">
+    </trkpt>
+    <trkpt lat="28.546979999754473" lon="-80.795560000190306">
+    </trkpt>
+    <trkpt lat="28.547519999827461" lon="-80.795679999963681">
+    </trkpt>
+    <trkpt lat="28.548160000264492" lon="-80.795770000433933">
+    </trkpt>
+    <trkpt lat="28.548590000281383" lon="-80.795779999724616">
+    </trkpt>
+    <trkpt lat="28.549929999931916" lon="-80.79579000040323">
+    </trkpt>
+    <trkpt lat="28.551020000307563" lon="-80.795799999636714">
+    </trkpt>
+    <trkpt lat="28.551400000060653" lon="-80.795830000348076">
+    </trkpt>
+    <trkpt lat="28.551880000066362" lon="-80.795910000504293">
+    </trkpt>
+    <trkpt lat="28.552309999611285" lon="-80.796010000444198">
+    </trkpt>
+    <trkpt lat="28.552630000335295" lon="-80.796099999907142">
+    </trkpt>
+    <trkpt lat="28.553540000213953" lon="-80.796410000365213">
+    </trkpt>
+    <trkpt lat="28.554799999949012" lon="-80.796839999710045">
+    </trkpt>
+    <trkpt lat="28.556039999975159" lon="-80.797240000356652">
+    </trkpt>
+    <trkpt lat="28.557589999781726" lon="-80.79777999953248">
+    </trkpt>
+    <trkpt lat="28.558489999580356" lon="-80.798100000135051">
+    </trkpt>
+    <trkpt lat="28.559230000145906" lon="-80.798330000346809">
+    </trkpt>
+    <trkpt lat="28.559760000288872" lon="-80.798450000059844">
+    </trkpt>
+    <trkpt lat="28.560210000077305" lon="-80.798510000494261">
+    </trkpt>
+    <trkpt lat="28.560639999574757" lon="-80.79852999999666">
+    </trkpt>
+    <trkpt lat="28.561080000189424" lon="-80.798530000287769">
+    </trkpt>
+    <trkpt lat="28.562849999860731" lon="-80.798479999744941">
+    </trkpt>
+    <trkpt lat="28.566379999600176" lon="-80.798250000084039">
+    </trkpt>
+    <trkpt lat="28.567249999824387" lon="-80.798200000349055">
+    </trkpt>
+    <trkpt lat="28.569710000062102" lon="-80.798230000008203">
+    </trkpt>
+    <trkpt lat="28.571169999890994" lon="-80.798249999848977">
+    </trkpt>
+    <trkpt lat="28.572700000122474" lon="-80.79829000019879">
+    </trkpt>
+    <trkpt lat="28.573380000422276" lon="-80.798389999508913">
+    </trkpt>
+    <trkpt lat="28.574289999910999" lon="-80.798619999766558">
+    </trkpt>
+    <trkpt lat="28.579169999770283" lon="-80.799890000451327">
+    </trkpt>
+    <trkpt lat="28.582939999843092" lon="-80.800889999712808">
+    </trkpt>
+    <trkpt lat="28.584889999824782" lon="-80.801379999880723">
+    </trkpt>
+    <trkpt lat="28.58558000022774" lon="-80.801550000166444">
+    </trkpt>
+    <trkpt lat="28.588399999680217" lon="-80.802299999569954">
+    </trkpt>
+    <trkpt lat="28.58990999986105" lon="-80.802710000301929">
+    </trkpt>
+    <trkpt lat="28.59076000001707" lon="-80.802959999710936">
+    </trkpt>
+    <trkpt lat="28.591090000064352" lon="-80.803080000089281">
+    </trkpt>
+    <trkpt lat="28.591520000140399" lon="-80.803260000077643">
+    </trkpt>
+    <trkpt lat="28.592310000152981" lon="-80.803669999690243">
+    </trkpt>
+    <trkpt lat="28.593340000071976" lon="-80.80417000004131">
+    </trkpt>
+    <trkpt lat="28.593930000050122" lon="-80.804439999944577">
+    </trkpt>
+    <trkpt lat="28.594599999650494" lon="-80.804750000018856">
+    </trkpt>
+    <trkpt lat="28.595830000281673" lon="-80.80536000003022">
+    </trkpt>
+    <trkpt lat="28.598469999813037" lon="-80.806660000351286">
+    </trkpt>
+    <trkpt lat="28.599939999629591" lon="-80.807389999691978">
+    </trkpt>
+    <trkpt lat="28.600230000050939" lon="-80.807519999991442">
+    </trkpt>
+    <trkpt lat="28.600559999820632" lon="-80.80762999997377">
+    </trkpt>
+    <trkpt lat="28.600789999585594" lon="-80.8076799996483">
+    </trkpt>
+    <trkpt lat="28.601099999830417" lon="-80.807699999493465">
+    </trkpt>
+    <trkpt lat="28.60411999996618" lon="-80.807680000210055">
+    </trkpt>
+    <trkpt lat="28.608239999721654" lon="-80.807609999848452">
+    </trkpt>
+    <trkpt lat="28.608590000023064" lon="-80.807599999594402">
+    </trkpt>
+    <trkpt lat="28.612524099862917" lon="-80.807563708316323">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>1664.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>East Coast Greenway -  Brevard Corridor (Alternate Alignment)</ogr:CORRIDOR>
+    <ogr:SEG_NAME>East Coast Greenway -  Brevard Corridor (Alternate Alignment)</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>OPPORTUNITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>GAP REQUIRING ACQUISITION</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>NO</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>NO</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>YES</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:CONTACT>Sarah Kraum, Space Coast TPO</ogr:CONTACT>
+    <ogr:GIS_MILES_>9.3262</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>DIAZ_D</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/01/15</ogr:ModifiedOn>
+    <ogr:Shape_Leng>15009.096719299999677</ogr:Shape_Leng>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.401120000399242" lon="-80.746550000033139">
+    </trkpt>
+    <trkpt lat="28.401620000349045" lon="-80.746500000065012">
+    </trkpt>
+    <trkpt lat="28.402060000164798" lon="-80.746419999542738">
+    </trkpt>
+    <trkpt lat="28.40225000003797" lon="-80.746340000154163">
+    </trkpt>
+    <trkpt lat="28.402389999876394" lon="-80.746260000469974">
+    </trkpt>
+    <trkpt lat="28.402549999963163" lon="-80.746090000228165">
+    </trkpt>
+    <trkpt lat="28.402649999823534" lon="-80.745999999687939">
+    </trkpt>
+    <trkpt lat="28.402759999898958" lon="-80.745949999513115">
+    </trkpt>
+    <trkpt lat="28.402959999815778" lon="-80.74591000040985">
+    </trkpt>
+    <trkpt lat="28.4031599998114" lon="-80.745920000261606">
+    </trkpt>
+    <trkpt lat="28.403420000096244" lon="-80.746009999554389">
+    </trkpt>
+    <trkpt lat="28.403589999649956" lon="-80.746149999726867">
+    </trkpt>
+    <trkpt lat="28.404390000142758" lon="-80.746750000249278">
+    </trkpt>
+    <trkpt lat="28.404630000142369" lon="-80.74689000015448">
+    </trkpt>
+    <trkpt lat="28.404730000320804" lon="-80.747009999501969">
+    </trkpt>
+    <trkpt lat="28.404900000121671" lon="-80.747330000252234">
+    </trkpt>
+    <trkpt lat="28.405039999866055" lon="-80.747530000477113">
+    </trkpt>
+    <trkpt lat="28.405170000334746" lon="-80.747620000409839">
+    </trkpt>
+    <trkpt lat="28.405719999801441" lon="-80.747880000265127">
+    </trkpt>
+    <trkpt lat="28.406030000338749" lon="-80.74797999964224">
+    </trkpt>
+    <trkpt lat="28.406459999676521" lon="-80.748240000116141">
+    </trkpt>
+    <trkpt lat="28.406830000069327" lon="-80.748449999556584">
+    </trkpt>
+    <trkpt lat="28.407229999779943" lon="-80.748610000161918">
+    </trkpt>
+    <trkpt lat="28.407729999828884" lon="-80.74891999962334">
+    </trkpt>
+    <trkpt lat="28.408089999644709" lon="-80.749179999782427">
+    </trkpt>
+    <trkpt lat="28.408349999831579" lon="-80.749329999974464">
+    </trkpt>
+    <trkpt lat="28.408610000409663" lon="-80.749420000408605">
+    </trkpt>
+    <trkpt lat="28.408849999579004" lon="-80.749440000189082">
+    </trkpt>
+    <trkpt lat="28.40949999996349" lon="-80.749479999933826">
+    </trkpt>
+    <trkpt lat="28.409700000324257" lon="-80.749459999766131">
+    </trkpt>
+    <trkpt lat="28.409919999559619" lon="-80.749390000016135">
+    </trkpt>
+    <trkpt lat="28.41018999987724" lon="-80.749310000298976">
+    </trkpt>
+    <trkpt lat="28.410589999706925" lon="-80.749229999702223">
+    </trkpt>
+    <trkpt lat="28.411389999992736" lon="-80.749119999578696">
+    </trkpt>
+    <trkpt lat="28.4119300002308" lon="-80.749090000029369">
+    </trkpt>
+    <trkpt lat="28.412189999616349" lon="-80.749120000455591">
+    </trkpt>
+    <trkpt lat="28.412350000131813" lon="-80.74918000007473">
+    </trkpt>
+    <trkpt lat="28.412649999780164" lon="-80.749340000430351">
+    </trkpt>
+    <trkpt lat="28.412989999852268" lon="-80.749640000027156">
+    </trkpt>
+    <trkpt lat="28.413249999796083" lon="-80.74983999951732">
+    </trkpt>
+    <trkpt lat="28.413559999968129" lon="-80.749959999842815">
+    </trkpt>
+    <trkpt lat="28.414320000152575" lon="-80.750299999697305">
+    </trkpt>
+    <trkpt lat="28.414659999832441" lon="-80.750410000150694">
+    </trkpt>
+    <trkpt lat="28.41563999957674" lon="-80.750549999613398">
+    </trkpt>
+    <trkpt lat="28.416969999892832" lon="-80.750739999905676">
+    </trkpt>
+    <trkpt lat="28.417700000411436" lon="-80.751000000389183">
+    </trkpt>
+    <trkpt lat="28.419000000292794" lon="-80.75155000047215">
+    </trkpt>
+    <trkpt lat="28.41948000015898" lon="-80.751789999643023">
+    </trkpt>
+    <trkpt lat="28.419690000312645" lon="-80.751890000180111">
+    </trkpt>
+    <trkpt lat="28.420260000238265" lon="-80.752090000292711">
+    </trkpt>
+    <trkpt lat="28.421159999991332" lon="-80.752329999585257">
+    </trkpt>
+    <trkpt lat="28.421699999974109" lon="-80.752430000085354">
+    </trkpt>
+    <trkpt lat="28.422179999868685" lon="-80.752600000003255">
+    </trkpt>
+    <trkpt lat="28.422470000152089" lon="-80.752640000243829">
+    </trkpt>
+    <trkpt lat="28.422859999837591" lon="-80.752600000036381">
+    </trkpt>
+    <trkpt lat="28.423759999850866" lon="-80.752709999606722">
+    </trkpt>
+    <trkpt lat="28.424099999787551" lon="-80.752859999905638">
+    </trkpt>
+    <trkpt lat="28.42427000001172" lon="-80.752979999782525">
+    </trkpt>
+    <trkpt lat="28.424469999912244" lon="-80.75317999951416">
+    </trkpt>
+    <trkpt lat="28.424799999852677" lon="-80.753430000139645">
+    </trkpt>
+    <trkpt lat="28.425250000383375" lon="-80.753650000067097">
+    </trkpt>
+    <trkpt lat="28.425819999890418" lon="-80.753960000094665">
+    </trkpt>
+    <trkpt lat="28.426360000419205" lon="-80.754190000110682">
+    </trkpt>
+    <trkpt lat="28.426799999608722" lon="-80.754449999607132">
+    </trkpt>
+    <trkpt lat="28.427100000272006" lon="-80.754629999933414">
+    </trkpt>
+    <trkpt lat="28.427760000283854" lon="-80.754880000423782">
+    </trkpt>
+    <trkpt lat="28.42900000038485" lon="-80.755299999793166">
+    </trkpt>
+    <trkpt lat="28.42986000045487" lon="-80.755490000450749">
+    </trkpt>
+    <trkpt lat="28.430319999696447" lon="-80.75556999963095">
+    </trkpt>
+    <trkpt lat="28.430869999605964" lon="-80.755709999502599">
+    </trkpt>
+    <trkpt lat="28.431349999683462" lon="-80.755829999810814">
+    </trkpt>
+    <trkpt lat="28.431750000098706" lon="-80.755950000138455">
+    </trkpt>
+    <trkpt lat="28.432250000165809" lon="-80.756130000335617">
+    </trkpt>
+    <trkpt lat="28.433140000214383" lon="-80.756390000378531">
+    </trkpt>
+    <trkpt lat="28.433830000067751" lon="-80.756769999753843">
+    </trkpt>
+    <trkpt lat="28.434010000243859" lon="-80.756869999633636">
+    </trkpt>
+    <trkpt lat="28.434219999685453" lon="-80.756929999977302">
+    </trkpt>
+    <trkpt lat="28.434779999903977" lon="-80.757049999934196">
+    </trkpt>
+    <trkpt lat="28.435459999763374" lon="-80.757270000031994">
+    </trkpt>
+    <trkpt lat="28.436200000367283" lon="-80.757550000130308">
+    </trkpt>
+    <trkpt lat="28.436479999760802" lon="-80.757620000513597">
+    </trkpt>
+    <trkpt lat="28.436759999920504" lon="-80.757620000233445">
+    </trkpt>
+    <trkpt lat="28.43689000031879" lon="-80.757640000440276">
+    </trkpt>
+    <trkpt lat="28.437069999759377" lon="-80.757699999661071">
+    </trkpt>
+    <trkpt lat="28.437619999875054" lon="-80.757939999547531">
+    </trkpt>
+    <trkpt lat="28.437770000303193" lon="-80.758099999609797">
+    </trkpt>
+    <trkpt lat="28.437849999604577" lon="-80.758189999894114">
+    </trkpt>
+    <trkpt lat="28.437979999710603" lon="-80.758270000176609">
+    </trkpt>
+    <trkpt lat="28.438910000263043" lon="-80.758390000449651">
+    </trkpt>
+    <trkpt lat="28.439280000041741" lon="-80.758399999619883">
+    </trkpt>
+    <trkpt lat="28.43944999991924" lon="-80.758449999590894">
+    </trkpt>
+    <trkpt lat="28.44033000009075" lon="-80.758860000006223">
+    </trkpt>
+    <trkpt lat="28.440920000361022" lon="-80.759110000058399">
+    </trkpt>
+    <trkpt lat="28.443489999737686" lon="-80.759800000183048">
+    </trkpt>
+    <trkpt lat="28.444570000437633" lon="-80.760069999515721">
+    </trkpt>
+    <trkpt lat="28.445070000020273" lon="-80.760200000068608">
+    </trkpt>
+    <trkpt lat="28.445770000171546" lon="-80.760500000087973">
+    </trkpt>
+    <trkpt lat="28.446239999620008" lon="-80.760829999506242">
+    </trkpt>
+    <trkpt lat="28.446799999635395" lon="-80.76167999951241">
+    </trkpt>
+    <trkpt lat="28.447119999567349" lon="-80.762080000035212">
+    </trkpt>
+    <trkpt lat="28.447580000188612" lon="-80.762489999671743">
+    </trkpt>
+    <trkpt lat="28.448019999928043" lon="-80.762739999850098">
+    </trkpt>
+    <trkpt lat="28.448229999660164" lon="-80.762860000471306">
+    </trkpt>
+    <trkpt lat="28.448259999882207" lon="-80.762890000304679">
+    </trkpt>
+    <trkpt lat="28.448260999873469" lon="-80.763034999662295">
+    </trkpt>
+  </trkseg>
+  <trkseg>
+    <trkpt lat="28.448374000060113" lon="-80.76292800035705">
+    </trkpt>
+    <trkpt lat="28.448369999702017" lon="-80.76294000011184">
+    </trkpt>
+    <trkpt lat="28.456940000192578" lon="-80.762879999715977">
+    </trkpt>
+    <trkpt lat="28.458659999813097" lon="-80.762879999716631">
+    </trkpt>
+    <trkpt lat="28.459220000273366" lon="-80.762920000464064">
+    </trkpt>
+    <trkpt lat="28.459650000001425" lon="-80.762990000450927">
+    </trkpt>
+    <trkpt lat="28.460079999731782" lon="-80.763079999996066">
+    </trkpt>
+    <trkpt lat="28.461409999664436" lon="-80.763459999940679">
+    </trkpt>
+    <trkpt lat="28.463029999653855" lon="-80.763949999506693">
+    </trkpt>
+    <trkpt lat="28.466280000054212" lon="-80.764920000015508">
+    </trkpt>
+    <trkpt lat="28.467390000354246" lon="-80.765259999586817">
+    </trkpt>
+    <trkpt lat="28.468300000224659" lon="-80.765509999823308">
+    </trkpt>
+    <trkpt lat="28.470849999936821" lon="-80.766289999974433">
+    </trkpt>
+    <trkpt lat="28.472649999785229" lon="-80.766820000083072">
+    </trkpt>
+    <trkpt lat="28.473830000176999" lon="-80.767190000459848">
+    </trkpt>
+    <trkpt lat="28.474550000409518" lon="-80.767450000397545">
+    </trkpt>
+    <trkpt lat="28.475300000242388" lon="-80.767759999869455">
+    </trkpt>
+    <trkpt lat="28.476960000217801" lon="-80.768529999581588">
+    </trkpt>
+    <trkpt lat="28.482120000181876" lon="-80.770939999841247">
+    </trkpt>
+    <trkpt lat="28.487760000136131" lon="-80.773579999740292">
+    </trkpt>
+    <trkpt lat="28.489390000287077" lon="-80.774340000194428">
+    </trkpt>
+    <trkpt lat="28.489749999726897" lon="-80.774520000271707">
+    </trkpt>
+    <trkpt lat="28.49010999993871" lon="-80.7747400002566">
+    </trkpt>
+    <trkpt lat="28.490489999663406" lon="-80.774989999510908">
+    </trkpt>
+    <trkpt lat="28.491019999715345" lon="-80.775410000340557">
+    </trkpt>
+    <trkpt lat="28.4914100001102" lon="-80.775769999927874">
+    </trkpt>
+    <trkpt lat="28.492329999565428" lon="-80.776790000505031">
+    </trkpt>
+    <trkpt lat="28.493589999924588" lon="-80.778179999910364">
+    </trkpt>
+    <trkpt lat="28.493910000390034" lon="-80.778519999929188">
+    </trkpt>
+    <trkpt lat="28.494249999931295" lon="-80.778839999667682">
+    </trkpt>
+    <trkpt lat="28.494880000371523" lon="-80.779340000395521">
+    </trkpt>
+    <trkpt lat="28.495229999823088" lon="-80.779580000251059">
+    </trkpt>
+    <trkpt lat="28.495890000400703" lon="-80.779960000208732">
+    </trkpt>
+    <trkpt lat="28.496950000245846" lon="-80.780450000344501">
+    </trkpt>
+    <trkpt lat="28.504149999810906" lon="-80.783729999582093">
+    </trkpt>
+    <trkpt lat="28.505030000240037" lon="-80.784119999995539">
+    </trkpt>
+    <trkpt lat="28.505449999867899" lon="-80.78424999954656">
+    </trkpt>
+    <trkpt lat="28.506060000386608" lon="-80.784380000372124">
+    </trkpt>
+    <trkpt lat="28.506460000130453" lon="-80.784409999754075">
+    </trkpt>
+    <trkpt lat="28.506880000031423" lon="-80.784410000208254">
+    </trkpt>
+    <trkpt lat="28.507289999616834" lon="-80.78438000005977">
+    </trkpt>
+    <trkpt lat="28.507869999809628" lon="-80.78427999963418">
+    </trkpt>
+    <trkpt lat="28.508750000236788" lon="-80.784090000063131">
+    </trkpt>
+    <trkpt lat="28.509289999757282" lon="-80.783990000232635">
+    </trkpt>
+    <trkpt lat="28.509709999963277" lon="-80.783940000393187">
+    </trkpt>
+    <trkpt lat="28.510370000419158" lon="-80.783919999554243">
+    </trkpt>
+    <trkpt lat="28.510700000024674" lon="-80.783959999715563">
+    </trkpt>
+    <trkpt lat="28.511150000309868" lon="-80.78405000027044">
+    </trkpt>
+    <trkpt lat="28.511459999958483" lon="-80.784149999836259">
+    </trkpt>
+    <trkpt lat="28.511850000252927" lon="-80.784269999603382">
+    </trkpt>
+    <trkpt lat="28.519139999623" lon="-80.786619999958788">
+    </trkpt>
+    <trkpt lat="28.522379999773527" lon="-80.787660000313764">
+    </trkpt>
+    <trkpt lat="28.527662093617931" lon="-80.789361206346186">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>1990.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>East Central Regional Rail Trail</ogr:CORRIDOR>
+    <ogr:SEG_NAME>East Central Regional Rail Trail</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>PRIORITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>EXISTING - paved as of Summer 2017</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>YES</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>YES</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>YES</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>YES</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>YES</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:CONTACT>Sarah Kraum, Space Coast TPO</ogr:CONTACT>
+    <ogr:GIS_MILES_>13.6376</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>RUSCHER_B</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/05/27</ogr:ModifiedOn>
+    <ogr:Shape_Leng>20509.897197700000106</ogr:Shape_Leng>
+    <ogr:PAVING_INT>YES</ogr:PAVING_INT>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.790575340463956" lon="-80.944138484806459">
+    </trkpt>
+    <trkpt lat="28.784024836508983" lon="-80.93785498296397">
+    </trkpt>
+    <trkpt lat="28.778420560648868" lon="-80.932456064365596">
+    </trkpt>
+    <trkpt lat="28.771646061908299" lon="-80.926028529937483">
+    </trkpt>
+    <trkpt lat="28.766483022869366" lon="-80.921149448724321">
+    </trkpt>
+    <trkpt lat="28.761599311639038" lon="-80.914301677647416">
+    </trkpt>
+    <trkpt lat="28.759007248913246" lon="-80.910575879490992">
+    </trkpt>
+    <trkpt lat="28.755117621427615" lon="-80.904926271410119">
+    </trkpt>
+    <trkpt lat="28.754088989438877" lon="-80.903811742751543">
+    </trkpt>
+    <trkpt lat="28.752125888683057" lon="-80.9026014174338">
+    </trkpt>
+    <trkpt lat="28.744547676552479" lon="-80.89881483920577">
+    </trkpt>
+    <trkpt lat="28.737835770158398" lon="-80.895289879169781">
+    </trkpt>
+    <trkpt lat="28.736636907747258" lon="-80.894588991416455">
+    </trkpt>
+    <trkpt lat="28.73306077670922" lon="-80.891791423412485">
+    </trkpt>
+    <trkpt lat="28.728003869835803" lon="-80.887904870780943">
+    </trkpt>
+    <trkpt lat="28.722006813770417" lon="-80.883286663724462">
+    </trkpt>
+    <trkpt lat="28.7189761759224" lon="-80.880841701968308">
+    </trkpt>
+    <trkpt lat="28.716316565755406" lon="-80.878957955169497">
+    </trkpt>
+    <trkpt lat="28.710662026234264" lon="-80.874628666934711">
+    </trkpt>
+    <trkpt lat="28.706586527049158" lon="-80.871969361487743">
+    </trkpt>
+    <trkpt lat="28.698734826501695" lon="-80.867214373132185">
+    </trkpt>
+    <trkpt lat="28.692411810374647" lon="-80.863477414593575">
+    </trkpt>
+    <trkpt lat="28.681470818881309" lon="-80.856894343983143">
+    </trkpt>
+    <trkpt lat="28.672747581421383" lon="-80.851676970935145">
+    </trkpt>
+    <trkpt lat="28.660897319514334" lon="-80.844551270924214">
+    </trkpt>
+    <trkpt lat="28.646755940146154" lon="-80.836024658958451">
+    </trkpt>
+    <trkpt lat="28.637285183909128" lon="-80.830373994279071">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>1992.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>Downtown Titusville</ogr:CORRIDOR>
+    <ogr:SEG_NAME>Downtown Connector/C2C Titusville Gap</ogr:SEG_NAME>
+    <ogr:SEG_DSCRPT>Garden St. (SR406) to Max Brewer Causeway</ogr:SEG_DSCRPT>
+    <ogr:FGTS_RANK>PRIORITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>PROGRAMMED/FUNDED</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>YES</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>YES</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>ALT</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:CONTACT>Sarah Kraum, Space Coast TPO</ogr:CONTACT>
+    <ogr:GIS_MILES_>0.537944</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>RUSCHER_B</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/05/27</ogr:ModifiedOn>
+    <ogr:Shape_Leng>1816.799537240000063</ogr:Shape_Leng>
+    <ogr:PAVING_INT>YES</ogr:PAVING_INT>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.612524099862913" lon="-80.807563708316238">
+    </trkpt>
+    <trkpt lat="28.612573342109023" lon="-80.805759183456686">
+    </trkpt>
+    <trkpt lat="28.613509966957871" lon="-80.805728299867397">
+    </trkpt>
+    <trkpt lat="28.614570150522113" lon="-80.805726348921752">
+    </trkpt>
+    <trkpt lat="28.615123351690187" lon="-80.805728192709793">
+    </trkpt>
+    <trkpt lat="28.615483684388504" lon="-80.805729393688225">
+    </trkpt>
+    <trkpt lat="28.615706290001317" lon="-80.805500962254214">
+    </trkpt>
+    <trkpt lat="28.61611985087902" lon="-80.804813996909772">
+    </trkpt>
+    <trkpt lat="28.617577523605298" lon="-80.802696389765998">
+    </trkpt>
+  </trkseg>
+  <trkseg>
+    <trkpt lat="28.614653342516124" lon="-80.815977987061672">
+    </trkpt>
+    <trkpt lat="28.613815773707092" lon="-80.814405534128397">
+    </trkpt>
+    <trkpt lat="28.613665374333454" lon="-80.81368033810935">
+    </trkpt>
+    <trkpt lat="28.613530595148269" lon="-80.812086230428235">
+    </trkpt>
+    <trkpt lat="28.612530813581227" lon="-80.812056896624199">
+    </trkpt>
+    <trkpt lat="28.612524612996737" lon="-80.807635772783982">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>1656.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>North Merritt Island Pioneer Trail Corridor</ogr:CORRIDOR>
+    <ogr:SEG_NAME>North Merritt Island Pioneer Trail Corridor</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>PRIORITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>GAP NO ACQUISITION</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>NO</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>NO</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>ALT</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:CONTACT>Sarah Kraum, Space Coast TPO</ogr:CONTACT>
+    <ogr:GIS_MILES_>12.3312</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>DIAZ_D</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/01/15</ogr:ModifiedOn>
+    <ogr:Shape_Leng>19845.118346100000053</ogr:Shape_Leng>
+    <ogr:PAVING_INT>YES</ogr:PAVING_INT>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.434309367803444" lon="-80.694407100398308">
+    </trkpt>
+    <trkpt lat="28.434294518991393" lon="-80.694408387559719">
+    </trkpt>
+    <trkpt lat="28.434279702795855" lon="-80.694697089795838">
+    </trkpt>
+    <trkpt lat="28.434290058534025" lon="-80.69586919350742">
+    </trkpt>
+    <trkpt lat="28.434283400342036" lon="-80.696350311970647">
+    </trkpt>
+    <trkpt lat="28.434136510760769" lon="-80.696359478151408">
+    </trkpt>
+    <trkpt lat="28.433990108964458" lon="-80.696587324501465">
+    </trkpt>
+    <trkpt lat="28.43389796726629" lon="-80.696876245483779">
+    </trkpt>
+    <trkpt lat="28.433805766405808" lon="-80.697138925301829">
+    </trkpt>
+    <trkpt lat="28.433705541532568" lon="-80.697270418730312">
+    </trkpt>
+    <trkpt lat="28.433349749605402" lon="-80.697218948598675">
+    </trkpt>
+    <trkpt lat="28.432529644914712" lon="-80.696993858047705">
+    </trkpt>
+    <trkpt lat="28.43174058468356" lon="-80.696821164326366">
+    </trkpt>
+    <trkpt lat="28.43105983142723" lon="-80.696674405139163">
+    </trkpt>
+    <trkpt lat="28.430595770979249" lon="-80.696614500283928">
+    </trkpt>
+    <trkpt lat="28.430108689814372" lon="-80.696633382850251">
+    </trkpt>
+    <trkpt lat="28.429598529254136" lon="-80.696704812108877">
+    </trkpt>
+    <trkpt lat="28.429072885539018" lon="-80.696767538832688">
+    </trkpt>
+    <trkpt lat="28.428663046862109" lon="-80.696751213279271">
+    </trkpt>
+    <trkpt lat="28.427727213382955" lon="-80.696640173284152">
+    </trkpt>
+    <trkpt lat="28.426930634379627" lon="-80.69656372478353">
+    </trkpt>
+    <trkpt lat="28.426690686907484" lon="-80.69645070290656">
+    </trkpt>
+    <trkpt lat="28.426202843956936" lon="-80.69612847038475">
+    </trkpt>
+    <trkpt lat="28.425614601132963" lon="-80.69585900746587">
+    </trkpt>
+    <trkpt lat="28.425103991213497" lon="-80.695729269207391">
+    </trkpt>
+    <trkpt lat="28.424616812503459" lon="-80.695704423346086">
+    </trkpt>
+    <trkpt lat="28.423913310733976" lon="-80.695758913567033">
+    </trkpt>
+    <trkpt lat="28.423271724559225" lon="-80.695839464737816">
+    </trkpt>
+    <trkpt lat="28.423032284305354" lon="-80.695953851749238">
+    </trkpt>
+    <trkpt lat="28.422514879072086" lon="-80.696243957174289">
+    </trkpt>
+    <trkpt lat="28.422221314274633" lon="-80.696358497132479">
+    </trkpt>
+    <trkpt lat="28.422020202041676" lon="-80.696324085521496">
+    </trkpt>
+    <trkpt lat="28.421594547599337" lon="-80.696150376301105">
+    </trkpt>
+    <trkpt lat="28.421316193023682" lon="-80.696151170537036">
+    </trkpt>
+    <trkpt lat="28.421053536794041" lon="-80.696256874158848">
+    </trkpt>
+    <trkpt lat="28.420876167108283" lon="-80.696467288870053">
+    </trkpt>
+    <trkpt lat="28.420876712465866" lon="-80.696712179204098">
+    </trkpt>
+    <trkpt lat="28.420978202474053" lon="-80.697149198734223">
+    </trkpt>
+    <trkpt lat="28.42101738777243" lon="-80.697385233877554">
+    </trkpt>
+    <trkpt lat="28.420948284631944" lon="-80.697604084826935">
+    </trkpt>
+    <trkpt lat="28.420809263479558" lon="-80.697674449044115">
+    </trkpt>
+    <trkpt lat="28.420530597496569" lon="-80.697535301768738">
+    </trkpt>
+    <trkpt lat="28.420252067394021" lon="-80.697457379229164">
+    </trkpt>
+    <trkpt lat="28.42008990808376" lon="-80.697554046875197">
+    </trkpt>
+    <trkpt lat="28.419966524815418" lon="-80.69770308082866">
+    </trkpt>
+    <trkpt lat="28.419850757019244" lon="-80.697799616380607">
+    </trkpt>
+    <trkpt lat="28.419672860803125" lon="-80.697773883703363">
+    </trkpt>
+    <trkpt lat="28.419424890201835" lon="-80.697529698028248">
+    </trkpt>
+    <trkpt lat="28.419262011446158" lon="-80.697302764610626">
+    </trkpt>
+    <trkpt lat="28.419168565658399" lon="-80.697005666226858">
+    </trkpt>
+    <trkpt lat="28.419090836092781" lon="-80.696822220971001">
+    </trkpt>
+    <trkpt lat="28.418966908679142" lon="-80.696726367333568">
+    </trkpt>
+    <trkpt lat="28.41882007692946" lon="-80.696761769813818">
+    </trkpt>
+    <trkpt lat="28.418642491835055" lon="-80.696875974270412">
+    </trkpt>
+    <trkpt lat="28.418627922827774" lon="-80.697278329646863">
+    </trkpt>
+    <trkpt lat="28.418659705672781" lon="-80.697663062382361">
+    </trkpt>
+    <trkpt lat="28.418482333866567" lon="-80.697873469134365">
+    </trkpt>
+    <trkpt lat="28.418212099318108" lon="-80.698049155052956">
+    </trkpt>
+    <trkpt lat="28.418010560491055" lon="-80.697822333489611">
+    </trkpt>
+    <trkpt lat="28.417832159515299" lon="-80.697569208615292">
+    </trkpt>
+    <trkpt lat="28.417622965700463" lon="-80.69737739286974">
+    </trkpt>
+    <trkpt lat="28.417359860965686" lon="-80.697281936072855">
+    </trkpt>
+    <trkpt lat="28.417081603731734" lon="-80.697326456809193">
+    </trkpt>
+    <trkpt lat="28.41691180835663" lon="-80.697466873687432">
+    </trkpt>
+    <trkpt lat="28.416780324463137" lon="-80.697449755431293">
+    </trkpt>
+    <trkpt lat="28.416517278336322" lon="-80.697380536717702">
+    </trkpt>
+    <trkpt lat="28.416308628393647" lon="-80.697433604715087">
+    </trkpt>
+    <trkpt lat="28.416131101258056" lon="-80.697574041833121">
+    </trkpt>
+    <trkpt lat="28.415922723851462" lon="-80.697749548314164">
+    </trkpt>
+    <trkpt lat="28.41552904652066" lon="-80.698048020587777">
+    </trkpt>
+    <trkpt lat="28.415227825007349" lon="-80.69819755162861">
+    </trkpt>
+    <trkpt lat="28.415042254734406" lon="-80.698198077948547">
+    </trkpt>
+    <trkpt lat="28.41480990463036" lon="-80.698023823533561">
+    </trkpt>
+    <trkpt lat="28.414576932630315" lon="-80.697569711009933">
+    </trkpt>
+    <trkpt lat="28.414414053968702" lon="-80.697342787665335">
+    </trkpt>
+    <trkpt lat="28.414151085273904" lon="-80.697308552310005">
+    </trkpt>
+    <trkpt lat="28.413733708025052" lon="-80.697379704608224">
+    </trkpt>
+    <trkpt lat="28.413393671460383" lon="-80.697459380490841">
+    </trkpt>
+    <trkpt lat="28.412991719597851" lon="-80.697512995701842">
+    </trkpt>
+    <trkpt lat="28.41274431149024" lon="-80.697522444219743">
+    </trkpt>
+    <trkpt lat="28.412706194990172" lon="-80.697767426302846">
+    </trkpt>
+    <trkpt lat="28.412702082419621" lon="-80.699402844264569">
+    </trkpt>
+    <trkpt lat="28.41268336801549" lon="-80.701440595967497">
+    </trkpt>
+    <trkpt lat="28.412702731901714" lon="-80.703224621431758">
+    </trkpt>
+    <trkpt lat="28.412689758598219" lon="-80.704370316282663">
+    </trkpt>
+    <trkpt lat="28.412645413282789" lon="-80.705314952135382">
+    </trkpt>
+    <trkpt lat="28.412624068404174" lon="-80.706172068512402">
+    </trkpt>
+    <trkpt lat="28.405392166720663" lon="-80.705674795811248">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>1656.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>North Merritt Island Pioneer Trail Corridor</ogr:CORRIDOR>
+    <ogr:SEG_NAME>North Merritt Island Pioneer Trail Corridor</ogr:SEG_NAME>
+    <ogr:SEG_DSCRPT>King's Park</ogr:SEG_DSCRPT>
+    <ogr:FGTS_RANK>PRIORITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>EXISTING PAVED</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>NO</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>NO</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>ALT</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:CONTACT>Sarah Kraum, Space Coast TPO</ogr:CONTACT>
+    <ogr:GIS_MILES_>12.3312</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>DIAZ_D</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/01/15</ogr:ModifiedOn>
+    <ogr:Shape_Leng>19845.118346100000053</ogr:Shape_Leng>
+    <ogr:PAVING_INT>YES</ogr:PAVING_INT>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.448923671077722" lon="-80.694004668228203">
+    </trkpt>
+    <trkpt lat="28.447304000249318" lon="-80.693861062455994">
+    </trkpt>
+    <trkpt lat="28.447113119204822" lon="-80.693894851295809">
+    </trkpt>
+    <trkpt lat="28.446948729419692" lon="-80.693951831216381">
+    </trkpt>
+    <trkpt lat="28.446816745346098" lon="-80.694048605406508">
+    </trkpt>
+    <trkpt lat="28.446681913260182" lon="-80.694185273532696">
+    </trkpt>
+    <trkpt lat="28.44653239962263" lon="-80.694325307235076">
+    </trkpt>
+    <trkpt lat="28.446391758428287" lon="-80.694491907303245">
+    </trkpt>
+    <trkpt lat="28.446312647073739" lon="-80.694585203156052">
+    </trkpt>
+    <trkpt lat="28.446259849458993" lon="-80.694621918292754">
+    </trkpt>
+    <trkpt lat="28.44601328342037" lon="-80.694715694991942">
+    </trkpt>
+    <trkpt lat="28.44594283623729" lon="-80.694742488686799">
+    </trkpt>
+    <trkpt lat="28.44581956045743" lon="-80.69479270050347">
+    </trkpt>
+    <trkpt lat="28.445631690937997" lon="-80.694859717437922">
+    </trkpt>
+    <trkpt lat="28.44555543477373" lon="-80.694916442312788">
+    </trkpt>
+    <trkpt lat="28.445505872243661" lon="-80.695086102486087">
+    </trkpt>
+    <trkpt lat="28.445459395550838" lon="-80.695322230394211">
+    </trkpt>
+    <trkpt lat="28.445406984224142" lon="-80.695531784922309">
+    </trkpt>
+    <trkpt lat="28.445377799970881" lon="-80.695618288491346">
+    </trkpt>
+    <trkpt lat="28.445328109709944" lon="-80.69573144267089">
+    </trkpt>
+    <trkpt lat="28.445284481259453" lon="-80.695927675255959">
+    </trkpt>
+    <trkpt lat="28.445269911218848" lon="-80.69598089896617">
+    </trkpt>
+    <trkpt lat="28.445226074236494" lon="-80.696084064668298">
+    </trkpt>
+    <trkpt lat="28.445097352542355" lon="-80.696327074355438">
+    </trkpt>
+    <trkpt lat="28.445015524341638" lon="-80.69652009222699">
+    </trkpt>
+    <trkpt lat="28.444886172824717" lon="-80.696480574982473">
+    </trkpt>
+    <trkpt lat="28.444748052198744" lon="-80.696461025505513">
+    </trkpt>
+    <trkpt lat="28.444498405818631" lon="-80.696491653057507">
+    </trkpt>
+    <trkpt lat="28.444237031442249" lon="-80.696532285692626">
+    </trkpt>
+    <trkpt lat="28.443955113827361" lon="-80.696582947093603">
+    </trkpt>
+    <trkpt lat="28.443637825120614" lon="-80.696580529275892">
+    </trkpt>
+    <trkpt lat="28.443526159201379" lon="-80.69656755291895">
+    </trkpt>
+    <trkpt lat="28.443179380969461" lon="-80.696515360871857">
+    </trkpt>
+    <trkpt lat="28.442879562628715" lon="-80.696443093255198">
+    </trkpt>
+    <trkpt lat="28.44237697727597" lon="-80.696344814900911">
+    </trkpt>
+    <trkpt lat="28.441971360972065" lon="-80.696256231685496">
+    </trkpt>
+    <trkpt lat="28.441633358970687" lon="-80.696187398843492">
+    </trkpt>
+    <trkpt lat="28.441233536382214" lon="-80.696062238622076">
+    </trkpt>
+    <trkpt lat="28.440971835263973" lon="-80.695956627400548">
+    </trkpt>
+    <trkpt lat="28.440727723709088" lon="-80.695834347421581">
+    </trkpt>
+    <trkpt lat="28.440539406997889" lon="-80.695701937969929">
+    </trkpt>
+    <trkpt lat="28.440383384771387" lon="-80.695559464671263">
+    </trkpt>
+    <trkpt lat="28.440247777584762" lon="-80.695350459198679">
+    </trkpt>
+    <trkpt lat="28.440197552101914" lon="-80.695224302115165">
+    </trkpt>
+    <trkpt lat="28.440179701921725" lon="-80.695124641404362">
+    </trkpt>
+    <trkpt lat="28.440182326646553" lon="-80.694985038220963">
+    </trkpt>
+    <trkpt lat="28.440223151102995" lon="-80.69484864935049">
+    </trkpt>
+    <trkpt lat="28.440261066421201" lon="-80.694725563093357">
+    </trkpt>
+    <trkpt lat="28.440263855385322" lon="-80.69465908113699">
+    </trkpt>
+    <trkpt lat="28.440260775379809" lon="-80.694595938969996">
+    </trkpt>
+    <trkpt lat="28.440222345311515" lon="-80.694489690754864">
+    </trkpt>
+    <trkpt lat="28.440151427612239" lon="-80.694307090880869">
+    </trkpt>
+    <trkpt lat="28.440092440624127" lon="-80.694204225899028">
+    </trkpt>
+    <trkpt lat="28.440009966030335" lon="-80.694108075218708">
+    </trkpt>
+    <trkpt lat="28.43965666804996" lon="-80.693770075281407">
+    </trkpt>
+    <trkpt lat="28.439447635717169" lon="-80.693571255480705">
+    </trkpt>
+    <trkpt lat="28.439200366702856" lon="-80.693352606272285">
+    </trkpt>
+    <trkpt lat="28.43901498572896" lon="-80.693220193280752">
+    </trkpt>
+    <trkpt lat="28.438865061123064" lon="-80.693177418410102">
+    </trkpt>
+    <trkpt lat="28.438747601843925" lon="-80.693201022622119">
+    </trkpt>
+    <trkpt lat="28.43867431372011" lon="-80.693271031277916">
+    </trkpt>
+    <trkpt lat="28.43861286013675" lon="-80.693377565235949">
+    </trkpt>
+    <trkpt lat="28.438516219552429" lon="-80.693514114257979">
+    </trkpt>
+    <trkpt lat="28.438428332910668" lon="-80.693624048355332">
+    </trkpt>
+    <trkpt lat="28.438305184384038" lon="-80.693730759730968">
+    </trkpt>
+    <trkpt lat="28.438181983798511" lon="-80.693814205692419">
+    </trkpt>
+    <trkpt lat="28.438029427648527" lon="-80.693907706332524">
+    </trkpt>
+    <trkpt lat="28.437903259682049" lon="-80.693977865742383">
+    </trkpt>
+    <trkpt lat="28.437677295535224" lon="-80.69408819636017">
+    </trkpt>
+    <trkpt lat="28.43755987346519" lon="-80.694128417497481">
+    </trkpt>
+    <trkpt lat="28.43743647860757" lon="-80.69412544825181">
+    </trkpt>
+    <trkpt lat="28.437310108323395" lon="-80.694105870565835">
+    </trkpt>
+    <trkpt lat="28.437183604056809" lon="-80.694026467298045">
+    </trkpt>
+    <trkpt lat="28.437059984979829" lon="-80.69392379064503">
+    </trkpt>
+    <trkpt lat="28.436956959932601" lon="-80.693834350327208">
+    </trkpt>
+    <trkpt lat="28.43679221914693" lon="-80.693735116743511">
+    </trkpt>
+    <trkpt lat="28.436648207407057" lon="-80.693708942748501">
+    </trkpt>
+    <trkpt lat="28.436410208301009" lon="-80.693693010127944">
+    </trkpt>
+    <trkpt lat="28.436145836495616" lon="-80.69370706500122">
+    </trkpt>
+    <trkpt lat="28.435905027004701" lon="-80.693747641619566">
+    </trkpt>
+    <trkpt lat="28.435758294248362" lon="-80.693817859451485">
+    </trkpt>
+    <trkpt lat="28.435596946604143" lon="-80.693921354096489">
+    </trkpt>
+    <trkpt lat="28.435444435080349" lon="-80.694034794597329">
+    </trkpt>
+    <trkpt lat="28.435171690776041" lon="-80.694244962711835">
+    </trkpt>
+    <trkpt lat="28.435074855426183" lon="-80.694295094329675">
+    </trkpt>
+    <trkpt lat="28.434989726045842" lon="-80.69432525118286">
+    </trkpt>
+    <trkpt lat="28.434309367803444" lon="-80.694407100398308">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>363.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>East Coast Greenway -  Brevard Corridor</ogr:CORRIDOR>
+    <ogr:SEG_NAME>East Coast Greenway -  Brevard Corridor</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>PRIORITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>EXISTING PAVED</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>NO</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>NO</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>ALT</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:GIS_MILES_>23.6316</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>DIAZ_D</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/01/15</ogr:ModifiedOn>
+    <ogr:Shape_Leng>38031.480303500000446</ogr:Shape_Leng>
+    <ogr:PAVING_INT>YES</ogr:PAVING_INT>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.130103000022885" lon="-80.625580999506056">
+    </trkpt>
+    <trkpt lat="28.138365496516514" lon="-80.598203760242285">
+    </trkpt>
+    <trkpt lat="28.135998679109736" lon="-80.597525771284921">
+    </trkpt>
+    <trkpt lat="28.13412362791632" lon="-80.595115256447457">
+    </trkpt>
+    <trkpt lat="28.132041958361455" lon="-80.591682501946892">
+    </trkpt>
+    <trkpt lat="28.12545303444853" lon="-80.589625646054927">
+    </trkpt>
+    <trkpt lat="28.120139545364648" lon="-80.587734783284972">
+    </trkpt>
+    <trkpt lat="28.111332434284847" lon="-80.584102216185173">
+    </trkpt>
+    <trkpt lat="28.10455183592963" lon="-80.581640811288551">
+    </trkpt>
+    <trkpt lat="28.097231750600152" lon="-80.579402356183635">
+    </trkpt>
+    <trkpt lat="28.093546503420782" lon="-80.577255605145481">
+    </trkpt>
+    <trkpt lat="28.089493195922461" lon="-80.57491489732476">
+    </trkpt>
+    <trkpt lat="28.091516823549252" lon="-80.566752336631112">
+    </trkpt>
+  </trkseg>
+</trk>
+</gpx>

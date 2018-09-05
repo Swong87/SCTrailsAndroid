@@ -1,0 +1,705 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 2.1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ogr="http://osgeo.org/gdal" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata><bounds minlat="28.612524099862913" minlon="-80.944138484806459" maxlat="28.833638191802645" maxlon="-80.697421167150523"/></metadata>                
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>256.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>Titusville to Edgewater Corridor</ogr:CORRIDOR>
+    <ogr:SEG_NAME>Titusville to Edgewater Corridor</ogr:SEG_NAME>
+    <ogr:SEG_DSCRPT>RR at Merritt Island extending N. to Shiloh/County Line</ogr:SEG_DSCRPT>
+    <ogr:FGTS_RANK>PRIORITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>GAP NO ACQUISITION</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>NO</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>YES</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>ALT</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:GIS_MILES_>9.03533</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>Sarah Kraum, SCTPO</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/12/29</ogr:ModifiedOn>
+    <ogr:Shape_Leng>14660.551807800000461</ogr:Shape_Leng>
+    <ogr:PAVING_INT>YES</ogr:PAVING_INT>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.685105549641587" lon="-80.721448040708992">
+    </trkpt>
+    <trkpt lat="28.696261976995117" lon="-80.721555283242452">
+    </trkpt>
+    <trkpt lat="28.697459380352566" lon="-80.721801275871059">
+    </trkpt>
+    <trkpt lat="28.698085236378589" lon="-80.722033256419536">
+    </trkpt>
+    <trkpt lat="28.702452301057956" lon="-80.724961259047973">
+    </trkpt>
+    <trkpt lat="28.70844711937254" lon="-80.728981515300191">
+    </trkpt>
+    <trkpt lat="28.714730403006577" lon="-80.734752424051095">
+    </trkpt>
+    <trkpt lat="28.718349248424595" lon="-80.738280644320753">
+    </trkpt>
+    <trkpt lat="28.723746651820424" lon="-80.743688355018747">
+    </trkpt>
+    <trkpt lat="28.726922752318441" lon="-80.74663323878012">
+    </trkpt>
+    <trkpt lat="28.729573554185613" lon="-80.749127134917231">
+    </trkpt>
+    <trkpt lat="28.732347894715964" lon="-80.751193932822559">
+    </trkpt>
+    <trkpt lat="28.736355673888401" lon="-80.754657305014689">
+    </trkpt>
+    <trkpt lat="28.73867685425083" lon="-80.756585366989469">
+    </trkpt>
+    <trkpt lat="28.7403445676369" lon="-80.758132356537018">
+    </trkpt>
+    <trkpt lat="28.741080858284818" lon="-80.759055128905075">
+    </trkpt>
+    <trkpt lat="28.741991653990141" lon="-80.760259126501495">
+    </trkpt>
+    <trkpt lat="28.74585613736086" lon="-80.765064627255867">
+    </trkpt>
+    <trkpt lat="28.756974437962956" lon="-80.775695728002631">
+    </trkpt>
+    <trkpt lat="28.77188082947087" lon="-80.789169881242614">
+    </trkpt>
+    <trkpt lat="28.791238883099325" lon="-80.805865625560884">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>614.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>Titusville to Edgewater Corridor (Proposed ECG Alternate)</ogr:CORRIDOR>
+    <ogr:SEG_NAME>Space Coast Loop Trail Connector</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>PRIORITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>GAP NO ACQUISITION</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>NO</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>NO</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>NO</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:CONTACT>Sarah Kraum, Space Coast TPO</ogr:CONTACT>
+    <ogr:GIS_MILES_>9.55664</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>DIAZ_D</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/01/15</ogr:ModifiedOn>
+    <ogr:Shape_Leng>15379.957611499999985</ogr:Shape_Leng>
+    <ogr:PAVING_INT>YES</ogr:PAVING_INT>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.791122041871194" lon="-80.882577681004094">
+    </trkpt>
+    <trkpt lat="28.786774519882968" lon="-80.883582176575615">
+    </trkpt>
+    <trkpt lat="28.773789129304845" lon="-80.879721214857668">
+    </trkpt>
+    <trkpt lat="28.752442723564108" lon="-80.873123507919829">
+    </trkpt>
+    <trkpt lat="28.727330499244196" lon="-80.864516488159552">
+    </trkpt>
+    <trkpt lat="28.720301620498464" lon="-80.863173699689341">
+    </trkpt>
+    <trkpt lat="28.713712202471463" lon="-80.862984537527566">
+    </trkpt>
+    <trkpt lat="28.702990188613143" lon="-80.860227864216057">
+    </trkpt>
+    <trkpt lat="28.692720383972592" lon="-80.857601407284363">
+    </trkpt>
+    <trkpt lat="28.684772424647598" lon="-80.853941095152692">
+    </trkpt>
+    <trkpt lat="28.671162024738379" lon="-80.847485329506256">
+    </trkpt>
+    <trkpt lat="28.66557981887297" lon="-80.844838050958757">
+    </trkpt>
+    <trkpt lat="28.658059640810201" lon="-80.842997592939497">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>775.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>Titusville to Edgewater Corridor</ogr:CORRIDOR>
+    <ogr:SEG_NAME>Titusville to Edgewater Corridor</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>PRIORITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>GAP NO ACQUISITION</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>VOLUSIA</ogr:County>
+    <ogr:CST_to_CST>NO</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>YES</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>ALT</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:GIS_MILES_>3.69983</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>DIAZ_D</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/06/15</ogr:ModifiedOn>
+    <ogr:Shape_Leng>6111.349739960000079</ogr:Shape_Leng>
+    <ogr:PAVING_INT>YES</ogr:PAVING_INT>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.79124401929522" lon="-80.805869626554838">
+    </trkpt>
+    <trkpt lat="28.795720771575493" lon="-80.811472901686315">
+    </trkpt>
+    <trkpt lat="28.800791066590072" lon="-80.817993682588479">
+    </trkpt>
+    <trkpt lat="28.801315346797757" lon="-80.818834327358431">
+    </trkpt>
+    <trkpt lat="28.802397060969618" lon="-80.820787425907753">
+    </trkpt>
+    <trkpt lat="28.803261781910212" lon="-80.822370412378234">
+    </trkpt>
+    <trkpt lat="28.804989518761733" lon="-80.825530884207311">
+    </trkpt>
+    <trkpt lat="28.805898521804412" lon="-80.827160425690309">
+    </trkpt>
+    <trkpt lat="28.807022402973047" lon="-80.828836192013384">
+    </trkpt>
+    <trkpt lat="28.807830536746906" lon="-80.829838474571332">
+    </trkpt>
+    <trkpt lat="28.809538291957136" lon="-80.831576671080214">
+    </trkpt>
+    <trkpt lat="28.810979632132582" lon="-80.832734395174981">
+    </trkpt>
+    <trkpt lat="28.812878542636305" lon="-80.833915631871264">
+    </trkpt>
+    <trkpt lat="28.81570403580994" lon="-80.835102900884507">
+    </trkpt>
+    <trkpt lat="28.819485190631806" lon="-80.835933062933037">
+    </trkpt>
+    <trkpt lat="28.822342685241935" lon="-80.836476078161368">
+    </trkpt>
+    <trkpt lat="28.824896777841087" lon="-80.837017735011813">
+    </trkpt>
+    <trkpt lat="28.826826504257568" lon="-80.837945883211972">
+    </trkpt>
+    <trkpt lat="28.830093633012513" lon="-80.839572255912088">
+    </trkpt>
+    <trkpt lat="28.833552744538576" lon="-80.84130645978837">
+    </trkpt>
+    <trkpt lat="28.833638191802645" lon="-80.841451601415685">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>786.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>Titusville to Edgewater Corridor (Proposed ECG Alternate)</ogr:CORRIDOR>
+    <ogr:SEG_NAME>Titusville to Edgewater Corridor (Proposed ECG Alternate)</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>PRIORITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>GAP NO ACQUISITION</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>VOLUSIA</ogr:County>
+    <ogr:CST_to_CST>NO</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>NO</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>NO</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:GIS_MILES_>3.92287</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>DIAZ_D</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/01/15</ogr:ModifiedOn>
+    <ogr:Shape_Leng>6313.252713240000048</ogr:Shape_Leng>
+    <ogr:PAVING_INT>YES</ogr:PAVING_INT>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.833549265777563" lon="-80.841847378553851">
+    </trkpt>
+    <trkpt lat="28.827564693507014" lon="-80.85260380083696">
+    </trkpt>
+    <trkpt lat="28.826690951199019" lon="-80.854455133342015">
+    </trkpt>
+    <trkpt lat="28.824620058124165" lon="-80.856368204148126">
+    </trkpt>
+    <trkpt lat="28.816988471695673" lon="-80.863276047220268">
+    </trkpt>
+    <trkpt lat="28.80290255277076" lon="-80.877536057328967">
+    </trkpt>
+    <trkpt lat="28.791122041871194" lon="-80.882577681004094">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>802.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>East Central Regional Rail Trail</ogr:CORRIDOR>
+    <ogr:SEG_NAME>East Central Regional Rail Trail</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>PRIORITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>EXISTING PAVED</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>YES</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>YES</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>YES</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>YES</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>YES</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:MANAGER>City of Titusville</ogr:MANAGER>
+    <ogr:GIS_MILES_>1.49567</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>Sarah Kraum, SCTPO</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/12/29</ogr:ModifiedOn>
+    <ogr:Shape_Leng>2893.695551329999944</ogr:Shape_Leng>
+    <ogr:PAVING_INT>YES</ogr:PAVING_INT>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.637285183909128" lon="-80.830373994279071">
+    </trkpt>
+    <trkpt lat="28.630790138079664" lon="-80.826499414203212">
+    </trkpt>
+    <trkpt lat="28.618614187515732" lon="-80.819240997169246">
+    </trkpt>
+    <trkpt lat="28.618102882270762" lon="-80.818893208099524">
+    </trkpt>
+    <trkpt lat="28.615128532319716" lon="-80.816870135121334">
+    </trkpt>
+    <trkpt lat="28.614653342516124" lon="-80.815977987061672">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>808.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>Merrit Island to Atlantic Corridor</ogr:CORRIDOR>
+    <ogr:SEG_NAME>Max A. Brewer Bridge</ogr:SEG_NAME>
+    <ogr:SEG_DSCRPT>Max A. Brewer Bridge</ogr:SEG_DSCRPT>
+    <ogr:FGTS_RANK>PRIORITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>EXISTING PAVED</ogr:STATUS>
+    <ogr:OGTREGION>1.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>YES</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>YES</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>ALT</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:GIS_MILES_>0.606185</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>RUSCHER_B</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/02/16</ogr:ModifiedOn>
+    <ogr:Shape_Leng>975.562914280999962</ogr:Shape_Leng>
+    <ogr:PAVING_INT>YES</ogr:PAVING_INT>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.617577523605313" lon="-80.802696389766041">
+    </trkpt>
+    <trkpt lat="28.623055827902633" lon="-80.794882258338347">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>1370.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>Merrit Island to Atlantic Corridor</ogr:CORRIDOR>
+    <ogr:SEG_NAME>Merrit Island to Atlantic Corridor</ogr:SEG_NAME>
+    <ogr:SEG_DSCRPT>Max Brewer Causway to Playalinda Beach Rd</ogr:SEG_DSCRPT>
+    <ogr:FGTS_RANK>PRIORITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>GAP NO ACQUISITION</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>NO</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>NO</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>NO</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:CONTACT>Sarah Kraum, SCTPO</ogr:CONTACT>
+    <ogr:GIS_MILES_>3.15177</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>RUSCHER_B</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/06/09</ogr:ModifiedOn>
+    <ogr:Shape_Leng>5027.11889151000014</ogr:Shape_Leng>
+    <ogr:PAVING_INT>YES</ogr:PAVING_INT>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.685105549641587" lon="-80.721448040708992">
+    </trkpt>
+    <trkpt lat="28.683733657513379" lon="-80.721237824468929">
+    </trkpt>
+    <trkpt lat="28.680986878151632" lon="-80.719836139666356">
+    </trkpt>
+    <trkpt lat="28.67694941757183" lon="-80.717308586897019">
+    </trkpt>
+    <trkpt lat="28.672893450750689" lon="-80.714769665212174">
+    </trkpt>
+    <trkpt lat="28.669027981053681" lon="-80.712350192359281">
+    </trkpt>
+    <trkpt lat="28.64719098161525" lon="-80.698685699907358">
+    </trkpt>
+    <trkpt lat="28.645214568889408" lon="-80.697449272364992">
+    </trkpt>
+    <trkpt lat="28.64516964221264" lon="-80.697421167150523">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>1371.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>Merrit Island to Atlantic Corridor</ogr:CORRIDOR>
+    <ogr:SEG_NAME>Merrit Island to Atlantic Corridor</ogr:SEG_NAME>
+    <ogr:SEG_DSCRPT>Max Brewer Causway to Playalinda Beach Rd</ogr:SEG_DSCRPT>
+    <ogr:FGTS_RANK>PRIORITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>GAP REQUIRING ACQUISITION</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>YES</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>NO</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>NO</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:CONTACT>Sarah Kraum, SCTPO</ogr:CONTACT>
+    <ogr:GIS_MILES_>4.31664</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>RUSCHER_B</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/02/16</ogr:ModifiedOn>
+    <ogr:Shape_Leng>6946.9726055000001</ogr:Shape_Leng>
+    <ogr:PAVING_INT>YES</ogr:PAVING_INT>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.64518188760492" lon="-80.697421366906539">
+    </trkpt>
+    <trkpt lat="28.645177616672697" lon="-80.697760006108268">
+    </trkpt>
+    <trkpt lat="28.645441414724921" lon="-80.72060393212854">
+    </trkpt>
+    <trkpt lat="28.645554802561961" lon="-80.743970484331697">
+    </trkpt>
+    <trkpt lat="28.64508689666286" lon="-80.748560457398511">
+    </trkpt>
+    <trkpt lat="28.645426824526613" lon="-80.750838213516985">
+    </trkpt>
+    <trkpt lat="28.646940470797439" lon="-80.75211224947769">
+    </trkpt>
+    <trkpt lat="28.648591199225734" lon="-80.753927738281675">
+    </trkpt>
+    <trkpt lat="28.648453952908838" lon="-80.756074161039365">
+    </trkpt>
+    <trkpt lat="28.64822478578014" lon="-80.760069773993209">
+    </trkpt>
+    <trkpt lat="28.647558495353575" lon="-80.762096726230382">
+    </trkpt>
+    <trkpt lat="28.646722433803731" lon="-80.764597017146187">
+    </trkpt>
+    <trkpt lat="28.6473038742953" lon="-80.766447573417366">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>1949.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>Merrit Island to Atlantic Corridor</ogr:CORRIDOR>
+    <ogr:SEG_NAME>Merrit Island to Atlantic Corridor</ogr:SEG_NAME>
+    <ogr:SEG_DSCRPT>Max Brewer Causway to Playalinda Beach Rd</ogr:SEG_DSCRPT>
+    <ogr:FGTS_RANK>PRIORITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>GAP REQUIRING ACQUISITION</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>YES</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>YES</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>ALT</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:CONTACT>Sarah Kraum, SCTPO</ogr:CONTACT>
+    <ogr:GIS_MILES_>2.40257</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>RUSCHER_B</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/05/27</ogr:ModifiedOn>
+    <ogr:Shape_Leng>2939.488264529999924</ogr:Shape_Leng>
+    <ogr:PAVING_INT>YES</ogr:PAVING_INT>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.6473038742953" lon="-80.766447573417366">
+    </trkpt>
+    <trkpt lat="28.628492000218486" lon="-80.787639346066143">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>1990.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>East Central Regional Rail Trail</ogr:CORRIDOR>
+    <ogr:SEG_NAME>East Central Regional Rail Trail</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>PRIORITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>EXISTING - paved as of Summer 2017</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>YES</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>YES</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>YES</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>YES</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>YES</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:CONTACT>Sarah Kraum, Space Coast TPO</ogr:CONTACT>
+    <ogr:GIS_MILES_>13.6376</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>RUSCHER_B</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/05/27</ogr:ModifiedOn>
+    <ogr:Shape_Leng>20509.897197700000106</ogr:Shape_Leng>
+    <ogr:PAVING_INT>YES</ogr:PAVING_INT>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.790575340463956" lon="-80.944138484806459">
+    </trkpt>
+    <trkpt lat="28.784024836508983" lon="-80.93785498296397">
+    </trkpt>
+    <trkpt lat="28.778420560648868" lon="-80.932456064365596">
+    </trkpt>
+    <trkpt lat="28.771646061908299" lon="-80.926028529937483">
+    </trkpt>
+    <trkpt lat="28.766483022869366" lon="-80.921149448724321">
+    </trkpt>
+    <trkpt lat="28.761599311639038" lon="-80.914301677647416">
+    </trkpt>
+    <trkpt lat="28.759007248913246" lon="-80.910575879490992">
+    </trkpt>
+    <trkpt lat="28.755117621427615" lon="-80.904926271410119">
+    </trkpt>
+    <trkpt lat="28.754088989438877" lon="-80.903811742751543">
+    </trkpt>
+    <trkpt lat="28.752125888683057" lon="-80.9026014174338">
+    </trkpt>
+    <trkpt lat="28.744547676552479" lon="-80.89881483920577">
+    </trkpt>
+    <trkpt lat="28.737835770158398" lon="-80.895289879169781">
+    </trkpt>
+    <trkpt lat="28.736636907747258" lon="-80.894588991416455">
+    </trkpt>
+    <trkpt lat="28.73306077670922" lon="-80.891791423412485">
+    </trkpt>
+    <trkpt lat="28.728003869835803" lon="-80.887904870780943">
+    </trkpt>
+    <trkpt lat="28.722006813770417" lon="-80.883286663724462">
+    </trkpt>
+    <trkpt lat="28.7189761759224" lon="-80.880841701968308">
+    </trkpt>
+    <trkpt lat="28.716316565755406" lon="-80.878957955169497">
+    </trkpt>
+    <trkpt lat="28.710662026234264" lon="-80.874628666934711">
+    </trkpt>
+    <trkpt lat="28.706586527049158" lon="-80.871969361487743">
+    </trkpt>
+    <trkpt lat="28.698734826501695" lon="-80.867214373132185">
+    </trkpt>
+    <trkpt lat="28.692411810374647" lon="-80.863477414593575">
+    </trkpt>
+    <trkpt lat="28.681470818881309" lon="-80.856894343983143">
+    </trkpt>
+    <trkpt lat="28.672747581421383" lon="-80.851676970935145">
+    </trkpt>
+    <trkpt lat="28.660897319514334" lon="-80.844551270924214">
+    </trkpt>
+    <trkpt lat="28.646755940146154" lon="-80.836024658958451">
+    </trkpt>
+    <trkpt lat="28.637285183909128" lon="-80.830373994279071">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>1992.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>Downtown Titusville</ogr:CORRIDOR>
+    <ogr:SEG_NAME>Downtown Connector/C2C Titusville Gap</ogr:SEG_NAME>
+    <ogr:SEG_DSCRPT>Garden St. (SR406) to Max Brewer Causeway</ogr:SEG_DSCRPT>
+    <ogr:FGTS_RANK>PRIORITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>PROGRAMMED/FUNDED</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>YES</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>YES</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>ALT</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:CONTACT>Sarah Kraum, Space Coast TPO</ogr:CONTACT>
+    <ogr:GIS_MILES_>0.537944</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>RUSCHER_B</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/05/27</ogr:ModifiedOn>
+    <ogr:Shape_Leng>1816.799537240000063</ogr:Shape_Leng>
+    <ogr:PAVING_INT>YES</ogr:PAVING_INT>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.612524099862913" lon="-80.807563708316238">
+    </trkpt>
+    <trkpt lat="28.612573342109023" lon="-80.805759183456686">
+    </trkpt>
+    <trkpt lat="28.613509966957871" lon="-80.805728299867397">
+    </trkpt>
+    <trkpt lat="28.614570150522113" lon="-80.805726348921752">
+    </trkpt>
+    <trkpt lat="28.615123351690187" lon="-80.805728192709793">
+    </trkpt>
+    <trkpt lat="28.615483684388504" lon="-80.805729393688225">
+    </trkpt>
+    <trkpt lat="28.615706290001317" lon="-80.805500962254214">
+    </trkpt>
+    <trkpt lat="28.61611985087902" lon="-80.804813996909772">
+    </trkpt>
+    <trkpt lat="28.617577523605298" lon="-80.802696389765998">
+    </trkpt>
+  </trkseg>
+  <trkseg>
+    <trkpt lat="28.614653342516124" lon="-80.815977987061672">
+    </trkpt>
+    <trkpt lat="28.613815773707092" lon="-80.814405534128397">
+    </trkpt>
+    <trkpt lat="28.613665374333454" lon="-80.81368033810935">
+    </trkpt>
+    <trkpt lat="28.613530595148269" lon="-80.812086230428235">
+    </trkpt>
+    <trkpt lat="28.612530813581227" lon="-80.812056896624199">
+    </trkpt>
+    <trkpt lat="28.612524612996737" lon="-80.807635772783982">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>1995.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>Merrit Island to Atlantic Corridor</ogr:CORRIDOR>
+    <ogr:SEG_NAME>Max A. Brewer Causeway/C2C</ogr:SEG_NAME>
+    <ogr:SEG_DSCRPT>Max Brewer Causway to Playalinda Beach Rd</ogr:SEG_DSCRPT>
+    <ogr:FGTS_RANK>PRIORITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>PROGRAMMED/FUNDED</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>YES</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>YES</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>ALT</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:CONTACT>Sarah Kraum, SCTPO</ogr:CONTACT>
+    <ogr:GIS_MILES_>2.40257</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>RUSCHER_B</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/05/27</ogr:ModifiedOn>
+    <ogr:Shape_Leng>929.559418319999963</ogr:Shape_Leng>
+    <ogr:PAVING_INT>YES</ogr:PAVING_INT>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.628492000218486" lon="-80.787639346066143">
+    </trkpt>
+    <trkpt lat="28.623055827902633" lon="-80.794882258338347">
+    </trkpt>
+  </trkseg>
+</trk>
+</gpx>

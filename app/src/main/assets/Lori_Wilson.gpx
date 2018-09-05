@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" creator="mapstogpx.com" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd">
+  <metadata>
+    <link href="http://www.mapstogpx.com">
+      <text>Sverrir Sigmundarson</text>
+    </link>
+    <!--desc>Map data ©2018 Google</desc-->
+    <!--copyright author="Google Inc">
+    	<year>2018</year>
+    	<license>https://developers.google.com/maps/terms</license>
+    </copyright-->
+    <!--url>https://www.google.co.uk/maps/dir/28.3358428,-80.6090091/Unnamed Road, Cocoa Beach, FL 32931/@28.3363293,-80.6090125,18.71z/data=!4m19!4m18!1m10!3m4!1m2!1d-80.6090761!2d28.3364221!3s0x88de1d6814265199:0x56f441fe14082e35!3m4!1m2!1d-80.609344!2d28.3358272!3s0x88de1d6814265199:0x56f441fe14082e35!1m5!1m1!1s0x88de1d6814265199:0x56f441fe14082e34!2m2!1d-80.6098722!2d28.3363726!3e2!5m1!1e3?hl=en</url-->
+    <time>2018-02-14T17:35:56Z</time>
+  </metadata>
+  <wpt lat="28.3358428" lon="-80.6090091">
+    <name>Cocoa Beach</name>
+    <desc>I Dream of Jeannie Ln, Cocoa Beach, FL 32931, USA</desc>
+  </wpt>
+  <wpt lat="28.3363726" lon="-80.6098722">
+    <name>Unnamed Road</name>
+    <desc>Unnamed Road, Cocoa Beach, FL 32931, USA</desc>
+  </wpt>
+<trk>
+  <name>Cocoa Beach to Unnamed Road</name>
+  <number>1</number>
+  <trkseg>
+  <trkpt lat="28.3358428" lon="-80.6090091">
+    <name>TP001</name>
+  </trkpt>
+  <trkpt lat="28.33586" lon="-80.60891">
+    <name>TP002</name>
+  </trkpt>
+  <trkpt lat="28.3358613" lon="-80.6089147">
+    <name>TP003</name>
+  </trkpt>
+  <trkpt lat="28.33596" lon="-80.60889">
+    <name>TP004</name>
+  </trkpt>
+  <trkpt lat="28.33617" lon="-80.60886">
+    <name>TP005</name>
+  </trkpt>
+  <trkpt lat="28.33639" lon="-80.60888">
+    <name>TP006</name>
+  </trkpt>
+  <trkpt lat="28.33643" lon="-80.6091">
+    <name>TP007</name>
+  </trkpt>
+  <trkpt lat="28.3364" lon="-80.60955">
+    <name>TP008</name>
+  </trkpt>
+  <trkpt lat="28.33637" lon="-80.60991">
+    <name>TP009</name>
+  </trkpt>
+  <trkpt lat="28.33614" lon="-80.61001">
+    <name>TP010</name>
+  </trkpt>
+  <trkpt lat="28.3359" lon="-80.60989">
+    <name>TP011</name>
+  </trkpt>
+  <trkpt lat="28.33583" lon="-80.60966">
+    <name>TP012</name>
+  </trkpt>
+  <trkpt lat="28.33583" lon="-80.60929">
+    <name>TP013</name>
+  </trkpt>
+  <trkpt lat="28.33584" lon="-80.60901">
+    <name>TP014</name>
+  </trkpt>
+  <trkpt lat="28.33586" lon="-80.60891">
+    <name>TP015</name>
+  </trkpt>
+  <trkpt lat="28.3358613" lon="-80.6089147">
+    <name>TP016</name>
+  </trkpt>
+  <trkpt lat="28.33596" lon="-80.60889">
+    <name>TP017</name>
+  </trkpt>
+  <trkpt lat="28.33617" lon="-80.60886">
+    <name>TP018</name>
+  </trkpt>
+  <trkpt lat="28.33639" lon="-80.60888">
+    <name>TP019</name>
+  </trkpt>
+  <trkpt lat="28.33643" lon="-80.6091">
+    <name>TP020</name>
+  </trkpt>
+  <trkpt lat="28.3364" lon="-80.60955">
+    <name>TP021</name>
+  </trkpt>
+  <trkpt lat="28.33637" lon="-80.60987">
+    <name>TP022</name>
+  </trkpt>
+  <trkpt lat="28.3363726" lon="-80.6098722">
+    <name>TP023</name>
+  </trkpt>
+  </trkseg>
+</trk>
+</gpx>

@@ -1,0 +1,464 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 2.1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ogr="http://osgeo.org/gdal" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata><bounds minlat="27.824113914511422" minlon="-80.623309056765635" maxlat="28.015244086896224" maxlon="-80.517158048791174"/></metadata>                
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>963.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>South Brevard Al Tuttle Trail Corridor</ogr:CORRIDOR>
+    <ogr:SEG_NAME>South Brevard Al Tuttle Trail Corridor</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>OPPORTUNITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>NO</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>NO</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>NO</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:CONTACT>Brevard County</ogr:CONTACT>
+    <ogr:GIS_MILES_>37.4477</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>DIAZ_D</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/01/15</ogr:ModifiedOn>
+    <ogr:Shape_Leng>60266.335998700000346</ogr:Shape_Leng>
+  </extensions>
+  <trkseg>
+    <trkpt lat="27.953935506228511" lon="-80.572278103998926">
+    </trkpt>
+    <trkpt lat="27.95365931900275" lon="-80.574765664634413">
+    </trkpt>
+    <trkpt lat="27.953712012487017" lon="-80.579688162657789">
+    </trkpt>
+    <trkpt lat="27.953643150039873" lon="-80.59775472152063">
+    </trkpt>
+    <trkpt lat="27.953673581711225" lon="-80.609810799990044">
+    </trkpt>
+    <trkpt lat="27.95332644090356" lon="-80.62262280930922">
+    </trkpt>
+    <trkpt lat="27.937361397133614" lon="-80.62264245949018">
+    </trkpt>
+    <trkpt lat="27.921094239161789" lon="-80.623174739439406">
+    </trkpt>
+    <trkpt lat="27.90714631360046" lon="-80.623309056765635">
+    </trkpt>
+    <trkpt lat="27.903051292740201" lon="-80.622691935267767">
+    </trkpt>
+    <trkpt lat="27.855807946253901" lon="-80.622964578311056">
+    </trkpt>
+    <trkpt lat="27.84172459544417" lon="-80.622857643330974">
+    </trkpt>
+    <trkpt lat="27.836857896035525" lon="-80.620338258597471">
+    </trkpt>
+    <trkpt lat="27.833831811461224" lon="-80.616861744069624">
+    </trkpt>
+    <trkpt lat="27.824113914511422" lon="-80.607434127388416">
+    </trkpt>
+    <trkpt lat="27.824439301655271" lon="-80.589712232646491">
+    </trkpt>
+    <trkpt lat="27.824397820817087" lon="-80.579608175756206">
+    </trkpt>
+    <trkpt lat="27.827493003050254" lon="-80.562506809338444">
+    </trkpt>
+    <trkpt lat="27.828065742845574" lon="-80.560393405970899">
+    </trkpt>
+    <trkpt lat="27.828359579430693" lon="-80.55788335500408">
+    </trkpt>
+    <trkpt lat="27.831219359243214" lon="-80.539148213522481">
+    </trkpt>
+    <trkpt lat="27.833228193969731" lon="-80.529980428431386">
+    </trkpt>
+    <trkpt lat="27.83486563050122" lon="-80.526913359514651">
+    </trkpt>
+    <trkpt lat="27.838174389566479" lon="-80.527436568921189">
+    </trkpt>
+    <trkpt lat="27.841806953585511" lon="-80.526522637515498">
+    </trkpt>
+    <trkpt lat="27.844590017566116" lon="-80.526102274425739">
+    </trkpt>
+    <trkpt lat="27.849266978176164" lon="-80.527655741518942">
+    </trkpt>
+    <trkpt lat="27.851625829102147" lon="-80.528603181120943">
+    </trkpt>
+    <trkpt lat="27.853619569857294" lon="-80.530843990611388">
+    </trkpt>
+    <trkpt lat="27.85487482821955" lon="-80.531306296559464">
+    </trkpt>
+    <trkpt lat="27.856064156572632" lon="-80.529081265690195">
+    </trkpt>
+    <trkpt lat="27.857883768399759" lon="-80.531152462927878">
+    </trkpt>
+    <trkpt lat="27.860156463631473" lon="-80.533691283466339">
+    </trkpt>
+    <trkpt lat="27.860583015733809" lon="-80.535511536837248">
+    </trkpt>
+    <trkpt lat="27.860821228073" lon="-80.536894603043564">
+    </trkpt>
+    <trkpt lat="27.862316414215151" lon="-80.537010890434985">
+    </trkpt>
+    <trkpt lat="27.863149923047782" lon="-80.53947772474443">
+    </trkpt>
+    <trkpt lat="27.864878022849663" lon="-80.539400337139">
+    </trkpt>
+    <trkpt lat="27.865342998782545" lon="-80.534124624513666">
+    </trkpt>
+    <trkpt lat="27.866330563490834" lon="-80.53391945862667">
+    </trkpt>
+    <trkpt lat="27.866611612050288" lon="-80.531562782929356">
+    </trkpt>
+    <trkpt lat="27.865243195942217" lon="-80.529402904525199">
+    </trkpt>
+    <trkpt lat="27.865104780806288" lon="-80.518737541257124">
+    </trkpt>
+    <trkpt lat="27.865651395272614" lon="-80.517256810050057">
+    </trkpt>
+    <trkpt lat="27.867493641590194" lon="-80.517209223419826">
+    </trkpt>
+    <trkpt lat="27.870245979030091" lon="-80.517192751036504">
+    </trkpt>
+    <trkpt lat="27.880356364888783" lon="-80.517158048791174">
+    </trkpt>
+    <trkpt lat="27.880652813188078" lon="-80.532784222762189">
+    </trkpt>
+    <trkpt lat="27.888117025546599" lon="-80.53335677521595">
+    </trkpt>
+    <trkpt lat="27.888413352258969" lon="-80.541622672889346">
+    </trkpt>
+    <trkpt lat="27.895256416169413" lon="-80.541541269960774">
+    </trkpt>
+    <trkpt lat="27.909795050734303" lon="-80.541387963843476">
+    </trkpt>
+    <trkpt lat="27.924345462342256" lon="-80.541273980773681">
+    </trkpt>
+    <trkpt lat="27.924387151213779" lon="-80.54313635862836">
+    </trkpt>
+    <trkpt lat="27.924410377934453" lon="-80.544517661735057">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>1484.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>South Brevard Al Tuttle Trail Corridor</ogr:CORRIDOR>
+    <ogr:SEG_NAME>South Brevard Al Tuttle Trail Corridor</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>OPPORTUNITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>EXISTING UNPAVED</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>NO</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>NO</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>NO</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:CONTACT>Brevard County</ogr:CONTACT>
+    <ogr:GIS_MILES_>2.39189</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>DIAZ_D</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/01/15</ogr:ModifiedOn>
+    <ogr:Shape_Leng>3849.386751900000036</ogr:Shape_Leng>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.00231609842821" lon="-80.573048119812299">
+    </trkpt>
+    <trkpt lat="28.002302850468347" lon="-80.573754720782489">
+    </trkpt>
+    <trkpt lat="28.00232179066494" lon="-80.574473568707432">
+    </trkpt>
+    <trkpt lat="28.002966172254531" lon="-80.574480453137895">
+    </trkpt>
+    <trkpt lat="28.003251528281162" lon="-80.574646117696403">
+    </trkpt>
+    <trkpt lat="28.003447558749649" lon="-80.575130911571094">
+    </trkpt>
+    <trkpt lat="28.004049322521343" lon="-80.575107713059467">
+    </trkpt>
+    <trkpt lat="28.005281988240867" lon="-80.575020817323605">
+    </trkpt>
+    <trkpt lat="28.005276511326514" lon="-80.572989498432179">
+    </trkpt>
+    <trkpt lat="28.006922760450351" lon="-80.572963417139036">
+    </trkpt>
+    <trkpt lat="28.008711281775259" lon="-80.573132937042303">
+    </trkpt>
+    <trkpt lat="28.0094813241125" lon="-80.572864860923701">
+    </trkpt>
+    <trkpt lat="28.010664563946548" lon="-80.572969200518983">
+    </trkpt>
+    <trkpt lat="28.011785739248378" lon="-80.572952671325936">
+    </trkpt>
+    <trkpt lat="28.012465362342056" lon="-80.573017962502576">
+    </trkpt>
+    <trkpt lat="28.012517250154552" lon="-80.580136008351062">
+    </trkpt>
+    <trkpt lat="28.012642905156937" lon="-80.593920141667596">
+    </trkpt>
+    <trkpt lat="28.014637934177863" lon="-80.59393276498156">
+    </trkpt>
+    <trkpt lat="28.015244086896224" lon="-80.593745506122431">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>1619.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>Grant Valkaria Trail System</ogr:CORRIDOR>
+    <ogr:SEG_NAME>Grant Valkaria Trail System</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>OPPORTUNITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>EXISTING PAVED</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CONTACT>Rick Hall, Town of Grant Valkaria</ogr:CONTACT>
+    <ogr:GIS_MILES_>1.06859</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>DIAZ_D</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/01/15</ogr:ModifiedOn>
+    <ogr:Shape_Leng>1719.728524549999975</ogr:Shape_Leng>
+  </extensions>
+  <trkseg>
+    <trkpt lat="27.94636937321291" lon="-80.592280951708531">
+    </trkpt>
+    <trkpt lat="27.946379007937843" lon="-80.59228046309039">
+    </trkpt>
+    <trkpt lat="27.948782321314098" lon="-80.592158652940569">
+    </trkpt>
+    <trkpt lat="27.948884048612829" lon="-80.592554595998891">
+    </trkpt>
+    <trkpt lat="27.949287099896054" lon="-80.592836174224288">
+    </trkpt>
+    <trkpt lat="27.95165127682781" lon="-80.593223640725355">
+    </trkpt>
+    <trkpt lat="27.953461237499251" lon="-80.593216856648993">
+    </trkpt>
+    <trkpt lat="27.954962940240101" lon="-80.593573064458369">
+    </trkpt>
+    <trkpt lat="27.955739789087794" lon="-80.594305957316493">
+    </trkpt>
+    <trkpt lat="27.956128211168608" lon="-80.594159379041244">
+    </trkpt>
+    <trkpt lat="27.956646105591574" lon="-80.592840171489229">
+    </trkpt>
+    <trkpt lat="27.956646105384429" lon="-80.592253856705227">
+    </trkpt>
+    <trkpt lat="27.954962939920534" lon="-80.591814120819478">
+    </trkpt>
+    <trkpt lat="27.954962940240101" lon="-80.593573064458369">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>1899.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>Grant Valkaria Trail System</ogr:CORRIDOR>
+    <ogr:SEG_NAME>Grant Valkaria Trail System</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>OPPORTUNITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>GAPS</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CONTACT>Rick Hall, Town of Grant Valkaria</ogr:CONTACT>
+    <ogr:GIS_MILES_>2.99174</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>DIAZ_D</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/01/15</ogr:ModifiedOn>
+    <ogr:Shape_Leng>4814.749506529999962</ogr:Shape_Leng>
+  </extensions>
+  <trkseg>
+    <trkpt lat="27.924493078737736" lon="-80.59038188177648">
+    </trkpt>
+    <trkpt lat="27.924338582331536" lon="-80.541362615075343">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>1902.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>Grant Valkaria Trail System</ogr:CORRIDOR>
+    <ogr:SEG_NAME>Grant Valkaria Trail System</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>OPPORTUNITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>GAPS</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CONTACT>Rick Hall, Town of Grant Valkaria</ogr:CONTACT>
+    <ogr:GIS_MILES_>1.63769</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>DIAZ_D</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/01/15</ogr:ModifiedOn>
+    <ogr:Shape_Leng>2635.609710900000209</ogr:Shape_Leng>
+  </extensions>
+  <trkseg>
+    <trkpt lat="27.924543187479184" lon="-80.590325087530488">
+    </trkpt>
+    <trkpt lat="27.946362985418521" lon="-80.590129548818183">
+    </trkpt>
+    <trkpt lat="27.94636937321291" lon="-80.592280951708531">
+    </trkpt>
+    <trkpt lat="27.946379007937843" lon="-80.59228046309039">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>1903.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>Grant Valkaria Trail System</ogr:CORRIDOR>
+    <ogr:SEG_NAME>Grant Valkaria Trail System</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>OPPORTUNITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>GAPS</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CONTACT>Rick Hall, Town of Grant Valkaria</ogr:CONTACT>
+    <ogr:GIS_MILES_>0.292973</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>DIAZ_D</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/01/15</ogr:ModifiedOn>
+    <ogr:Shape_Leng>471.494511563</ogr:Shape_Leng>
+  </extensions>
+  <trkseg>
+    <trkpt lat="27.963825354963767" lon="-80.545474153737601">
+    </trkpt>
+    <trkpt lat="27.963754141865806" lon="-80.546748522849583">
+    </trkpt>
+    <trkpt lat="27.963803414225097" lon="-80.550273249115079">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>963.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>South Brevard Al Tuttle Trail Corridor</ogr:CORRIDOR>
+    <ogr:SEG_NAME>South Brevard Al Tuttle Trail Corridor</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>OPPORTUNITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>NO</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>NO</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>NO</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:CONTACT>Brevard County</ogr:CONTACT>
+    <ogr:GIS_MILES_>37.4477</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>DIAZ_D</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/01/15</ogr:ModifiedOn>
+    <ogr:Shape_Leng>60266.335998700000346</ogr:Shape_Leng>
+  </extensions>
+  <trkseg>
+    <trkpt lat="27.953732148514824" lon="-80.557348566350981">
+    </trkpt>
+    <trkpt lat="27.953787653023543" lon="-80.554206826317014">
+    </trkpt>
+    <trkpt lat="27.953727655495921" lon="-80.550518989796387">
+    </trkpt>
+    <trkpt lat="27.953794903763757" lon="-80.549552539259466">
+    </trkpt>
+    <trkpt lat="27.954849010860016" lon="-80.549493736197078">
+    </trkpt>
+    <trkpt lat="27.95800545196348" lon="-80.549529326188477">
+    </trkpt>
+    <trkpt lat="27.962199997395881" lon="-80.549690463787968">
+    </trkpt>
+    <trkpt lat="27.963874376214822" lon="-80.549529515307938">
+    </trkpt>
+    <trkpt lat="27.963831101514945" lon="-80.550559823151161">
+    </trkpt>
+    <trkpt lat="27.964241445787724" lon="-80.551879622424082">
+    </trkpt>
+    <trkpt lat="27.966098881229485" lon="-80.553839100878065">
+    </trkpt>
+    <trkpt lat="27.968234714999411" lon="-80.556036259018725">
+    </trkpt>
+    <trkpt lat="27.968777669889956" lon="-80.556831005695486">
+    </trkpt>
+    <trkpt lat="27.969062669208956" lon="-80.558185026506138">
+    </trkpt>
+    <trkpt lat="27.968962907688677" lon="-80.559661676525934">
+    </trkpt>
+    <trkpt lat="27.968492812979555" lon="-80.561106195439137">
+    </trkpt>
+    <trkpt lat="27.967467240441618" lon="-80.562505864029688">
+    </trkpt>
+    <trkpt lat="27.964958554155938" lon="-80.564278817722169">
+    </trkpt>
+    <trkpt lat="27.962089826518156" lon="-80.566165807526716">
+    </trkpt>
+    <trkpt lat="27.955201543863023" lon="-80.570766098783949">
+    </trkpt>
+    <trkpt lat="27.95439470780018" lon="-80.571492183214474">
+    </trkpt>
+    <trkpt lat="27.953935506228561" lon="-80.572278103998883">
+    </trkpt>
+    <trkpt lat="27.953634262056525" lon="-80.572004429413809">
+    </trkpt>
+    <trkpt lat="27.95361219633806" lon="-80.570947356581655">
+    </trkpt>
+    <trkpt lat="27.953632665409355" lon="-80.570145311183467">
+    </trkpt>
+    <trkpt lat="27.953741868542771" lon="-80.560814708787177">
+    </trkpt>
+    <trkpt lat="27.953642905942129" lon="-80.560501563506349">
+    </trkpt>
+    <trkpt lat="27.95363094371012" lon="-80.559984841924816">
+    </trkpt>
+    <trkpt lat="27.953732148514824" lon="-80.557348566350981">
+    </trkpt>
+  </trkseg>
+  <trkseg>
+    <trkpt lat="27.953653313533788" lon="-80.574067247173105">
+    </trkpt>
+    <trkpt lat="27.954917511148036" lon="-80.574109219571625">
+    </trkpt>
+    <trkpt lat="27.957377101048955" lon="-80.574074025701222">
+    </trkpt>
+    <trkpt lat="27.958590568332177" lon="-80.573603771012372">
+    </trkpt>
+    <trkpt lat="27.960369137476789" lon="-80.573610888385119">
+    </trkpt>
+    <trkpt lat="27.967747044133738" lon="-80.57356761874145">
+    </trkpt>
+    <trkpt lat="27.985974567679026" lon="-80.573295242293966">
+    </trkpt>
+    <trkpt lat="28.002316098428249" lon="-80.573048119812299">
+    </trkpt>
+  </trkseg>
+  <trkseg>
+    <trkpt lat="27.964954073384856" lon="-80.565087509701442">
+    </trkpt>
+    <trkpt lat="27.965040895733246" lon="-80.573592527783163">
+    </trkpt>
+  </trkseg>
+</trk>
+</gpx>

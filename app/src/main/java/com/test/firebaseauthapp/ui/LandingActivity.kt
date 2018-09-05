@@ -42,8 +42,6 @@ class LandingActivity : AppCompatActivity() {
     }
 
     private fun initialise() {
-        // UI elements
-        setContentView(R.layout.activity_landing)
         // Firebase elements
         mAuth = FirebaseAuth.getInstance()
         mDatabase = FirebaseDatabase.getInstance()
@@ -52,12 +50,16 @@ class LandingActivity : AppCompatActivity() {
         btnSignIn!!
                 .setOnClickListener { startActivity(Intent(this@LandingActivity,
                         LoginActivity::class.java)) }
+        // When Facebook button is pressed
+        fbLogin!!.setOnClickListener{
+            login_button!!.performClick()
+        }
         // create callback manager
         callbackManager = CallbackManager.Factory.create()
         // When FB button is pressed set email permissions
-        fbLogin!!.setReadPermissions("email")
+        login_button!!.setReadPermissions("email")
         // then begin registration with FB
-        fbLogin!!.registerCallback(callbackManager, object : FacebookCallback<LoginResult> {
+        login_button!!.registerCallback(callbackManager, object : FacebookCallback<LoginResult> {
             override fun onSuccess(loginResult: LoginResult) {
                 // App code
                 handleFacebookAccessToken(loginResult.accessToken)
@@ -93,7 +95,7 @@ class LandingActivity : AppCompatActivity() {
         mAuth!!
             .signInWithCredential(credential)
             .addOnCompleteListener(this) { task ->
-                    indeterminateBar!!.visibility = View.GONE
+                indeterminateBar!!.visibility = View.GONE
                 if (task.isSuccessful) {
 
                     // Sign in success, update UI with the signed-in user's information

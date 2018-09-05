@@ -52,12 +52,19 @@ class CreateAccountActivity : AppCompatActivity() {
         mDatabase = FirebaseDatabase.getInstance()
         mDatabaseReference = mDatabase!!.reference.child("Users")
         mAuth = FirebaseAuth.getInstance()
-        // When
+        // When SIGN UP button is pressed
         btn_register!!.setOnClickListener { createNewAccount() }
+
+        // When Facebook button is pressed
+        fbLogin!!.setOnClickListener{
+            login_button!!.performClick()
+        }
+        // create callback manager
         callbackManager = CallbackManager.Factory.create()
-        fbLogin!!.setReadPermissions("email")
-        // Callback registration
-        fbLogin!!.registerCallback(callbackManager, object : FacebookCallback<LoginResult> {
+        // When FB button is pressed set email permissions
+        login_button!!.setReadPermissions("email")
+        // then begin registration with FB
+        login_button!!.registerCallback(callbackManager, object : FacebookCallback<LoginResult> {
             override fun onSuccess(loginResult: LoginResult) {
                 // App code
                 handleFacebookAccessToken(loginResult.accessToken)
@@ -71,6 +78,7 @@ class CreateAccountActivity : AppCompatActivity() {
                 // App code
             }
         })
+
         alreadyHaveAccount!!
                 .setOnClickListener { startActivity(Intent(this@CreateAccountActivity,
                         LoginActivity::class.java)) }
@@ -139,7 +147,12 @@ class CreateAccountActivity : AppCompatActivity() {
                 }
             }
     }
-    // Adds facebook info to firebase and directs to Main Activity
+    // Handle Facebook auth codes
+    public override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        callbackManager!!.onActivityResult(requestCode, resultCode, data)
+    }
+    // Take facebook credentials and direct to main activity
     private fun handleFacebookAccessToken(token: AccessToken) {
         Log.d(TAG, "handleFacebookAccessToken:$token")
         val credential = FacebookAuthProvider.getCredential(token.token)
@@ -147,6 +160,7 @@ class CreateAccountActivity : AppCompatActivity() {
         mAuth!!
             .signInWithCredential(credential)
             .addOnCompleteListener(this) { task ->
+                indeterminateBar!!.visibility = View.GONE
                 if (task.isSuccessful) {
 
                     // Sign in success, update UI with the signed-in user's information
@@ -157,13 +171,12 @@ class CreateAccountActivity : AppCompatActivity() {
                     val currentUserDb = mDatabaseReference!!.child(userId)
                     currentUserDb.child("name").setValue(userName)
 
-
                     val intent = Intent(this@CreateAccountActivity, MainActivity::class.java)
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK)
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
                     startActivity(intent)
                 } else {
                     // If sign in fails, display a message to the user.
-                    Log.w(TAG, "signInWithCredential:failure", task.getException())
+                    Log.w(TAG, "signInWithCredential:failure", task.exception)
                     Toast.makeText(this@CreateAccountActivity, "Authentication failed.",
                             Toast.LENGTH_SHORT).show()
                 }

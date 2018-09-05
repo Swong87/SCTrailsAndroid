@@ -1,0 +1,644 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 2.1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ogr="http://osgeo.org/gdal" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata><bounds minlat="27.824113915618998" minlon="-80.947433425340279" maxlat="28.665212931182662" maxlon="-80.607434126524225"/></metadata>                
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>958.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>St Johns River Corridor</ogr:CORRIDOR>
+    <ogr:SEG_NAME>Three Forks Marsh Conservation Area</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>OPPORTUNITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>Complete - Unpaved</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>NO</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>NO</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>NO</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:CONTACT>SJWMD</ogr:CONTACT>
+    <ogr:GIS_MILES_>73.5589</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>Sarah Kraum</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2017/02/23</ogr:ModifiedOn>
+    <ogr:Shape_Leng>118381.738731</ogr:Shape_Leng>
+  </extensions>
+  <trkseg>
+    <trkpt lat="27.983325043339022" lon="-80.754554565171418">
+    </trkpt>
+    <trkpt lat="27.98335527133262" lon="-80.746563650820079">
+    </trkpt>
+    <trkpt lat="27.968781571343872" lon="-80.746403458735358">
+    </trkpt>
+    <trkpt lat="27.968818950525758" lon="-80.721150535690256">
+    </trkpt>
+    <trkpt lat="27.910309223463887" lon="-80.721009502832331">
+    </trkpt>
+    <trkpt lat="27.910270524009754" lon="-80.74556931427054">
+    </trkpt>
+    <trkpt lat="27.866939255044503" lon="-80.746349834995627">
+    </trkpt>
+    <trkpt lat="27.866698935664292" lon="-80.711805909508783">
+    </trkpt>
+    <trkpt lat="27.84333012054476" lon="-80.712158743301501">
+    </trkpt>
+    <trkpt lat="27.843493619764629" lon="-80.707889685265627">
+    </trkpt>
+    <trkpt lat="27.825233796378718" lon="-80.708022554785259">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>958.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>St Johns River Corridor</ogr:CORRIDOR>
+    <ogr:SEG_NAME>Seminole Ranch Conservation Area</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>OPPORTUNITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>Complete - unpaved</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>NO</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>NO</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>NO</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:CONTACT>SJWMD</ogr:CONTACT>
+    <ogr:GIS_MILES_>73.5589</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>Sarah Kraum</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2017/02/23</ogr:ModifiedOn>
+    <ogr:Shape_Leng>118381.738731</ogr:Shape_Leng>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.630959485389653" lon="-80.947433425340279">
+    </trkpt>
+    <trkpt lat="28.628416511308618" lon="-80.945326724067087">
+    </trkpt>
+    <trkpt lat="28.627773911455208" lon="-80.944868250605865">
+    </trkpt>
+    <trkpt lat="28.624067534706636" lon="-80.942205998570898">
+    </trkpt>
+    <trkpt lat="28.623272103731551" lon="-80.941573168293814">
+    </trkpt>
+    <trkpt lat="28.620195378472761" lon="-80.93912549054086">
+    </trkpt>
+    <trkpt lat="28.618968379941514" lon="-80.938345091825994">
+    </trkpt>
+    <trkpt lat="28.618055959601886" lon="-80.938015117732036">
+    </trkpt>
+    <trkpt lat="28.614823113541924" lon="-80.936313129378149">
+    </trkpt>
+    <trkpt lat="28.614537721829503" lon="-80.936290827939217">
+    </trkpt>
+    <trkpt lat="28.614524302011482" lon="-80.930807921166831">
+    </trkpt>
+    <trkpt lat="28.614113998673425" lon="-80.930200157200545">
+    </trkpt>
+    <trkpt lat="28.613487610690015" lon="-80.929754898698206">
+    </trkpt>
+    <trkpt lat="28.613194429021355" lon="-80.929612735466094">
+    </trkpt>
+    <trkpt lat="28.613047862781102" lon="-80.929589111945077">
+    </trkpt>
+    <trkpt lat="28.61285928351268" lon="-80.929280800818162">
+    </trkpt>
+    <trkpt lat="28.612712655261191" lon="-80.929138551611615">
+    </trkpt>
+    <trkpt lat="28.612356492314071" lon="-80.928664276983639">
+    </trkpt>
+    <trkpt lat="28.611560732144937" lon="-80.928332660636954">
+    </trkpt>
+    <trkpt lat="28.61045052175297" lon="-80.927218338974697">
+    </trkpt>
+    <trkpt lat="28.609338687501804" lon="-80.926604788862804">
+    </trkpt>
+    <trkpt lat="28.608964709175687" lon="-80.926548006404204">
+    </trkpt>
+    <trkpt lat="28.607866972946816" lon="-80.926471919700575">
+    </trkpt>
+    <trkpt lat="28.607314730735055" lon="-80.926568973999281">
+    </trkpt>
+    <trkpt lat="28.606628208340393" lon="-80.926779277949748">
+    </trkpt>
+    <trkpt lat="28.605635053306141" lon="-80.926887158326863">
+    </trkpt>
+    <trkpt lat="28.604816268699462" lon="-80.926900696054119">
+    </trkpt>
+    <trkpt lat="28.603008506883906" lon="-80.926851398505519">
+    </trkpt>
+    <trkpt lat="28.602545531889955" lon="-80.926825148054064">
+    </trkpt>
+    <trkpt lat="28.601500970199584" lon="-80.926546147194983">
+    </trkpt>
+    <trkpt lat="28.6010901698994" lon="-80.926172387557102">
+    </trkpt>
+    <trkpt lat="28.600817266944315" lon="-80.926396006659061">
+    </trkpt>
+    <trkpt lat="28.600198364695547" lon="-80.926642888601137">
+    </trkpt>
+    <trkpt lat="28.599723467802871" lon="-80.92661314548765">
+    </trkpt>
+    <trkpt lat="28.599450125884314" lon="-80.926569092503428">
+    </trkpt>
+    <trkpt lat="28.598984191794447" lon="-80.92643277132467">
+    </trkpt>
+    <trkpt lat="28.598626349642007" lon="-80.92628023906498">
+    </trkpt>
+    <trkpt lat="28.598196516961369" lon="-80.925989023656129">
+    </trkpt>
+    <trkpt lat="28.597027221939971" lon="-80.925600317941786">
+    </trkpt>
+    <trkpt lat="28.596531398499582" lon="-80.925268692539206">
+    </trkpt>
+    <trkpt lat="28.595903162467231" lon="-80.925011998896395">
+    </trkpt>
+    <trkpt lat="28.595606488282474" lon="-80.925067864520628">
+    </trkpt>
+    <trkpt lat="28.595105498156677" lon="-80.92531592707175">
+    </trkpt>
+    <trkpt lat="28.594929853720082" lon="-80.925087656306829">
+    </trkpt>
+    <trkpt lat="28.594662756424121" lon="-80.924687952901252">
+    </trkpt>
+    <trkpt lat="28.594516066419377" lon="-80.924519272903026">
+    </trkpt>
+    <trkpt lat="28.594326353079552" lon="-80.924426373870304">
+    </trkpt>
+    <trkpt lat="28.594148491075689" lon="-80.924450929957302">
+    </trkpt>
+    <trkpt lat="28.593946616415071" lon="-80.924498153781798">
+    </trkpt>
+    <trkpt lat="28.593724203900486" lon="-80.924701298790424">
+    </trkpt>
+    <trkpt lat="28.593475600708757" lon="-80.925162216567401">
+    </trkpt>
+    <trkpt lat="28.593147695287147" lon="-80.925990463761337">
+    </trkpt>
+    <trkpt lat="28.592570738834141" lon="-80.926471745946444">
+    </trkpt>
+    <trkpt lat="28.592444363272566" lon="-80.926613591500299">
+    </trkpt>
+    <trkpt lat="28.592348042123596" lon="-80.926832180307329">
+    </trkpt>
+    <trkpt lat="28.59218558357815" lon="-80.927032020681168">
+    </trkpt>
+    <trkpt lat="28.591975439539628" lon="-80.927290517610714">
+    </trkpt>
+    <trkpt lat="28.591620528326754" lon="-80.927395680658989">
+    </trkpt>
+    <trkpt lat="28.591559238338274" lon="-80.927395722770228">
+    </trkpt>
+    <trkpt lat="28.591490098541509" lon="-80.927368126715123">
+    </trkpt>
+    <trkpt lat="28.591236235463704" lon="-80.927086274760939">
+    </trkpt>
+    <trkpt lat="28.590978703227368" lon="-80.926800351101491">
+    </trkpt>
+    <trkpt lat="28.590814625135675" lon="-80.926527324002137">
+    </trkpt>
+    <trkpt lat="28.590689658149447" lon="-80.926170921104372">
+    </trkpt>
+    <trkpt lat="28.590168492264251" lon="-80.925539479781264">
+    </trkpt>
+    <trkpt lat="28.589745817854336" lon="-80.925248121653553">
+    </trkpt>
+    <trkpt lat="28.589225376970465" lon="-80.924839139934008">
+    </trkpt>
+    <trkpt lat="28.588970582282688" lon="-80.924589277158077">
+    </trkpt>
+    <trkpt lat="28.588766639539116" lon="-80.924204734078288">
+    </trkpt>
+    <trkpt lat="28.588826713030738" lon="-80.923950321442192">
+    </trkpt>
+    <trkpt lat="28.588807300705977" lon="-80.923731831056102">
+    </trkpt>
+    <trkpt lat="28.588739720532448" lon="-80.923589851064065">
+    </trkpt>
+    <trkpt lat="28.588662394955694" lon="-80.923262140662715">
+    </trkpt>
+    <trkpt lat="28.588614138236363" lon="-80.923196622470627">
+    </trkpt>
+    <trkpt lat="28.588421253052854" lon="-80.923153063979285">
+    </trkpt>
+    <trkpt lat="28.588238063861709" lon="-80.923207828089147">
+    </trkpt>
+    <trkpt lat="28.587833059488378" lon="-80.923219044415362">
+    </trkpt>
+    <trkpt lat="28.587678365533176" lon="-80.922509020125474">
+    </trkpt>
+    <trkpt lat="28.587321340318933" lon="-80.922115967322043">
+    </trkpt>
+    <trkpt lat="28.58522764103866" lon="-80.920161938916195">
+    </trkpt>
+    <trkpt lat="28.585121486809015" lon="-80.920019995204314">
+    </trkpt>
+    <trkpt lat="28.585028354458615" lon="-80.919780922110931">
+    </trkpt>
+    <trkpt lat="28.584387557656878" lon="-80.918261636530119">
+    </trkpt>
+    <trkpt lat="28.584055687990709" lon="-80.916878922896615">
+    </trkpt>
+    <trkpt lat="28.583882247385358" lon="-80.916650001408271">
+    </trkpt>
+    <trkpt lat="28.583390230824872" lon="-80.916414454967807">
+    </trkpt>
+    <trkpt lat="28.582987908083769" lon="-80.915990372254697">
+    </trkpt>
+    <trkpt lat="28.582773930465802" lon="-80.915751127751065">
+    </trkpt>
+    <trkpt lat="28.581155368077141" lon="-80.913642908334424">
+    </trkpt>
+    <trkpt lat="28.57311180679611" lon="-80.913594997620521">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>958.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>St Johns River Corridor</ogr:CORRIDOR>
+    <ogr:SEG_NAME>St Johns River Corridor</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>OPPORTUNITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>NO</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>NO</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>NO</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:CONTACT>Brevard County</ogr:CONTACT>
+    <ogr:GIS_MILES_>73.5589</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>DIAZ_D</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/01/15</ogr:ModifiedOn>
+    <ogr:Shape_Leng>118381.738731</ogr:Shape_Leng>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.509416133904409" lon="-80.873042828339038">
+    </trkpt>
+    <trkpt lat="28.498908397883056" lon="-80.842210422477223">
+    </trkpt>
+    <trkpt lat="28.497896838657709" lon="-80.842290541728161">
+    </trkpt>
+    <trkpt lat="28.497004483733264" lon="-80.842645628836109">
+    </trkpt>
+    <trkpt lat="28.496467773632595" lon="-80.842974726132354">
+    </trkpt>
+    <trkpt lat="28.487013423048712" lon="-80.849259036738701">
+    </trkpt>
+    <trkpt lat="28.486700093324853" lon="-80.84843993012592">
+    </trkpt>
+    <trkpt lat="28.486874367164219" lon="-80.847111100396276">
+    </trkpt>
+    <trkpt lat="28.4869279554085" lon="-80.8327474414709">
+    </trkpt>
+    <trkpt lat="28.475565698479699" lon="-80.832781590991956">
+    </trkpt>
+    <trkpt lat="28.474266281557874" lon="-80.832778373001091">
+    </trkpt>
+    <trkpt lat="28.472426348481942" lon="-80.832790950046729">
+    </trkpt>
+    <trkpt lat="28.470985787960441" lon="-80.832795721586066">
+    </trkpt>
+    <trkpt lat="28.46708863452842" lon="-80.832813554685799">
+    </trkpt>
+    <trkpt lat="28.466354928284566" lon="-80.833013577492608">
+    </trkpt>
+    <trkpt lat="28.46490249885419" lon="-80.832986616146727">
+    </trkpt>
+    <trkpt lat="28.463310022634577" lon="-80.832559226231638">
+    </trkpt>
+    <trkpt lat="28.461267968102174" lon="-80.831396813198168">
+    </trkpt>
+    <trkpt lat="28.46119882751016" lon="-80.832372037738708">
+    </trkpt>
+    <trkpt lat="28.459994279672458" lon="-80.832463488246049">
+    </trkpt>
+    <trkpt lat="28.458911927303554" lon="-80.831818449205969">
+    </trkpt>
+    <trkpt lat="28.458076542510288" lon="-80.831789921363026">
+    </trkpt>
+    <trkpt lat="28.457685351305102" lon="-80.832478174626232">
+    </trkpt>
+    <trkpt lat="28.456304885582444" lon="-80.833220651181819">
+    </trkpt>
+    <trkpt lat="28.455880316256021" lon="-80.833464939494135">
+    </trkpt>
+    <trkpt lat="28.454094754692683" lon="-80.833023975361741">
+    </trkpt>
+    <trkpt lat="28.451819322094472" lon="-80.834408777285262">
+    </trkpt>
+    <trkpt lat="28.450942566953607" lon="-80.835046257303446">
+    </trkpt>
+    <trkpt lat="28.44989632673132" lon="-80.836058592025239">
+    </trkpt>
+    <trkpt lat="28.449544642257855" lon="-80.836430995168527">
+    </trkpt>
+    <trkpt lat="28.44907541921674" lon="-80.836670770103325">
+    </trkpt>
+    <trkpt lat="28.448559722743923" lon="-80.837309032152547">
+    </trkpt>
+    <trkpt lat="28.447714636150156" lon="-80.837336886947668">
+    </trkpt>
+    <trkpt lat="28.446517639893983" lon="-80.837551204463622">
+    </trkpt>
+    <trkpt lat="28.446434387334538" lon="-80.827139528702077">
+    </trkpt>
+    <trkpt lat="28.439156433008687" lon="-80.827081777981419">
+    </trkpt>
+    <trkpt lat="28.434747967878337" lon="-80.82699494478986">
+    </trkpt>
+    <trkpt lat="28.410891497945336" lon="-80.826480368007608">
+    </trkpt>
+    <trkpt lat="28.410647586180584" lon="-80.838110449046781">
+    </trkpt>
+    <trkpt lat="28.411070462640225" lon="-80.838375324878015">
+    </trkpt>
+    <trkpt lat="28.411031799208271" lon="-80.845517843390368">
+    </trkpt>
+    <trkpt lat="28.38850900777787" lon="-80.845656688704835">
+    </trkpt>
+    <trkpt lat="28.380660049126675" lon="-80.845680198596938">
+    </trkpt>
+    <trkpt lat="28.364811620526851" lon="-80.845951378407378">
+    </trkpt>
+    <trkpt lat="28.367516359640817" lon="-80.857514788058452">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>958.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>St Johns River Corridor</ogr:CORRIDOR>
+    <ogr:SEG_NAME>St Johns River Corridor</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>OPPORTUNITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>NO</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>NO</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>NO</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:CONTACT>Brevard County</ogr:CONTACT>
+    <ogr:GIS_MILES_>73.5589</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>DIAZ_D</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/01/15</ogr:ModifiedOn>
+    <ogr:Shape_Leng>118381.738731</ogr:Shape_Leng>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.57311180679611" lon="-80.913594997620521">
+    </trkpt>
+    <trkpt lat="28.572737889452473" lon="-80.896249381899992">
+    </trkpt>
+    <trkpt lat="28.551390209395993" lon="-80.896478800036817">
+    </trkpt>
+    <trkpt lat="28.543691761266043" lon="-80.896447053353455">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>958.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>St Johns River Corridor</ogr:CORRIDOR>
+    <ogr:SEG_NAME>St Johns River Corridor</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>OPPORTUNITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>NO</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>NO</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>NO</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:CONTACT>Brevard County</ogr:CONTACT>
+    <ogr:GIS_MILES_>73.5589</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>DIAZ_D</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/01/15</ogr:ModifiedOn>
+    <ogr:Shape_Leng>118381.738731</ogr:Shape_Leng>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.172904148568513" lon="-80.707024003835912">
+    </trkpt>
+    <trkpt lat="28.145996521087774" lon="-80.706600952720095">
+    </trkpt>
+    <trkpt lat="28.139942220990967" lon="-80.706031768346136">
+    </trkpt>
+    <trkpt lat="28.135811528395525" lon="-80.708725890414456">
+    </trkpt>
+    <trkpt lat="28.12432069131042" lon="-80.708547347421259">
+    </trkpt>
+    <trkpt lat="28.120699847523412" lon="-80.709884624680853">
+    </trkpt>
+    <trkpt lat="28.112155501009244" lon="-80.709828738554577">
+    </trkpt>
+    <trkpt lat="28.106002583403125" lon="-80.709826638073054">
+    </trkpt>
+    <trkpt lat="28.100167076599849" lon="-80.709634583296676">
+    </trkpt>
+    <trkpt lat="28.09809087169133" lon="-80.710050229552223">
+    </trkpt>
+    <trkpt lat="28.09655580470989" lon="-80.711496726734481">
+    </trkpt>
+    <trkpt lat="28.093932482007354" lon="-80.71194316759042">
+    </trkpt>
+    <trkpt lat="28.08970176665736" lon="-80.712063429235542">
+    </trkpt>
+    <trkpt lat="28.086576412140534" lon="-80.713398832972544">
+    </trkpt>
+    <trkpt lat="28.082925613139558" lon="-80.715259370348519">
+    </trkpt>
+    <trkpt lat="28.075888721503542" lon="-80.715430660601641">
+    </trkpt>
+    <trkpt lat="28.068308853386846" lon="-80.715494390506336">
+    </trkpt>
+    <trkpt lat="28.064250051691854" lon="-80.715483188331064">
+    </trkpt>
+    <trkpt lat="28.061773253654962" lon="-80.715943602277832">
+    </trkpt>
+    <trkpt lat="28.058730441696984" lon="-80.717133395584469">
+    </trkpt>
+    <trkpt lat="28.056187843850275" lon="-80.718811035972053">
+    </trkpt>
+    <trkpt lat="28.053205233867793" lon="-80.721412395332791">
+    </trkpt>
+    <trkpt lat="28.050208446695283" lon="-80.726037330726285">
+    </trkpt>
+    <trkpt lat="28.044220785143708" lon="-80.735783190967069">
+    </trkpt>
+    <trkpt lat="28.041528977893851" lon="-80.737221007312726">
+    </trkpt>
+    <trkpt lat="28.037440886970892" lon="-80.737056406434874">
+    </trkpt>
+    <trkpt lat="28.033237016562804" lon="-80.737140920250667">
+    </trkpt>
+    <trkpt lat="28.029825661051145" lon="-80.737581778118781">
+    </trkpt>
+    <trkpt lat="28.027282849014789" lon="-80.737587945288169">
+    </trkpt>
+    <trkpt lat="28.024174807204421" lon="-80.736756872481422">
+    </trkpt>
+    <trkpt lat="28.020591729480518" lon="-80.736661170775122">
+    </trkpt>
+    <trkpt lat="28.018204420192266" lon="-80.737027720480924">
+    </trkpt>
+    <trkpt lat="28.013081880961185" lon="-80.737838617887633">
+    </trkpt>
+    <trkpt lat="28.0098053002996" lon="-80.737783977263618">
+    </trkpt>
+    <trkpt lat="28.005445072625424" lon="-80.737711271468669">
+    </trkpt>
+    <trkpt lat="28.000936665196058" lon="-80.737636099994205">
+    </trkpt>
+    <trkpt lat="27.998925934289204" lon="-80.737689667622362">
+    </trkpt>
+    <trkpt lat="27.998911893203093" lon="-80.754241989288673">
+    </trkpt>
+    <trkpt lat="27.983325043339022" lon="-80.754554565171418">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>958.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>St Johns River Corridor</ogr:CORRIDOR>
+    <ogr:SEG_NAME>St Johns River Corridor</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>OPPORTUNITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>NO</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>NO</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>NO</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:CONTACT>Brevard County</ogr:CONTACT>
+    <ogr:GIS_MILES_>73.5589</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>DIAZ_D</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2016/01/15</ogr:ModifiedOn>
+    <ogr:Shape_Leng>118381.738731</ogr:Shape_Leng>
+  </extensions>
+  <trkseg>
+    <trkpt lat="27.825233797692093" lon="-80.708022553679129">
+    </trkpt>
+    <trkpt lat="27.825060036138915" lon="-80.708023818221051">
+    </trkpt>
+    <trkpt lat="27.824113915618998" lon="-80.607434126524225">
+    </trkpt>
+  </trkseg>
+  <trkseg>
+    <trkpt lat="28.665212931182662" lon="-80.939881710754861">
+    </trkpt>
+    <trkpt lat="28.647103076636597" lon="-80.939558618083964">
+    </trkpt>
+    <trkpt lat="28.630959486280609" lon="-80.947433424242348">
+    </trkpt>
+  </trkseg>
+</trk>
+<trk>
+  <extensions>
+    <ogr:OBJECTID_1>958.0</ogr:OBJECTID_1>
+    <ogr:CORRIDOR>St Johns River Corridor</ogr:CORRIDOR>
+    <ogr:SEG_NAME>Canaveral Marshes Conservation Area</ogr:SEG_NAME>
+    <ogr:FGTS_RANK>OPPORTUNITY</ogr:FGTS_RANK>
+    <ogr:FNST_RANK>NA</ogr:FNST_RANK>
+    <ogr:STATUS>Complete - Unpaved</ogr:STATUS>
+    <ogr:OGTREGION>2.0</ogr:OGTREGION>
+    <ogr:DRPDIST>3.0</ogr:DRPDIST>
+    <ogr:DOTDIST>5.0</ogr:DOTDIST>
+    <ogr:County>BREVARD</ogr:County>
+    <ogr:CST_to_CST>NO</ogr:CST_to_CST>
+    <ogr:CAP_TO_SEA>NO</ogr:CAP_TO_SEA>
+    <ogr:FST_CST>NO</ogr:FST_CST>
+    <ogr:H_OF_FL>NO</ogr:H_OF_FL>
+    <ogr:NE_FL_LP>NO</ogr:NE_FL_LP>
+    <ogr:SJ_RV_SEA>NO</ogr:SJ_RV_SEA>
+    <ogr:NE_CST_CON>NO</ogr:NE_CST_CON>
+    <ogr:SW_CST_CON>NO</ogr:SW_CST_CON>
+    <ogr:RV_GRS_GRN>NO</ogr:RV_GRS_GRN>
+    <ogr:GREAT_NW>NO</ogr:GREAT_NW>
+    <ogr:ORIG_FL>NO</ogr:ORIG_FL>
+    <ogr:ECG>NO</ogr:ECG>
+    <ogr:FKOHT>NO</ogr:FKOHT>
+    <ogr:CONTACT>SJWMD</ogr:CONTACT>
+    <ogr:GIS_MILES_>73.5589</ogr:GIS_MILES_>
+    <ogr:ModifiedBy>Sarah Kraum</ogr:ModifiedBy>
+    <ogr:ModifiedOn>2017/02/23</ogr:ModifiedOn>
+    <ogr:Shape_Leng>118381.738731</ogr:Shape_Leng>
+  </extensions>
+  <trkseg>
+    <trkpt lat="28.543691761266043" lon="-80.896447053353455">
+    </trkpt>
+    <trkpt lat="28.543559958708688" lon="-80.880022365778487">
+    </trkpt>
+    <trkpt lat="28.5272560186677" lon="-80.880106971096779">
+    </trkpt>
+    <trkpt lat="28.527245466780023" lon="-80.869618353161528">
+    </trkpt>
+    <trkpt lat="28.514157772273755" lon="-80.870126091410512">
+    </trkpt>
+    <trkpt lat="28.511271525657367" lon="-80.870336208870626">
+    </trkpt>
+    <trkpt lat="28.509416133904409" lon="-80.873042828339038">
+    </trkpt>
+  </trkseg>
+</trk>
+</gpx>

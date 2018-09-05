@@ -4,54 +4,82 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/homebg"
     tools:context=".ui.LandingActivity">
 
     <Button
         android:id="@+id/btnSignIn"
-        style="@style/viewCustom"
-        android:layout_above="@+id/fbLogin"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/fbButtonContainer"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button"
         android:text="Sign In"
-        android:textColor="@android:color/white"
-        android:textStyle="bold" />
+        android:textColor="@android:color/white" />
 
-    <com.facebook.login.widget.LoginButton
-        android:id="@+id/fbLogin"
-        style="@style/viewCustom"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+    <FrameLayout
+        android:id="@+id/fbButtonContainer"
         android:layout_above="@+id/needAccount"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="30dp"
-        android:layout_marginTop="30dp" />
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/fbLogin"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/fbbutton"
+            android:text="FACEBOOK"
+            android:textColor="#ffffff" />
+
+    </FrameLayout>
 
 
     <TextView
         android:id="@+id/needAccount"
-        style="@style/viewCustom"
-        android:layout_alignParentBottom="true"
-        android:clickable="true"
-        android:focusable="true"
-        android:gravity="center_horizontal"
-        android:text="@string/need_account"
-        android:textSize="20sp" />
-
-    <TextView
-        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:singleLine="false"
+        android:text="@string/need_account"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/sclogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="87dp"
-        android:text="Space Coast Logo" />
+        android:layout_marginTop="20dp"
+        android:background="@drawable/sctrailslogo" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_alignParentTop="false"
+        android:layout_below="@+id/sclogo"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="123dp"
-        android:text="Your guide to exploring Florida's Space Coast" />
+        android:layout_marginTop="20dp"
+        android:text="Your guide to exploring Florida's Space Coast"
+        android:textColor="#ffffff"
+        android:textStyle="italic" />
+
     <ProgressBar
         android:id="@+id/indeterminateBar"
         android:layout_width="wrap_content"
