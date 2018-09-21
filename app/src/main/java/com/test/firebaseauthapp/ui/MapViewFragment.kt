@@ -49,7 +49,6 @@ class MapViewFragment : Fragment(), OnMapReadyCallback,
         tv_list_view.setOnClickListener {
             val view = activity!!.findViewById(R.id.navigationView) as BottomNavigationView
             view.selectedItemId = R.id.navigation_listView
-            openFragment(ListViewFragment.newInstance())
         }
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         val mapFragment = childFragmentManager.findFragmentById(R.id.fMap) as SupportMapFragment
@@ -79,12 +78,6 @@ class MapViewFragment : Fragment(), OnMapReadyCallback,
         setUpMap()
     }
 
-    private fun openFragment(fragment: Fragment) {
-        val transaction = fragmentManager!!.beginTransaction()
-        transaction.replace(R.id.container, fragment)
-        transaction.commit()
-    }
-
     private fun setUpMap() {
         if (ActivityCompat.checkSelfPermission(context!!,
                         android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
@@ -99,8 +92,7 @@ class MapViewFragment : Fragment(), OnMapReadyCallback,
             // Got last known location. In some rare situations this can be null.
             if (location != null) {
                 lastLocation = location
-//                val currentLatLng = LatLng(location.latitude, location.longitude)
-                mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(LatLng(28.2494716,-80.6850988), 9f))
+                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(LatLng(28.2494716,-80.6850988), 9f))
             }
         }
     }
@@ -112,27 +104,6 @@ class MapViewFragment : Fragment(), OnMapReadyCallback,
 
         mMap.addMarker(markerOptions)
     }
-
-//    private fun getAddress(latLng: LatLng): String {
-//        val geocoder = Geocoder(context)
-//        val addresses: List<Address>?
-//        val address: Address?
-//        var addressText = ""
-//
-//        try {
-//            addresses = geocoder.getFromLocation(latLng.latitude, latLng.longitude, 1)
-//            if (null != addresses && !addresses.isEmpty()) {
-//                address = addresses[0]
-//                for (i in 0 until address.maxAddressLineIndex) {
-//                    addressText += if (i == 0) address.getAddressLine(i) else "\n" + address.getAddressLine(i)
-//                }
-//            }
-//        } catch (e: IOException) {
-//            Log.e("MapsActivity", e.localizedMessage)
-//        }
-//
-//        return addressText
-//    }
 
     private fun startLocationUpdates() {
         if (ActivityCompat.checkSelfPermission(context!!,

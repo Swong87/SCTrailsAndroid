@@ -111,7 +111,6 @@
         android:layout_alignParentBottom="true"
         android:layout_below="@+id/topMain"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        tools:context=".ui.MapViewFragment" />
+        android:layout_marginTop="10dp" />
 
 </RelativeLayout>

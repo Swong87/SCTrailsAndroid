@@ -7,19 +7,19 @@ import java.io.IOException
 
 object TrailHelper {
 
-    val KEY_TITLE = "title"
-    val KEY_TRAIL_IMAGE = "trailImage"
-    val KEY_OVERVIEW = "overview"
-    val KEY_CAT = "cat"
-    val KEY_FILE_PATH = "filePath"
-    val KEY_STARTING_POINT_LAT = "startingPointLat"
-    val KEY_STARTING_POINT_LONG = "startingPointLong"
-    val KEY_DIFF_LEVEL = "diffLevel"
-    val KEY_LENGTH = "length"
-    val KEY_TYPE = "type"
-    val KEY_CITY = "city"
-    val KEY_IMAGES = "images"
-    val KEY_FAVOIRTE = "favorite"
+    private const val KEY_TITLE = "title"
+    private const val KEY_TRAIL_IMAGE = "trailImage"
+    private const val KEY_OVERVIEW = "overview"
+    private const val KEY_CAT = "cat"
+    private const val KEY_FILE_PATH = "filePath"
+    private const val KEY_STARTING_POINT_LAT = "startingPointLat"
+    private const val KEY_STARTING_POINT_LONG = "startingPointLong"
+    private const val KEY_DIFF_LEVEL = "diffLevel"
+    private const val KEY_LENGTH = "length"
+    private const val KEY_TYPE = "type"
+    private const val KEY_CITY = "city"
+    private const val KEY_IMAGES = "images"
+    private const val KEY_FAVORITE = "favorite"
 
     fun getTrailsFromJson(fileName: String, context: Context): ArrayList<Trail> {
 
@@ -45,7 +45,7 @@ object TrailHelper {
                 val trailType = jsonTrails.getJSONObject(index).getString(KEY_TYPE)
                 val trailCity = jsonTrails.getJSONObject(index).getString(KEY_CITY)
                 val trailImages = jsonTrails.getJSONObject(index).getJSONArray(KEY_IMAGES)
-                val trailFavorite = jsonTrails.getJSONObject(index).getBoolean(KEY_FAVOIRTE)
+                val trailFavorite = jsonTrails.getJSONObject(index).getBoolean(KEY_FAVORITE)
                 trails.add(Trail(trailTitle, trailImage, trailOverview, trailCat, trailFilePath, trailStartingPointLat, trailStartingPointLong, trailDiffLevel, trailLength, trailType, trailCity, trailImages, trailFavorite))
             }
         } catch (e: JSONException) {

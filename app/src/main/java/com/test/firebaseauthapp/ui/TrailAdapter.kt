@@ -2,38 +2,24 @@ package com.test.firebaseauthapp.ui
 
 import android.content.Context
 import android.support.v7.widget.RecyclerView
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
-import android.widget.RelativeLayout
 import android.widget.TextView
 import com.test.firebaseauthapp.R
 import com.test.firebaseauthapp.helper.Trail
 
 
-import com.test.firebaseauthapp.ui.ItemFragment.OnListFragmentInteractionListener
-
 import kotlinx.android.synthetic.main.fragment_item.view.*
 //Puts trail data into the fragment item
+
 class TrailAdapter constructor(
         private val items: ArrayList<Trail>,
         private val context: Context,
-        private val mListener: OnListFragmentInteractionListener?
+        private val clickListener: (Trail) -> Unit
 )
     : RecyclerView.Adapter<TrailAdapter.ViewHolder>() {
-
-    private val mOnClickListener: View.OnClickListener
-
-    init {
-        mOnClickListener = View.OnClickListener { v ->
-            val item = v.tag as Trail
-            mListener?.onListFragmentInteraction(item)
-            Log.d(item.filePath, "CLICK!")
-
-        }
-    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(context)
@@ -42,39 +28,26 @@ class TrailAdapter constructor(
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+        // Get item from json file
         val item = items[position]
+        // Get identifier for the item's image file
         val imageName = context.resources.getIdentifier(item.trailImage, "drawable", context.packageName)
+        // Give the view holder the title and image info
         holder.tvTrailName.text = item.title
         holder.ivTrailImage.setBackgroundResource(imageName)
-
-        with(holder.mView) {
-            tag = item
-            setOnClickListener(mOnClickListener)
-        }
+        // Give the view holder an onClick listener
+        (holder).bind(items[position], clickListener)
     }
 
     override fun getItemCount(): Int = items.size
 
-    class ViewHolder(val mView: View) : RecyclerView.ViewHolder(mView) {
+    class ViewHolder(mView: View) : RecyclerView.ViewHolder(mView) {
+        // Get the view holder's title and image
         val tvTrailName: TextView = mView.trail_name
         val ivTrailImage: ImageView = mView.trail_image
 
-        override fun toString(): String {
-            return super.toString() + " '" + ivTrailImage.background + "'"
+        fun bind(part: Trail, clickListener: (Trail) -> Unit) {
+            itemView.setOnClickListener { clickListener(part)}
         }
-
-        fun bind(items: ArrayList<Trail>, listener: ContentListener) {
-
-            // this is the click listener. It calls the onItemClicked interface method implemented in the Activity
-            itemView.setOnClickListener {
-                listener.onItemClicked(items[adapterPosition])
-            }
-        }
-
     }
-
-    interface ContentListener {
-        fun onItemClicked(item: Trail)
-    }
-
 }

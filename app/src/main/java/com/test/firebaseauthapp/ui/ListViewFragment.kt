@@ -1,5 +1,6 @@
 package com.test.firebaseauthapp.ui
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v7.widget.RecyclerView
@@ -12,14 +13,13 @@ import kotlinx.android.synthetic.main.fragment_list_view.*
 
 import android.support.v7.widget.LinearLayoutManager
 import android.support.design.widget.BottomNavigationView
+import android.util.Log
 import com.test.firebaseauthapp.helper.Trail
 
 
 class ListViewFragment : Fragment() {
-
+    // Get the recycler view
     private lateinit var recyclerView: RecyclerView
-    private var TRAILSList = ArrayList<Trail>()
-    private var listener: ItemFragment.OnListFragmentInteractionListener? = null
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
@@ -30,28 +30,30 @@ class ListViewFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
+        // Set up recyclerView with data from json file
         val llm = LinearLayoutManager(activity)
         val trails = TrailHelper.getTrailsFromJson("trails.json", context!!)
         llm.orientation = LinearLayoutManager.VERTICAL
         rv_trails_list.layoutManager = llm
-        rv_trails_list.adapter = TrailAdapter(trails, context!!, listener)
-
+        // set on click on each trail item
+        rv_trails_list.adapter = TrailAdapter(trails, context!!, { partItem : Trail -> partItemClicked(partItem) })
         recyclerView = rv_trails_list
 
+        // When Map View is clicked, change bottom nav item id to map view
         tv_map_view.setOnClickListener {
             val view = activity!!.findViewById(R.id.navigationView) as BottomNavigationView
             view.selectedItemId = R.id.navigation_mapView
-            val mapViewFragment = MapViewFragment.newInstance()
-            openFragment(mapViewFragment)
         }
 
 
     }
-
-    fun itemClicked(item: Trail) {
-
+    // When trail is clicked open trail detail fragment
+    private fun partItemClicked(partItem : Trail) {
+        Log.d(partItem.filePath, "CLICK!")
+        openFragment(DetailsFragment.newInstance(partItem.filePath, partItem.title, partItem.overview, partItem.diffLevel, partItem.city, partItem.trailImage))
     }
 
+    // Opens selected fragment
     private fun openFragment(fragment: Fragment) {
         val transaction = fragmentManager!!.beginTransaction()
         transaction.replace(R.id.container, fragment)

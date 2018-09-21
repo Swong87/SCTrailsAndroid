@@ -5,23 +5,28 @@
     android:layout_height="match_parent"
     tools:context=".ui.DetailsFragment">
 
-    <LinearLayout
+    <RelativeLayout
         android:id="@+id/heda"
         android:layout_width="match_parent"
         android:layout_height="150dp">
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/trailHero"
             android:layout_width="match_parent"
             android:layout_height="250dp"
             android:layout_gravity="center"
             android:background="@drawable/list_main_bg"
             android:contentDescription="sdfsda"
             android:visibility="visible" />
-    </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="#991f683a" />
+    </RelativeLayout>
 
     <TextView
-        android:id="@+id/topHeader"
+        android:id="@+id/detailTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -32,10 +37,10 @@
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/bottomHeader"
+        android:id="@+id/subtitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/topHeader"
+        android:layout_below="@+id/detailTitle"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center_horizontal"
         android:text="Space Coast"
@@ -61,19 +66,20 @@
                 android:layout_height="150dp" />
 
             <TextView
-                android:id="@+id/details"
+                android:id="@+id/description"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/images"
-                android:layout_margin="10dp"
-                android:text="TextView" />
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:text="Trail description goes here" />
 
             <fragment
                 android:id="@+id/fMap"
                 android:name="com.google.android.gms.maps.SupportMapFragment"
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
-                android:layout_below="@+id/details"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 tools:context=".ui.MapViewFragment" />
@@ -88,7 +94,8 @@
                     android:layout_alignParentTop="true"
                     android:layout_marginLeft="10dp"
                     android:text="VIEW FULL MAP"
-                    android:textSize="15sp" />
+                    android:textSize="15sp"
+                    android:layout_marginStart="10dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -98,7 +105,9 @@
                     android:layout_toRightOf="@+id/fullMap"
                     android:clickable="true"
                     android:focusable="true"
-                    android:text="Map It!" />
+                    android:text="Map It!"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/fullMap" />
 
                 <ImageButton
                     android:layout_width="20dp"
@@ -107,7 +116,9 @@
                     android:layout_centerVertical="true"
                     android:layout_marginRight="10dp"
                     android:background="@drawable/fav_sel"
-                    android:contentDescription="favorite icon" />
+                    android:contentDescription="favorite icon"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="10dp" />
 
             </RelativeLayout>
 
