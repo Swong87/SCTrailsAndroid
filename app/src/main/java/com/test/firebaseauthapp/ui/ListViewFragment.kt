@@ -20,6 +20,7 @@ import com.test.firebaseauthapp.helper.Trail
 class ListViewFragment : Fragment() {
     // Get the recycler view
     private lateinit var recyclerView: RecyclerView
+    private lateinit var mContent: Fragment
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
@@ -45,18 +46,28 @@ class ListViewFragment : Fragment() {
             view.selectedItemId = R.id.navigation_mapView
         }
 
+        if (savedInstanceState != null) {
+            //Restore the fragment's state here
+            mContent = fragmentManager!!.getFragment(savedInstanceState, "ListViewFragment")!!
+        }
+    }
 
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        fragmentManager!!.putFragment(outState, "ListViewFragment", mContent)
     }
     // When trail is clicked open trail detail fragment
     private fun partItemClicked(partItem : Trail) {
         Log.d(partItem.filePath, "CLICK!")
-        openFragment(DetailsFragment.newInstance(partItem.filePath, partItem.title, partItem.overview, partItem.diffLevel, partItem.city, partItem.trailImage))
+        openFragment(DetailsFragment.newInstance(partItem.filePath, partItem.title, partItem.overview, partItem.diffLevel, partItem.city, partItem.trailImage, partItem.images))
     }
 
     // Opens selected fragment
     private fun openFragment(fragment: Fragment) {
         val transaction = fragmentManager!!.beginTransaction()
+        transaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left, R.anim.exit_to_right, R.anim.enter_from_left)
         transaction.replace(R.id.container, fragment)
+        transaction.addToBackStack(null)
         transaction.commit()
     }
 

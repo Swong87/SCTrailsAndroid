@@ -15,43 +15,53 @@ import java.io.IOException
 
 class MainActivity : AppCompatActivity() {
 
-//    private lateinit var toolbar: ActionBar
+    private lateinit var mContent: Fragment
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // Makes the initial tab the list view when directed to the mainactivity
-        navigationView!!.selectedItemId = R.id.navigation_listView
-        navigationView!!.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
-        openFragment(ListViewFragment.newInstance())
-
-        val mParser = GPXParser()
-
-        var parsedGpx: Gpx? = null
-        try {
-            val `in` = assets.open("Ais_Trail.gpx")
-            parsedGpx = mParser.parse(`in`)
-        } catch (e: IOException) {
-            // do something with this exception
-            e.printStackTrace()
-        } catch (e: XmlPullParserException) {
-            e.printStackTrace()
-        }
-
-        if (parsedGpx == null) {
-            // error parsing track
+        if (savedInstanceState != null) {
+            //Restore the fragment's state here
+            mContent = supportFragmentManager.getFragment(savedInstanceState, "TabFragment")!!
         } else {
-            Log.d("Debug", "This is my log message at the debug level here")
-            // do something with the parsed track
+            // Makes the initial tab the list view when directed to the mainactivity
+            navigationView!!.selectedItemId = R.id.navigation_listView
+            navigationView!!.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
+            openFragment(ListViewFragment.newInstance())
+
+            val mParser = GPXParser()
+
+            var parsedGpx: Gpx? = null
+            try {
+                val `in` = assets.open("Ais_Trail.gpx")
+                parsedGpx = mParser.parse(`in`)
+            } catch (e: IOException) {
+                // do something with this exception
+                e.printStackTrace()
+            } catch (e: XmlPullParserException) {
+                e.printStackTrace()
+            }
+
+            if (parsedGpx == null) {
+                // error parsing track
+            } else {
+                Log.d("Debug", "This is my log message at the debug level here")
+                // do something with the parsed track
+            }
         }
     }
 
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        supportFragmentManager.putFragment(outState, "TabFragment", mContent)
+    }
 
     // Opens selected fragment
     private fun openFragment(fragment: Fragment) {
         val transaction = supportFragmentManager.beginTransaction()
         transaction.replace(R.id.container, fragment)
+        transaction.addToBackStack(null)
         transaction.commit()
     }
 

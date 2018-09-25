@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.ticofab.androidgpxparser:parser-1.2.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/parser-1.2.0.aar/c9e892f03914f079ad5cb8fcf60e3160/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/parser-1.2.0.aar/c9e892f03914f079ad5cb8fcf60e3160/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ticofab.androidgpxparser/parser/1.2.0/55ed5e8f0e076d8d0d2b2f785032728b40e5b34b/parser-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

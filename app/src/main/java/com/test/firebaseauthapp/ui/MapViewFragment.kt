@@ -25,7 +25,6 @@ import com.google.android.gms.location.*
 import com.test.firebaseauthapp.helper.TrailHelper
 import kotlinx.android.synthetic.main.fragment_map_view.*
 
-
 class MapViewFragment : Fragment(), OnMapReadyCallback,
         GoogleMap.OnMarkerClickListener {
     override fun onMarkerClick(p0: Marker?) = false
@@ -77,7 +76,6 @@ class MapViewFragment : Fragment(), OnMapReadyCallback,
 
         setUpMap()
     }
-
     private fun setUpMap() {
         if (ActivityCompat.checkSelfPermission(context!!,
                         android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {

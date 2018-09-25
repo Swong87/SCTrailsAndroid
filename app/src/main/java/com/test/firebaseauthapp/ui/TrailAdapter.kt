@@ -45,6 +45,7 @@ class TrailAdapter constructor(
         // Get the view holder's title and image
         val tvTrailName: TextView = mView.trail_name
         val ivTrailImage: ImageView = mView.trail_image
+        val tvTrailDistance: TextView = mView.trail_distance
 
         fun bind(part: Trail, clickListener: (Trail) -> Unit) {
             itemView.setOnClickListener { clickListener(part)}

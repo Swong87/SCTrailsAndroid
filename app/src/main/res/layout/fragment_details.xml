@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -49,6 +50,7 @@
         android:textStyle="italic" />
 
     <ScrollView
+        android:id="@+id/scroller"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentBottom="true"
@@ -59,11 +61,34 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
-            <android.support.v4.view.ViewPager
-                android:id="@+id/images"
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="150dp" />
+                android:layout_height="match_parent">
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/viewpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" /> <!--Image Slider-->
+                <ImageButton
+                    android:id="@+id/left_nav"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:background="@color/transparent"
+                    android:contentDescription="prev"
+                    app:srcCompat="@drawable/ic_chevron_left_white_24dp" />
+
+                <ImageButton
+                    android:id="@+id/right_nav"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center_vertical|right"
+                    android:background="@color/transparent"
+                    android:contentDescription="next"
+                    app:srcCompat="@drawable/ic_chevron_right_white_24dp" />
+            </RelativeLayout>
 
             <TextView
                 android:id="@+id/description"
@@ -72,20 +97,33 @@
                 android:layout_below="@+id/images"
                 android:layout_margin="20dp"
                 android:gravity="center"
-                android:textColor="#000000"
-                android:text="Trail description goes here" />
+                android:text="Trail description goes here"
+                android:textColor="#000000" /><!--Overview-->
 
-            <fragment
-                android:id="@+id/fMap"
-                android:name="com.google.android.gms.maps.SupportMapFragment"
+            <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
                 android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                tools:context=".ui.MapViewFragment" />
+                android:layout_marginRight="10dp">
+
+                <fragment
+                    android:id="@+id/fMap"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:context=".ui.MapViewFragment" />
+
+                <View
+                    android:id="@+id/transparentView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent" />
+            </FrameLayout><!--Map-->
+
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="80dp">
 
                 <Button
                     android:id="@+id/fullMap"
@@ -93,34 +131,34 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
                     android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
                     android:text="VIEW FULL MAP"
-                    android:textSize="15sp"
-                    android:layout_marginStart="10dp" />
+                    android:textSize="15sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_toEndOf="@+id/fullMap"
                     android:layout_toRightOf="@+id/fullMap"
                     android:clickable="true"
                     android:focusable="true"
-                    android:text="Map It!"
-                    android:layout_marginStart="20dp"
-                    android:layout_toEndOf="@+id/fullMap" />
+                    android:text="Map It!" />
 
                 <ImageButton
                     android:layout_width="20dp"
                     android:layout_height="20dp"
+                    android:layout_alignParentEnd="true"
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
                     android:layout_marginRight="10dp"
                     android:background="@drawable/fav_sel"
-                    android:contentDescription="favorite icon"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginEnd="10dp" />
+                    android:contentDescription="favorite icon" />
 
-            </RelativeLayout>
+            </RelativeLayout><!--Bottom Container-->
 
         </LinearLayout>
     </ScrollView>
