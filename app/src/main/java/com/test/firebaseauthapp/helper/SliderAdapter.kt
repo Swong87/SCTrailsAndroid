@@ -9,7 +9,7 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import com.test.firebaseauthapp.R
 
-class SliderAdapter(var context: Context, var images: Array<Int>) : PagerAdapter() {
+class SliderAdapter(var context: Context, var images: ArrayList<Int>) : PagerAdapter() {
     private lateinit var inflater:LayoutInflater
 
     override fun isViewFromObject(view: View, any: Any): Boolean = view == any as LinearLayout

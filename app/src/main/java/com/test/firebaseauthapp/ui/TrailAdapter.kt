@@ -7,7 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import com.google.android.gms.maps.model.LatLng
 import com.test.firebaseauthapp.R
+import com.test.firebaseauthapp.R.id.unit
 import com.test.firebaseauthapp.helper.Trail
 
 
@@ -17,6 +19,7 @@ import kotlinx.android.synthetic.main.fragment_item.view.*
 class TrailAdapter constructor(
         private val items: ArrayList<Trail>,
         private val context: Context,
+        private val userLocation: LatLng,
         private val clickListener: (Trail) -> Unit
 )
     : RecyclerView.Adapter<TrailAdapter.ViewHolder>() {
@@ -35,14 +38,41 @@ class TrailAdapter constructor(
         // Give the view holder the title and image info
         holder.tvTrailName.text = item.title
         holder.ivTrailImage.setBackgroundResource(imageName)
-        // Give the view holder an onClick listener
+        val trailStartPoint = LatLng(item.startingPointLat, item.startingPointLong)
+        val set = "%.2f"
+        holder.tvTrailDistance.text = set.format(distance(userLocation, trailStartPoint))
+        // Give the view holder an onClick listener attached to a specific trail
         (holder).bind(items[position], clickListener)
     }
 
     override fun getItemCount(): Int = items.size
 
+    private fun distance(loc: LatLng, dest: LatLng): Double {
+        val theta = loc.longitude - dest.longitude
+        var dist = Math.sin(deg2rad(loc.latitude)) * Math.sin(deg2rad(dest.latitude)) + Math.cos(deg2rad(loc.latitude)) * Math.cos(deg2rad(dest.latitude)) * Math.cos(deg2rad(theta))
+        dist = Math.acos(dist)
+        dist = rad2deg(dist)
+        dist *= 60.0 * 1.1515
+
+        return dist
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    /*::    This function converts decimal degrees to radians                        :*/
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    private fun deg2rad(deg: Double): Double {
+        return deg * Math.PI / 180.0
+    }
+
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    /*::    This function converts radians to decimal degrees                        :*/
+    /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+    private fun rad2deg(rad: Double): Double {
+        return rad * 180 / Math.PI
+    }
+
     class ViewHolder(mView: View) : RecyclerView.ViewHolder(mView) {
-        // Get the view holder's title and image
+        // Get the view holder's title, image, distance
         val tvTrailName: TextView = mView.trail_name
         val ivTrailImage: ImageView = mView.trail_image
         val tvTrailDistance: TextView = mView.trail_distance

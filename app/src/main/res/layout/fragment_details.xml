@@ -5,12 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.DetailsFragment">
-
+    <!--Header-->
     <RelativeLayout
         android:id="@+id/heda"
         android:layout_width="match_parent"
         android:layout_height="150dp">
-
+        <!--Image for banner-->
         <ImageView
             android:id="@+id/trailHero"
             android:layout_width="match_parent"
@@ -19,36 +19,38 @@
             android:background="@drawable/list_main_bg"
             android:contentDescription="sdfsda"
             android:visibility="visible" />
-
+        <!--Green Overlay for image-->
         <View
             android:layout_width="match_parent"
             android:layout_height="250dp"
             android:background="#991f683a" />
+        <!--Trail Name-->
+        <TextView
+            android:id="@+id/detailTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentBottom="false"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:text="Trail Name"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+        <!--Trail Location-->
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detailTitle"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:text="Space Coast"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="italic" />
     </RelativeLayout>
 
-    <TextView
-        android:id="@+id/detailTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="29dp"
-        android:text="Trail Name"
-        android:textColor="#ffffff"
-        android:textSize="30sp" />
-
-    <TextView
-        android:id="@+id/subtitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/detailTitle"
-        android:layout_centerHorizontal="true"
-        android:layout_gravity="center_horizontal"
-        android:text="Space Coast"
-        android:textColor="@android:color/white"
-        android:textSize="20sp"
-        android:textStyle="italic" />
-
+    <!--Scroll Area-->
     <ScrollView
         android:id="@+id/scroller"
         android:layout_width="match_parent"
@@ -61,35 +63,47 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-            <RelativeLayout
+            <!--Image container to crop image in slider-->
+            <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
-                <android.support.v4.view.ViewPager
-                    android:id="@+id/viewpager"
+                android:layout_height="200dp">
+
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="200dp" /> <!--Image Slider-->
-                <ImageButton
-                    android:id="@+id/left_nav"
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:layout_alignParentLeft="true"
-                    android:layout_centerVertical="true"
-                    android:background="@color/transparent"
-                    android:contentDescription="prev"
-                    app:srcCompat="@drawable/ic_chevron_left_white_24dp" />
-
-                <ImageButton
-                    android:id="@+id/right_nav"
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:layout_alignParentRight="true"
-                    android:layout_centerInParent="true"
-                    android:layout_gravity="center_vertical|right"
-                    android:background="@color/transparent"
-                    android:contentDescription="next"
-                    app:srcCompat="@drawable/ic_chevron_right_white_24dp" />
-            </RelativeLayout>
-
+                    android:layout_height="300dp"
+                    android:layout_gravity="center">
+                    <!--Image Slider-->
+                    <android.support.v4.view.ViewPager
+                        android:id="@+id/viewpager"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <!--Prev Arrow-->
+                    <ImageButton
+                        android:id="@+id/left_nav"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="20dp"
+                        android:background="@color/transparent"
+                        android:contentDescription="prev"
+                        app:srcCompat="@drawable/arrow_prev" />
+                    <!--Next Arrow-->
+                    <ImageButton
+                        android:id="@+id/right_nav"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_margin="20dp"
+                        android:background="@color/transparent"
+                        android:contentDescription="next"
+                        app:srcCompat="@drawable/arrow_next" />
+                </RelativeLayout>
+            </FrameLayout>
+            <!--Overview-->
             <TextView
                 android:id="@+id/description"
                 android:layout_width="match_parent"
@@ -98,8 +112,43 @@
                 android:layout_margin="20dp"
                 android:gravity="center"
                 android:text="Trail description goes here"
-                android:textColor="#000000" /><!--Overview-->
+                android:textColor="#000000" />
 
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+                <!--Difficulty level-->
+                <Button
+                    android:id="@+id/difficulty"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/green_btn"
+                    android:clickable="false"
+                    android:text="DIFFICULTY"
+                    android:textColor="#fff" />
+                <!--Path Image-->
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_toRightOf="@+id/difficulty"
+                    android:background="@drawable/marker" />
+                <!--Length of Trail-->
+                <TextView
+                    android:id="@+id/trail_length"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="Length"
+                    android:textFontWeight="bold"
+                    android:textColor="@color/colorPrimary" />
+
+            </RelativeLayout>
+            <!--Map-->
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
@@ -118,13 +167,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@android:color/transparent" />
-            </FrameLayout><!--Map-->
-
+            </FrameLayout>
+            <!--Buttons below map-->
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="80dp">
-
+                <!--View Full Map button-->
                 <Button
                     android:id="@+id/fullMap"
                     android:layout_width="wrap_content"
@@ -134,7 +183,7 @@
                     android:layout_marginStart="10dp"
                     android:text="VIEW FULL MAP"
                     android:textSize="15sp" />
-
+                <!--Map it! clickable text-->
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -146,7 +195,7 @@
                     android:clickable="true"
                     android:focusable="true"
                     android:text="Map It!" />
-
+                <!--Favorite Button-->
                 <ImageButton
                     android:layout_width="20dp"
                     android:layout_height="20dp"
@@ -158,11 +207,10 @@
                     android:background="@drawable/fav_sel"
                     android:contentDescription="favorite icon" />
 
-            </RelativeLayout><!--Bottom Container-->
+            </RelativeLayout>
 
         </LinearLayout>
+
     </ScrollView>
-
-
 
 </RelativeLayout>

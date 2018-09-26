@@ -10,13 +10,9 @@ import android.os.Bundle
 import android.support.v4.app.ActivityCompat
 import android.support.v4.app.Fragment
 import android.support.v4.view.PagerAdapter
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageButton
-import android.widget.Toast
-import com.beust.klaxon.JsonArray
 import com.google.android.gms.common.api.ResolvableApiException
 import com.google.android.gms.location.*
 import com.google.android.gms.maps.CameraUpdateFactory
@@ -25,7 +21,6 @@ import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.*
 import com.test.firebaseauthapp.R
-import com.test.firebaseauthapp.R.id.images
 import com.test.firebaseauthapp.helper.SliderAdapter
 import io.ticofab.androidgpxparser.parser.GPXParser
 import org.jetbrains.anko.async
@@ -33,9 +28,8 @@ import org.jetbrains.anko.uiThread
 import org.xmlpull.v1.XmlPullParserException
 import io.ticofab.androidgpxparser.parser.domain.Gpx
 import kotlinx.android.synthetic.main.fragment_details.*
-import org.json.JSONArray
-import org.json.JSONObject
 import java.io.IOException
+import kotlin.collections.ArrayList
 
 
 class DetailsFragment : Fragment(), OnMapReadyCallback,
@@ -62,32 +56,26 @@ class DetailsFragment : Fragment(), OnMapReadyCallback,
         val fileTitle = arguments!!.getString("fileTitle")
         val fileOverview = arguments!!.getString("fileOverview")
         val fileDiffLevel = arguments!!.getString("fileDiffLevel")
+        val fileLength = arguments!!.getString("fileLength")
         val fileCity = arguments!!.getString("fileCity")
         val fileImage = arguments!!.getString("fileImage")
-        val fileImagesArray = arguments!!.getString("fileImagesArray")
-//        val strippedString = fileImagesArray.slice(IntRange(1, fileImagesArray.length-2)).split(,)
-        val imagesArray: IntArray = intArrayOf()
+        val fileImagesArray = arguments!!.getIntegerArrayList("fileImagesArray")!!
 
-        val resultJson = JSONObject(fileImagesArray)
-        val resultArray = resultJson.getJSONArray("results")
-
-//        for (i in 0 until strippedString.length - 1){
-//            resources.getIdentifier(strippedString[i], "drawable", context!!.packageName)
-//        }
-        Log.e("HERE", resultJson.toString())
-//        val mappedArray = strippedString.map { it.toInt() }.toTypedArray()
+//        Log.e("HERE", resultJson.toString())
 
         detailTitle.text = fileTitle
         subtitle.text = fileCity
         description.text = fileOverview
-
+        difficulty.text = fileDiffLevel
+        trail_length.text = fileLength
+        // Get the Int resource value for the image file
         val imageName = resources.getIdentifier(fileImage, "drawable", context!!.packageName)
+        // Set the image in the hero banner for the Trail detail fragment
         trailHero.setBackgroundResource(imageName)
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         val mapFragment = childFragmentManager.findFragmentById(R.id.fMap) as SupportMapFragment
         mapFragment.getMapAsync(this)
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(activity!!)
-
         locationCallback = object : LocationCallback() {
             override fun onLocationResult(p0: LocationResult) {
                 super.onLocationResult(p0)
@@ -96,9 +84,10 @@ class DetailsFragment : Fragment(), OnMapReadyCallback,
 //                placeMarkerOnMap(LatLng(lastLocation.latitude, lastLocation.longitude), "You are here")
             }
         }
+
         createLocationRequest()
-        val images: Array<Int> = arrayOf(R.drawable.c2c1, R.drawable.c2c2)
-        val adapter: PagerAdapter = SliderAdapter(this.context!!, images)
+        // Link the slider adapter to the Page Viewer
+        val adapter: PagerAdapter = SliderAdapter(this.context!!, fileImagesArray)
         viewpager.adapter = adapter
 
         left_nav.setOnClickListener {
@@ -107,12 +96,12 @@ class DetailsFragment : Fragment(), OnMapReadyCallback,
                 tab--
                 viewpager.currentItem = tab
             } else if (tab < 1) {
-                viewpager.currentItem = images.size -1
+                viewpager.currentItem = fileImagesArray.size -1
             }
         }
         right_nav.setOnClickListener {
             var tab = viewpager.currentItem
-            if (tab < images.size - 1) {
+            if (tab < fileImagesArray.size - 1) {
                 tab++
                 viewpager.currentItem = tab
             } else {
@@ -282,22 +271,20 @@ class DetailsFragment : Fragment(), OnMapReadyCallback,
                         fileTitle: String,
                         fileOverview: String,
                         fileDiffLevel: String,
+                        fileLength: String,
                         fileCity: String,
                         fileImage: String,
-                        fileImagesArray: JSONArray
+                        fileImagesArray: ArrayList<Int>
         ): DetailsFragment {
             val args = Bundle()
-
-
-
             args.putString("fileName", fileName)
             args.putString("fileTitle", fileTitle)
             args.putString("fileOverview", fileOverview)
             args.putString("fileDiffLevel", fileDiffLevel)
+            args.putString("fileLength", fileLength)
             args.putString("fileCity", fileCity)
             args.putString("fileImage", fileImage)
-
-            args.putParcelableArray("fileImagesArray", arrayOf(fileImagesArray))
+            args.putIntegerArrayList("fileImagesArray", fileImagesArray)
 
             val fragment = DetailsFragment()
             fragment.arguments = args

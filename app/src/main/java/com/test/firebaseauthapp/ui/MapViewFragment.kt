@@ -59,7 +59,7 @@ class MapViewFragment : Fragment(), OnMapReadyCallback,
                 super.onLocationResult(p0)
 
                 lastLocation = p0.lastLocation
-//                placeMarkerOnMap(LatLng(lastLocation.latitude, lastLocation.longitude), "You are here")
+                placeMarkerOnMap(LatLng(lastLocation.latitude, lastLocation.longitude), "You are here")
             }
         }
         createLocationRequest()
