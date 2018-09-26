@@ -14,8 +14,10 @@ import android.support.v4.app.Fragment
 import android.support.v4.view.PagerAdapter
 import android.util.Log
 import android.view.LayoutInflater
+import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ScrollView
 import com.google.android.gms.common.api.ResolvableApiException
 import com.google.android.gms.location.*
 import com.google.android.gms.maps.CameraUpdateFactory
@@ -68,6 +70,24 @@ class DetailsFragment : Fragment(), OnMapReadyCallback,
         val startingLat = arguments!!.getDouble("startingLat")
         val startingLon = arguments!!.getDouble("startingLon")
         val fileImagesArray = arguments!!.getIntegerArrayList("fileImagesArray")!!
+
+        transparentView.setOnTouchListener { view, event->
+            when (event.action) {
+                MotionEvent.ACTION_DOWN -> {
+                    scroller.requestDisallowInterceptTouchEvent(true)
+                    return@setOnTouchListener  false
+                }
+                MotionEvent.ACTION_UP -> {
+                    scroller.requestDisallowInterceptTouchEvent(false)
+                    return@setOnTouchListener  true
+                }
+                else -> {
+                    scroller.requestDisallowInterceptTouchEvent(false)
+                    return@setOnTouchListener  true
+                }
+            }
+
+        }
 
 //        Log.e("HERE", resultJson.toString())
 

@@ -240,13 +240,13 @@
         </LinearLayout>
 
     </ScrollView>
-
+    <!--Hidden Full Map View-->
     <RelativeLayout
         android:id="@+id/hiddenMap"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:translationY="1000dp">
-
+        <!--Close Button-->
         <RelativeLayout
             android:id="@+id/closebtn"
             android:layout_width="match_parent"
@@ -264,12 +264,12 @@
                 android:text="Close"
                 android:textColor="#fff" />
         </RelativeLayout>
-
+        <!--Frame for the Map-->
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@+id/closebtn">
-
+            <!--Map-->
             <fragment
                 android:id="@+id/allMap"
                 android:name="com.google.android.gms.maps.SupportMapFragment"
