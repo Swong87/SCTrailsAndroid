@@ -6,10 +6,13 @@ import android.content.IntentSender
 import android.content.pm.PackageManager
 import android.graphics.Color
 import android.location.Location
+import android.net.Uri
 import android.os.Bundle
+import android.support.design.widget.BottomNavigationView
 import android.support.v4.app.ActivityCompat
 import android.support.v4.app.Fragment
 import android.support.v4.view.PagerAdapter
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -28,7 +31,10 @@ import org.jetbrains.anko.uiThread
 import org.xmlpull.v1.XmlPullParserException
 import io.ticofab.androidgpxparser.parser.domain.Gpx
 import kotlinx.android.synthetic.main.fragment_details.*
+import org.jetbrains.anko.startActivity
 import java.io.IOException
+import java.lang.Exception
+import java.util.*
 import kotlin.collections.ArrayList
 
 
@@ -59,6 +65,8 @@ class DetailsFragment : Fragment(), OnMapReadyCallback,
         val fileLength = arguments!!.getString("fileLength")
         val fileCity = arguments!!.getString("fileCity")
         val fileImage = arguments!!.getString("fileImage")
+        val startingLat = arguments!!.getDouble("startingLat")
+        val startingLon = arguments!!.getDouble("startingLon")
         val fileImagesArray = arguments!!.getIntegerArrayList("fileImagesArray")!!
 
 //        Log.e("HERE", resultJson.toString())
@@ -74,18 +82,22 @@ class DetailsFragment : Fragment(), OnMapReadyCallback,
         trailHero.setBackgroundResource(imageName)
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         val mapFragment = childFragmentManager.findFragmentById(R.id.fMap) as SupportMapFragment
+        val allMapFragment = childFragmentManager.findFragmentById(R.id.allMap) as SupportMapFragment
         mapFragment.getMapAsync(this)
+
+
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(activity!!)
         locationCallback = object : LocationCallback() {
             override fun onLocationResult(p0: LocationResult) {
                 super.onLocationResult(p0)
 
                 lastLocation = p0.lastLocation
-//                placeMarkerOnMap(LatLng(lastLocation.latitude, lastLocation.longitude), "You are here")
+                placeMarkerOnMap(LatLng(lastLocation.latitude, lastLocation.longitude), "You are here")
             }
         }
 
         createLocationRequest()
+
         // Link the slider adapter to the Page Viewer
         val adapter: PagerAdapter = SliderAdapter(this.context!!, fileImagesArray)
         viewpager.adapter = adapter
@@ -107,6 +119,25 @@ class DetailsFragment : Fragment(), OnMapReadyCallback,
             } else {
                 viewpager.currentItem = 0
             }
+        }
+
+        // When Map It! is clicked, open maps app with specified location
+        mapit!!.setOnClickListener {
+            try {
+                val uri = Uri.parse("geo:$startingLat,$startingLon?q=$startingLat,$startingLon($fileTitle)")
+                val intent = Intent(android.content.Intent.ACTION_VIEW, uri)
+                startActivity(intent)
+            } catch (e:Exception) {
+                Log.e("HERE", e.toString())
+            }
+
+        }
+        fullMap.setOnClickListener {
+            allMapFragment.getMapAsync(this)
+            hiddenMap!!.animate().translationY(0.toFloat())
+        }
+        closebtn!!.setOnClickListener {
+            hiddenMap!!.animate().translationY(hiddenMap!!.height.toFloat())
         }
     }
     override fun onMapReady(googleMap: GoogleMap) {
@@ -182,6 +213,14 @@ class DetailsFragment : Fragment(), OnMapReadyCallback,
             }
         }
         setUpMap()
+    }
+
+    private fun placeMarkerOnMap(location: LatLng, title: String) {
+        val markerOptions = MarkerOptions().position(location)
+
+        markerOptions.title(title)
+
+        mMap.addMarker(markerOptions)
     }
     private fun setUpMap() {
         if (ActivityCompat.checkSelfPermission(context!!,
@@ -259,6 +298,16 @@ class DetailsFragment : Fragment(), OnMapReadyCallback,
         fusedLocationClient.removeLocationUpdates(locationCallback)
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        fusedLocationClient.removeLocationUpdates(locationCallback)
+    }
+
+    override fun onLowMemory() {
+        super.onLowMemory()
+        fusedLocationClient.removeLocationUpdates(locationCallback)
+    }
+
     override fun onResume() {
         super.onResume()
         if (!locationUpdateState) {
@@ -274,6 +323,8 @@ class DetailsFragment : Fragment(), OnMapReadyCallback,
                         fileLength: String,
                         fileCity: String,
                         fileImage: String,
+                        startingLat: Double,
+                        startingLon: Double,
                         fileImagesArray: ArrayList<Int>
         ): DetailsFragment {
             val args = Bundle()
@@ -284,6 +335,8 @@ class DetailsFragment : Fragment(), OnMapReadyCallback,
             args.putString("fileLength", fileLength)
             args.putString("fileCity", fileCity)
             args.putString("fileImage", fileImage)
+            args.putDouble("startingLat", startingLat)
+            args.putDouble("startingLon", startingLon)
             args.putIntegerArrayList("fileImagesArray", fileImagesArray)
 
             val fragment = DetailsFragment()

@@ -12,9 +12,10 @@
     tools:context=".ui.ListViewFragment"
     android:clickable="true"
     android:focusable="true">
+
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="120dp">
+        android:layout_height="140dp">
 
         <ImageView
             android:id="@+id/trail_image"
@@ -53,26 +54,26 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
+                android:layout_marginEnd="5dp"
                 android:layout_marginRight="5dp"
-                android:layout_toLeftOf="@+id/unit"
                 android:layout_toStartOf="@+id/unit"
+                android:layout_toLeftOf="@+id/unit"
                 android:text="@string/_2468_55"
                 android:textColor="@android:color/white"
-                android:textSize="12sp"
-                android:layout_marginEnd="5dp" />
+                android:textSize="12sp" />
 
             <TextView
                 android:id="@+id/unit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
                 android:layout_marginRight="10dp"
                 android:text="@string/mi_away"
                 android:textColor="@android:color/white"
-                android:textSize="12sp"
-                android:layout_alignParentEnd="true"
-                android:layout_marginEnd="10dp" />
+                android:textSize="12sp" />
 
         </RelativeLayout>
     </FrameLayout>

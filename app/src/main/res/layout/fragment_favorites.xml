@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.FavoritesFragment">
-
-    <LinearLayout
+    <!--Head Banner-->
+    <RelativeLayout
+        android:id="@+id/fav_top"
         android:layout_width="match_parent"
         android:layout_height="150dp">
-
+        <!--Head image-->
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="match_parent"
@@ -17,35 +18,58 @@
             android:background="@drawable/list_main_bg"
             android:contentDescription="sdfsda"
             android:visibility="visible" />
-    </LinearLayout>
+
+        <TextView
+            android:id="@+id/topHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Your Favorite Trails"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/bottomHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/topHeader"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/heart_icon" />
+    </RelativeLayout>
 
     <TextView
-        android:id="@+id/topHeader"
+        android:id="@+id/sortby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fav_top"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        android:text="SORT BY RECENT"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="35dp"
-        android:text="Your Favorite Trails"
-        android:textColor="@android:color/white"
-        android:textSize="30sp"
-        android:textStyle="italic" />
+        android:layout_below="@+id/sortby">
 
-    <ImageView
-        android:id="@+id/bottomHeader"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="75dp"
-        android:background="@drawable/heart_icon" />
+        <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/rv_trails_list"
+            android:name="com.test.firebaseauthapp.ui.ItemFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            tools:context=".ui.ItemFragment"
+            tools:listitem="@layout/fragment_item" />
+    </ScrollView>
 
-</FrameLayout>
+
+
+</RelativeLayout>

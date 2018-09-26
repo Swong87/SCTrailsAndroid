@@ -19,7 +19,6 @@ import com.google.android.gms.location.LocationServices
 import com.google.android.gms.maps.model.LatLng
 import com.test.firebaseauthapp.helper.Trail
 
-
 class ListViewFragment : Fragment() {
     // Get the recycler view
     private lateinit var recyclerView: RecyclerView
@@ -88,7 +87,18 @@ class ListViewFragment : Fragment() {
         }
 //        Log.e("HERE", list.toString())
         // Pass data of selected Trail into the Details fragment
-        openFragment(DetailsFragment.newInstance(partItem.filePath, partItem.title, partItem.overview, partItem.diffLevel, partItem.length.toString(), partItem.city, partItem.trailImage, list))
+        openFragment(DetailsFragment.newInstance(
+                partItem.filePath,
+                partItem.title,
+                partItem.overview,
+                partItem.diffLevel,
+                partItem.length.toString(),
+                partItem.city,
+                partItem.trailImage,
+                partItem.startingPointLat,
+                partItem.startingPointLong,
+                list
+        ))
     }
 
     // Opens selected fragment
