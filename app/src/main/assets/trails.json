@@ -13,7 +13,7 @@
       "type": "Loop",
       "city": "Space Coast",
       "images":["c2c1", "c2c2", "c2c3", "c2c4", "c2c5", "c2c6"],
-      "favorite":false
+      "favorite": false
     },
     {
       "title":"Sea Loop Trail",
@@ -28,7 +28,7 @@
       "type": "Loop",
       "city": "Space Coast",
       "images":["sealoop1", "sealoop2", "sealoop3", "sealoop4", "sealoop5", "sealoop6"],
-      "favorite":false
+      "favorite": false
     },
     {
       "title":"Heritage Trail",
@@ -43,7 +43,7 @@
       "type": "Loop",
       "city": "Space Coast",
       "images":["stjohns1", "stjohns2", "stjohns3", "stjohns4", "stjohns5", "stjohns6"],
-      "favorite":false
+      "favorite": false
     },
     {
       "title":"AI Tuttle Trail",
@@ -58,7 +58,7 @@
       "type": "Loop",
       "city": "Space Coast",
       "images":["tuttle1", "tuttle2", "tuttle3", "tuttle4", "tuttle5", "tuttle6"],
-      "favorite":false
+      "favorite": false
     },
     {
       "title":"Pioneer Trail",
@@ -73,7 +73,7 @@
       "type": "Loop",
       "city": "Merrit Island",
       "images":["pioneer1", "pioneer2", "pioneer3", "pioneer4", "pioneer5", "pioneer6"],
-      "favorite":false
+      "favorite": false
     },
     {
       "title":"East Coast Greenway Trail",
@@ -88,7 +88,7 @@
       "type": "Loop",
       "city": "Space Coast",
       "images":["greenway1", "greenway2", "greenway3", "greenway4", "greenway5", "greenway6"],
-      "favorite":false
+      "favorite": false
     },
     {
       "title":"Brevard Zoo Trail",
@@ -103,7 +103,7 @@
       "type": "Loop",
       "city": "Mims",
       "images":["zoo1", "zoo2", "zoo3", "zoo4", "zoo5", "zoo6"],
-      "favorite":false
+      "favorite": false
     },
     {
       "title":"Pine Island Trail",
@@ -118,7 +118,7 @@
       "type": "Loop",
       "city": "Merrit Island",
       "images":["pine1", "pine2", "pine3", "pine4", "pine5", "pine6"],
-      "favorite":false
+      "favorite": false
     },
     {
       "title":"Ais Trail",
@@ -133,7 +133,7 @@
       "type": "Loop",
       "city": "Palm Bay",
       "images":["ais1", "ais2", "ais3", "ais4", "ais5", "ais6"],
-      "favorite":false
+      "favorite": false
     },
     {
       "title":"Canaveral Conservation Trail",
@@ -148,7 +148,7 @@
       "type": "Loop",
       "city": "Titusville",
       "images":["canaveral1", "canaveral2", "canaveral3", "canaveral4", "canaveral5", "canaveral6"],
-      "favorite":false
+      "favorite": false
     },
     {
       "title":"Enchanted Forest Trail",
@@ -163,7 +163,7 @@
       "type": "Loop",
       "city": "Melbourne",
       "images":["enchanted1", "enchanted2", "enchanted3", "enchanted4", "enchanted5", "enchanted6"],
-      "favorite":false
+      "favorite": false
     },
     {
       "title":"Erna Nixon Trail",
@@ -178,7 +178,7 @@
       "type": "Loop",
       "city": "Melbourne",
       "images":["erna1", "erna2", "erna3", "erna4", "erna5", "erna6"],
-      "favorite":false
+      "favorite": false
     },
     {
       "title":"Fay Lake Wilderness Trail",
@@ -193,7 +193,7 @@
       "type": "Loop",
       "city": "Port St. John",
       "images":["faye1", "faye2", "faye3", "faye4", "faye5", "faye6"],
-      "favorite":false
+      "favorite": false
     },
     {
       "title":"Lori Wilson Trail",
@@ -208,7 +208,7 @@
       "type": "Loop",
       "city": "Cocoa Beach",
       "images":["lori1", "lori2", "lori3", "lori4", "lori5", "lori6"],
-      "favorite":false
+      "favorite": false
     },
     {
       "title":"Malabar Sanctuary Trail",
@@ -223,7 +223,7 @@
       "type": "Loop",
       "city": "Malabar",
       "images":["malabar1", "malabar2", "malabar3", "malabar4", "malabar5", "malabar6"],
-      "favorite":false
+      "favorite": false
     },
     {
       "title":"Ritch Grissom Trail",
@@ -238,7 +238,7 @@
       "type": "Loop",
       "city": "Rockledge",
       "images":["ritch1", "ritch2", "ritch3", "ritch4", "ritch5", "ritch6"],
-      "favorite":false
+      "favorite": false
     },
     {
       "title":"Rotary Park Merrit Island Trail",
@@ -253,7 +253,7 @@
       "type": "Loop",
       "city": "Merrit Island",
       "images":["rotary1", "rotary2", "rotary3", "rotary4", "rotary5", "rotary6"],
-      "favorite":false
+      "favorite": false
     },
     {
       "title":"Salt Lake Trail",
@@ -268,7 +268,7 @@
       "type": "Loop",
       "city": "Mims",
       "images":["salt1", "salt2", "salt3", "salt4", "salt5", "salt6"],
-      "favorite":false
+      "favorite": false
     },
     {
       "title":"Wickham Park Trail",
@@ -283,7 +283,7 @@
       "type": "Loop",
       "city": "Melbourne",
       "images":["wickham1", "wickham2", "wickham3", "wickham4", "wickham5", "wickham6"],
-      "favorite":false
+      "favorite": false
     },
     {
       "title":"Wuesthoff Park",
@@ -298,7 +298,7 @@
       "type": "Loop",
       "city": "Titusville",
       "images":["wuesthoff1", "wuesthoff2", "wuesthoff3", "wuesthoff4", "wuesthoff5", "wuesthoff6", "wuesthoff7"],
-      "favorite":false
+      "favorite": false
     }
 
   ]

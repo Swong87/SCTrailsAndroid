@@ -26,6 +26,7 @@
             android:visibility="visible" />
 
         <ImageButton
+            android:id="@+id/fav_icon"
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:layout_gravity="right"

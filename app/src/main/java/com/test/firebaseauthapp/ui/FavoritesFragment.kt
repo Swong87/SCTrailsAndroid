@@ -84,6 +84,7 @@ class FavoritesFragment : Fragment() {
                 partItem.trailImage,
                 partItem.startingPointLat,
                 partItem.startingPointLong,
+                partItem.favorite,
                 list
         ))
     }

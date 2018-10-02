@@ -19,7 +19,7 @@
         android:theme="@style/AppTheme"
         android:allowBackup="false">
         <activity
-            android:name=".ui.MainActivity"
+            android:name=".ui.LandingActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,7 +28,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.LandingActivity"
+            android:name=".ui.MainActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".ui.LoginActivity"

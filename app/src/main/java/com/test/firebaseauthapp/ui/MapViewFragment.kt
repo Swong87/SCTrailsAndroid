@@ -45,6 +45,8 @@ class MapViewFragment : Fragment(), OnMapReadyCallback,
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
+        createLocationRequest()
+
         tv_list_view.setOnClickListener {
             val view = activity!!.findViewById(R.id.navigationView) as BottomNavigationView
             view.selectedItemId = R.id.navigation_listView
@@ -62,7 +64,6 @@ class MapViewFragment : Fragment(), OnMapReadyCallback,
                 placeMarkerOnMap(LatLng(lastLocation.latitude, lastLocation.longitude), "You are here")
             }
         }
-        createLocationRequest()
     }
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
@@ -90,9 +91,9 @@ class MapViewFragment : Fragment(), OnMapReadyCallback,
             // Got last known location. In some rare situations this can be null.
             if (location != null) {
                 lastLocation = location
-                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(LatLng(28.2494716,-80.6850988), 9f))
             }
         }
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(LatLng(28.2494716,-80.6850988), 9f))
     }
 
     private fun placeMarkerOnMap(location: LatLng, title: String) {

@@ -25,23 +25,32 @@ import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.*
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.*
 import com.test.firebaseauthapp.R
+import com.test.firebaseauthapp.TrailModel
 import com.test.firebaseauthapp.helper.SliderAdapter
+import com.test.firebaseauthapp.helper.Trail
 import io.ticofab.androidgpxparser.parser.GPXParser
 import org.jetbrains.anko.async
 import org.jetbrains.anko.uiThread
 import org.xmlpull.v1.XmlPullParserException
 import io.ticofab.androidgpxparser.parser.domain.Gpx
 import kotlinx.android.synthetic.main.fragment_details.*
+import kotlinx.android.synthetic.main.fragment_profile.view.*
 import org.jetbrains.anko.startActivity
 import java.io.IOException
 import java.lang.Exception
 import java.util.*
 import kotlin.collections.ArrayList
 
-
 class DetailsFragment : Fragment(), OnMapReadyCallback,
         GoogleMap.OnMarkerClickListener {
+
+//    Firebase references
+    private var mDatabaseReference: DatabaseReference? = null
+    private var mDatabase: FirebaseDatabase? = null
+    private var mAuth: FirebaseAuth? = null
 
     override fun onMarkerClick(p0: Marker?) = false
 
@@ -61,6 +70,15 @@ class DetailsFragment : Fragment(), OnMapReadyCallback,
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
+        mDatabase = FirebaseDatabase.getInstance()
+        mDatabaseReference = mDatabase!!.reference.child("Users")
+        mAuth = FirebaseAuth.getInstance()
+        val mUser = mAuth!!.currentUser
+        val mUserReference = mDatabaseReference!!.child(mUser!!.uid)
+
+        val userId = mAuth!!.currentUser!!.uid
+        val currentUserDb = mDatabaseReference!!.child(userId)
+
         val fileTitle = arguments!!.getString("fileTitle")
         val fileOverview = arguments!!.getString("fileOverview")
         val fileDiffLevel = arguments!!.getString("fileDiffLevel")
@@ -70,6 +88,7 @@ class DetailsFragment : Fragment(), OnMapReadyCallback,
         val startingLat = arguments!!.getDouble("startingLat")
         val startingLon = arguments!!.getDouble("startingLon")
         val fileImagesArray = arguments!!.getIntegerArrayList("fileImagesArray")!!
+        var isFavorite = arguments!!.getBoolean("isFavorite")
 
         transparentView.setOnTouchListener { view, event->
             when (event.action) {
@@ -158,6 +177,37 @@ class DetailsFragment : Fragment(), OnMapReadyCallback,
         }
         closebtn!!.setOnClickListener {
             hiddenMap!!.animate().translationY(hiddenMap!!.height.toFloat())
+        }
+//        mUserReference.addValueEventListener(object : ValueEventListener {
+//            override fun onDataChange(snapshot: DataSnapshot) {
+//                view.tv_name.text = snapshot.child("name").value as String
+//                if(snapshot.child("")){
+//                    favButton!!.setBackgroundResource(resources.getIdentifier("heart_icon", "drawable", context!!.packageName))
+//                } else {
+//                    favButton!!.setBackgroundResource(resources.getIdentifier("fav_sel", "drawable", context!!.packageName))
+//                }
+//            }
+//            override fun onCancelled(databaseError: DatabaseError) {}
+//        })
+
+        favButton!!.setOnClickListener {
+            isFavorite = if(isFavorite){
+                isFavorite = false
+                favButton!!.setBackgroundResource(resources.getIdentifier("fav_sel", "drawable", context!!.packageName))
+//                val selectedTrail = TrailModel(fileTitle!!,fileImage!!,fileOverview!!,fileLength!!,fileCity!!,startingLat, startingLon, fileImagesArray, isFavorite)
+//                val key = currentUserDb.child("favorites").push().key
+//                selectedTrail.uuid = key!!
+//                currentUserDb.child("favorites").child(key).removeValue()
+                false
+            } else {
+                isFavorite = true
+                favButton!!.setBackgroundResource(resources.getIdentifier("heart_icon", "drawable", context!!.packageName))
+//                val selectedTrail = TrailModel(fileTitle!!,fileImage!!,fileOverview!!,fileLength!!,fileCity!!,startingLat, startingLon, fileImagesArray, isFavorite)
+//                val key = currentUserDb.child("favorites").push().key
+//                selectedTrail.uuid = key!!
+//                currentUserDb.child("favorites").child(key).setValue(selectedTrail)
+                true
+            }
         }
     }
     override fun onMapReady(googleMap: GoogleMap) {
@@ -345,6 +395,7 @@ class DetailsFragment : Fragment(), OnMapReadyCallback,
                         fileImage: String,
                         startingLat: Double,
                         startingLon: Double,
+                        isFavorite: Boolean,
                         fileImagesArray: ArrayList<Int>
         ): DetailsFragment {
             val args = Bundle()
@@ -357,6 +408,7 @@ class DetailsFragment : Fragment(), OnMapReadyCallback,
             args.putString("fileImage", fileImage)
             args.putDouble("startingLat", startingLat)
             args.putDouble("startingLon", startingLon)
+            args.putBoolean("isFavorite", isFavorite)
             args.putIntegerArrayList("fileImagesArray", fileImagesArray)
 
             val fragment = DetailsFragment()

@@ -14,4 +14,4 @@ data class Trail(val title: String,
                  val type: String,
                  val city: String,
                  val images: JSONArray,
-                 val favorite: Boolean)
+                 var favorite: Boolean)

@@ -8,8 +8,13 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import com.google.android.gms.maps.model.LatLng
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
 import com.test.firebaseauthapp.R
+import com.test.firebaseauthapp.R.id.image
 import com.test.firebaseauthapp.R.id.unit
+import com.test.firebaseauthapp.TrailModel
 import com.test.firebaseauthapp.helper.Trail
 
 
@@ -24,6 +29,11 @@ class TrailAdapter constructor(
 )
     : RecyclerView.Adapter<TrailAdapter.ViewHolder>() {
 
+//    Firebase references
+    private var mDatabaseReference: DatabaseReference? = null
+    private var mDatabase: FirebaseDatabase? = null
+    private var mAuth: FirebaseAuth? = null
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(context)
                 .inflate(R.layout.fragment_item, parent, false)
@@ -31,6 +41,14 @@ class TrailAdapter constructor(
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+        mDatabase = FirebaseDatabase.getInstance()
+        mDatabaseReference = mDatabase!!.reference.child("Users")
+        mAuth = FirebaseAuth.getInstance()
+        val mUser = mAuth!!.currentUser
+        val mUserReference = mDatabaseReference!!.child(mUser!!.uid)
+
+        val userId = mAuth!!.currentUser!!.uid
+        val currentUserDb = mDatabaseReference!!.child(userId)
         // Get item from json file
         val item = items[position]
         // Get identifier for the item's image file
@@ -38,16 +56,51 @@ class TrailAdapter constructor(
         // Give the view holder the title and image info
         holder.tvTrailName.text = item.title
         holder.ivTrailImage.setBackgroundResource(imageName)
+
         val trailStartPoint = LatLng(item.startingPointLat, item.startingPointLong)
         val set = "%.2f"
-        holder.tvTrailDistance.text = set.format(distance(userLocation, trailStartPoint))
-        // Give the view holder an onClick listener attached to a specific trail
+        // Give the view holder the distance of trail from device location
+        holder.tvTrailDistance.text = set.format(getDistance(userLocation, trailStartPoint))
+        // Give the view holder an onClick listener attached to the specific trail
         (holder).bind(items[position], clickListener)
+
+        // Get JSONArray from json file
+        val images = item.images
+        // Prepare empty array list for conversion of images array
+        val list = ArrayList<Int>()
+        // Change all image files names from json into Int image resources and add them to empty array list
+        for (i in 0 until images.length()) {
+            val imageInt = context.resources.getIdentifier(images[i].toString(), "drawable", context.packageName)
+            list.add(imageInt)
+        }
+
+//        val selectedTrail = TrailModel(
+//                item.title,
+//                item.trailImage,
+//                item.overview,
+//                item.cat,
+//                item.filePath,
+//                item.startingPointLat,item.startingPointLong,
+//                item.diffLevel,
+//                item.length,
+//                item.type,
+//                item.city,
+//                list,
+//                item.favorite)
+//        val key = currentUserDb.child("trails").push().key
+//        selectedTrail.uuid = key!!
+//        currentUserDb.child("trails").child(key).setValue(selectedTrail)
+
+        if(item.favorite){
+            holder.ivFavIcon.setBackgroundResource(context.resources.getIdentifier("heart_icon", "drawable", context.packageName))
+        } else {
+            holder.ivFavIcon.setBackgroundResource(context.resources.getIdentifier("fav_sel", "drawable", context.packageName))
+        }
     }
 
     override fun getItemCount(): Int = items.size
 
-    private fun distance(loc: LatLng, dest: LatLng): Double {
+    private fun getDistance(loc: LatLng, dest: LatLng): Double {
         val theta = loc.longitude - dest.longitude
         var dist = Math.sin(deg2rad(loc.latitude)) * Math.sin(deg2rad(dest.latitude)) + Math.cos(deg2rad(loc.latitude)) * Math.cos(deg2rad(dest.latitude)) * Math.cos(deg2rad(theta))
         dist = Math.acos(dist)
@@ -76,6 +129,7 @@ class TrailAdapter constructor(
         val tvTrailName: TextView = mView.trail_name
         val ivTrailImage: ImageView = mView.trail_image
         val tvTrailDistance: TextView = mView.trail_distance
+        val ivFavIcon: ImageView = mView.fav_icon
 
         fun bind(part: Trail, clickListener: (Trail) -> Unit) {
             itemView.setOnClickListener { clickListener(part)}
