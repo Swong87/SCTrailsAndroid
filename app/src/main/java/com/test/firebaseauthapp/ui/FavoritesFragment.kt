@@ -3,7 +3,6 @@ package com.test.firebaseauthapp.ui
 import android.annotation.SuppressLint
 import android.location.Location
 import android.os.Bundle
-import android.support.design.widget.BottomNavigationView
 import android.support.v4.app.Fragment
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
@@ -14,9 +13,9 @@ import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 import com.google.android.gms.maps.model.LatLng
 import com.test.firebaseauthapp.R
+import com.test.firebaseauthapp.helper.FavHelper
 import com.test.firebaseauthapp.helper.Trail
-import com.test.firebaseauthapp.helper.TrailHelper
-import kotlinx.android.synthetic.main.fragment_list_view.*
+import kotlinx.android.synthetic.main.fragment_favorites.*
 
 class FavoritesFragment : Fragment() {
     // Get the recycler view
@@ -39,20 +38,64 @@ class FavoritesFragment : Fragment() {
 
         var userLocation: LatLng
         fusedLocationClient.lastLocation
-                .addOnSuccessListener { location: Location? ->
-                    // After getting permission for device location, set it here
-                    userLocation = LatLng(location!!.latitude, location.longitude)
+            .addOnSuccessListener { location: Location? ->
+                // After getting permission for device location, set it here
+                userLocation = LatLng(location!!.latitude, location.longitude)
 
-                    // Set up recyclerView with data from json file
-                    val llm = LinearLayoutManager(activity)
-                    val trails = TrailHelper.getTrailsFromJson("trails.json", context!!)
-                    llm.orientation = LinearLayoutManager.VERTICAL
-                    rv_trails_list.layoutManager = llm
+                // Set up recyclerView with data from json file
+                val llm = LinearLayoutManager(this.activity)
+                FavHelper.getFavsFromDB{ trailsArray ->
+                    val sortedByName = trailsArray.sortedWith(compareBy{ it.title })
+                    val newTrailsArray = ArrayList<Trail>()
+                    for (obj in sortedByName) {
+                        newTrailsArray.add(obj)
+                    }
                     // send data to the trail adapter and set to recycler view
-                    rv_trails_list.adapter = TrailAdapter(trails, context!!, userLocation) { partItem : Trail -> partItemClicked(partItem) }
+                    rv_trails_list.adapter = FavAdapter(newTrailsArray, context!!, userLocation) { partItem : Trail -> partItemClicked(partItem) }
                     recyclerView = rv_trails_list
-
                 }
+                llm.orientation = LinearLayoutManager.VERTICAL
+                rv_trails_list.layoutManager = llm
+
+                // When Map View is clicked, change bottom nav item id to map view
+
+                // When sort button is clicked, toggle "by name" and "by recent"
+                var sortedByRecent = false
+                sortby.setOnClickListener {
+                    if (!sortedByRecent) {
+                        FavHelper.getFavsFromDB { trailsArray ->
+                            val sortedByRec = trailsArray.sortedWith(compareByDescending { it.favoritedBy[0] })
+                            val newTrailsArray = ArrayList<Trail>()
+                            for (obj in sortedByRec) {
+                                newTrailsArray.add(obj)
+                            }
+                            // send data to the trail adapter and set to recycler view
+                            rv_trails_list.adapter = FavAdapter(newTrailsArray, context!!, userLocation) { partItem: Trail -> partItemClicked(partItem) }
+                            recyclerView = rv_trails_list
+                        }
+                        llm.orientation = LinearLayoutManager.VERTICAL
+                        rv_trails_list.layoutManager = llm
+                        sortedByRecent = true
+                        sortby.text = "SORT BY NAME"
+                    } else {
+                        FavHelper.getFavsFromDB { trailsArray ->
+                            val sortedByName = trailsArray.sortedWith(compareBy{ it.title })
+                            val newTrailsArray = ArrayList<Trail>()
+                            for (obj in sortedByName) {
+                                newTrailsArray.add(obj)
+                            }
+                            // send data to the trail adapter and set to recycler view
+                            rv_trails_list.adapter = TrailAdapter(newTrailsArray, context!!, userLocation) { partItem: Trail -> partItemClicked(partItem) }
+                            recyclerView = rv_trails_list
+                        }
+                        llm.orientation = LinearLayoutManager.VERTICAL
+                        rv_trails_list.layoutManager = llm
+                        sortedByRecent = false
+                        sortby.text = "SORT BY RECENT"
+                    }
+                }
+
+            }
 
     }
 
@@ -62,19 +105,22 @@ class FavoritesFragment : Fragment() {
     }
     // When trail is clicked open trail detail fragment
     private fun partItemClicked(partItem : Trail) {
-//        Log.d(partItem.filePath, "CLICK!")
         // Get JSONArray from json file
         val images = partItem.images
         // Prepare empty array list for conversion
         val list = ArrayList<Int>()
         // Change all image files names from json into Int image resources and add them to empty array list
-        for (i in 0 until images.length()) {
-            val imageInt = resources.getIdentifier(images[i].toString(), "drawable", context!!.packageName)
+        images.forEach{
+            val imageInt = resources.getIdentifier(it.toString(), "drawable", context!!.packageName)
             list.add(imageInt)
         }
-//        Log.e("HERE", list.toString())
+//        for (i in 0 until images.length()) {
+//            val imageInt = resources.getIdentifier(images[i].toString(), "drawable", context!!.packageName)
+//            list.add(imageInt)
+//        }
         // Pass data of selected Trail into the Details fragment
         openFragment(DetailsFragment.newInstance(
+                partItem.id,
                 partItem.filePath,
                 partItem.title,
                 partItem.overview,
@@ -84,7 +130,7 @@ class FavoritesFragment : Fragment() {
                 partItem.trailImage,
                 partItem.startingPointLat,
                 partItem.startingPointLong,
-                partItem.favorite,
+                partItem.favoritedBy,
                 list
         ))
     }

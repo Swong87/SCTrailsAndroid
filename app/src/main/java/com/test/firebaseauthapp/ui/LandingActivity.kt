@@ -1,5 +1,6 @@
 package com.test.firebaseauthapp.ui
 
+import android.content.Context
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
@@ -17,7 +18,12 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.test.firebaseauthapp.R
+import com.test.firebaseauthapp.R.string.email
+import com.test.firebaseauthapp.helper.Trail
 import kotlinx.android.synthetic.main.activity_landing.*
+import org.json.JSONException
+import org.json.JSONObject
+import java.io.IOException
 
 
 class LandingActivity : AppCompatActivity() {
@@ -46,6 +52,7 @@ class LandingActivity : AppCompatActivity() {
         mAuth = FirebaseAuth.getInstance()
         mDatabase = FirebaseDatabase.getInstance()
         mDatabaseReference = mDatabase!!.reference.child("Users")
+        mDatabaseReference = mDatabase!!.reference.child("Trails")
         // When the sign in button is pressed, direct to the login activity
         btnSignIn!!
                 .setOnClickListener { startActivity(Intent(this@LandingActivity,

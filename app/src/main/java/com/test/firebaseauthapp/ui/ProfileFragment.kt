@@ -32,6 +32,7 @@ class ProfileFragment : Fragment() {
         mAuth = FirebaseAuth.getInstance()
         val mUser = mAuth!!.currentUser
         val mUserReference = mDatabaseReference!!.child(mUser!!.uid)
+
         mUserReference.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 view.tv_name.text = snapshot.child("name").value as String

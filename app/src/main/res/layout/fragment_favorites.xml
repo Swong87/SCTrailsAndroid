@@ -22,7 +22,7 @@
                 android:contentDescription="sdfsda"
                 android:visibility="visible" />
         </FrameLayout>
-        <!--Your Favorite Trail-->
+        <!--Your Favorite Trails-->
         <TextView
             android:id="@+id/topHeader"
             android:layout_width="wrap_content"

@@ -8,23 +8,18 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import com.google.android.gms.maps.model.LatLng
-import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.database.*
 import com.test.firebaseauthapp.R
 import com.test.firebaseauthapp.helper.Trail
-
-
 import kotlinx.android.synthetic.main.fragment_item.view.*
-//Puts trail data into the fragment item
 
-class TrailAdapter constructor(
+class FavAdapter constructor(
         private var items: ArrayList<Trail>,
         private val context: Context,
         private val userLocation: LatLng?,
         private val clickListener: (Trail) -> Unit
 )
-    : RecyclerView.Adapter<TrailAdapter.ViewHolder>() {
-
+    : RecyclerView.Adapter<FavAdapter.ViewHolder>() {
+    override fun getItemCount(): Int = items.size
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
 
@@ -34,26 +29,8 @@ class TrailAdapter constructor(
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        //    Firebase references
-        val mAuth = FirebaseAuth.getInstance()
-        val mDatabase = FirebaseDatabase.getInstance()
-        val mDatabaseReference = mDatabase.reference
 
-        val mUser = mAuth!!.currentUser
-        val mUserUid = mUser!!.uid
-
-        // Listen for favorited data changes in firebase
-        mDatabaseReference.child("Trails").child(position.toString()).child("favoritedBy").addValueEventListener(object : ValueEventListener {
-            override fun onDataChange(snapshot: DataSnapshot) {
-                val isfavorited = snapshot.child(mUserUid).value
-                if(isfavorited != null) {
-                    holder.ivFavIcon.setBackgroundResource(context.resources.getIdentifier("heart_icon", "drawable", context.packageName))
-                } else {
-                    holder.ivFavIcon.setBackgroundResource(context.resources.getIdentifier("fav_sel", "drawable", context.packageName))
-                }
-            }
-            override fun onCancelled(databaseError: DatabaseError) {}
-        })
+        holder.ivFavIcon.setBackgroundResource(context.resources.getIdentifier("heart_icon", "drawable", context.packageName))
 
         // Get item from database
         val item = items[position]
@@ -85,8 +62,6 @@ class TrailAdapter constructor(
             list.add(imageInt)
         }
     }
-
-    override fun getItemCount(): Int = items.size
 
     private fun getDistance(loc: LatLng, dest: LatLng): Double {
         val theta = loc.longitude - dest.longitude

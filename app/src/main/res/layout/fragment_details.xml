@@ -6,11 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".ui.DetailsFragment">
     <!--Header-->
+
     <RelativeLayout
         android:id="@+id/heda"
         android:layout_width="match_parent"
         android:layout_height="150dp">
+
         <!--Image for banner-->
+
         <ImageView
             android:id="@+id/trailHero"
             android:layout_width="match_parent"
@@ -20,11 +23,26 @@
             android:contentDescription="sdfsda"
             android:visibility="visible" />
         <!--Green Overlay for image-->
+
         <View
             android:layout_width="match_parent"
             android:layout_height="250dp"
             android:background="#991f683a" />
         <!--Trail Name-->
+
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:text="Back" />
+
         <TextView
             android:id="@+id/detailTitle"
             android:layout_width="wrap_content"
@@ -37,6 +55,7 @@
             android:textColor="#ffffff"
             android:textSize="30sp" />
         <!--Trail Location-->
+
         <TextView
             android:id="@+id/subtitle"
             android:layout_width="wrap_content"

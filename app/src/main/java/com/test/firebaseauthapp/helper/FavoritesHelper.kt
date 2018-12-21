@@ -46,7 +46,7 @@ object FavoritesHelper {
                 val trailCity = jsonTrails.getJSONObject(index).getString(KEY_CITY)
                 val trailImages = jsonTrails.getJSONObject(index).getJSONArray(KEY_IMAGES)
                 val trailFavorite = jsonTrails.getJSONObject(index).getBoolean(KEY_FAVORITE)
-                trails.add(Trail(trailTitle, trailImage, trailOverview, trailCat, trailFilePath, trailStartingPointLat, trailStartingPointLong, trailDiffLevel, trailLength, trailType, trailCity, trailImages, trailFavorite))
+//                trails.add(Trail(trailTitle, trailImage, trailOverview, trailCat, trailFilePath, trailStartingPointLat, trailStartingPointLong, trailDiffLevel, trailLength, trailType, trailCity, trailImages, trailFavorite))
             }
         } catch (e: JSONException) {
             return trails

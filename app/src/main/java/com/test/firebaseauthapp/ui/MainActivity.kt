@@ -6,6 +6,7 @@ import android.support.design.widget.BottomNavigationView
 import android.support.v4.app.Fragment
 import android.util.Log
 import com.test.firebaseauthapp.R
+import com.test.firebaseauthapp.helper.TrailHelper
 import kotlinx.android.synthetic.main.activity_main.*
 import io.ticofab.androidgpxparser.parser.GPXParser
 import org.xmlpull.v1.XmlPullParserException
@@ -94,6 +95,7 @@ class MainActivity : AppCompatActivity() {
         }
         false
     }
+
 
 
 

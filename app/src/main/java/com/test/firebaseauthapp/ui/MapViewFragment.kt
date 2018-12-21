@@ -22,7 +22,9 @@ import android.support.design.widget.BottomNavigationView
 import android.support.v4.app.ActivityCompat
 import com.google.android.gms.common.api.ResolvableApiException
 import com.google.android.gms.location.*
+import com.test.firebaseauthapp.helper.Trail
 import com.test.firebaseauthapp.helper.TrailHelper
+import kotlinx.android.synthetic.main.fragment_list_view.*
 import kotlinx.android.synthetic.main.fragment_map_view.*
 
 class MapViewFragment : Fragment(), OnMapReadyCallback,
@@ -67,10 +69,12 @@ class MapViewFragment : Fragment(), OnMapReadyCallback,
     }
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
-        val trails = TrailHelper.getTrailsFromJson("trails.json", context!!)
-        for (index in 0 until trails.size) {
-            placeMarkerOnMap(LatLng(trails[index].startingPointLat, trails[index].startingPointLong), trails[index].title)
+        TrailHelper.getTrailsFromDB{trailsArray -> val trails =  trailsArray
+            for (index in 0 until trails.size) {
+                placeMarkerOnMap(LatLng(trails[index].startingPointLat, trails[index].startingPointLong), trails[index].title)
+            }
         }
+
 
         mMap.uiSettings.isZoomControlsEnabled = true
         mMap.setOnMarkerClickListener(this)

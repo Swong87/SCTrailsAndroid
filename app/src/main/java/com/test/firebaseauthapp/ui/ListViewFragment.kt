@@ -16,7 +16,6 @@ import android.support.v7.widget.LinearLayoutManager
 import android.support.design.widget.BottomNavigationView
 import android.support.v4.app.ActivityCompat
 import android.support.v4.content.ContextCompat
-import android.util.Log
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 import com.google.android.gms.maps.model.LatLng
@@ -38,6 +37,11 @@ class ListViewFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
+        if (savedInstanceState != null) {
+            //Restore the fragment's state here
+            mContent = fragmentManager!!.getFragment(savedInstanceState, "ListViewFragment")!!
+        }
+
         if (ContextCompat.checkSelfPermission(context!!,
                         android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(activity!!,
@@ -46,19 +50,24 @@ class ListViewFragment : Fragment() {
 
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(context!!)
 
-        var userLocation: LatLng
+        var userLocation: LatLng? = null
 
         fusedLocationClient.lastLocation.addOnSuccessListener { location: Location? ->
             // After getting permission for device location, set it here
             userLocation = LatLng(location!!.latitude, location.longitude)
-
             // Set up recyclerView with data from json file
             val llm = LinearLayoutManager(activity)
-            val trails = TrailHelper.getTrailsFromJson("trails.json", context!!)
+            TrailHelper.getTrailsFromDB{trailsArray ->
+                // send data to the trail adapter and set to recycler view
+                rv_trails_list.adapter = TrailAdapter(trailsArray, context!!, userLocation) {
+                    partItem : Trail -> partItemClicked(partItem)
+                }
+            }
+
+
             llm.orientation = LinearLayoutManager.VERTICAL
             rv_trails_list.layoutManager = llm
-            // send data to the trail adapter and set to recycler view
-            rv_trails_list.adapter = TrailAdapter(trails, context!!, userLocation) { partItem : Trail -> partItemClicked(partItem) }
+
 
 
             // When Map View is clicked, change bottom nav item id to map view
@@ -67,11 +76,27 @@ class ListViewFragment : Fragment() {
                 view.selectedItemId = R.id.navigation_mapView
             }
 
-            if (savedInstanceState != null) {
-                //Restore the fragment's state here
-                mContent = fragmentManager!!.getFragment(savedInstanceState, "ListViewFragment")!!
+
+        }
+        fusedLocationClient.lastLocation.addOnFailureListener { it ->
+            // Set up recyclerView with data from json file
+            val llm = LinearLayoutManager(activity)
+            TrailHelper.getTrailsFromDB{trailsArray -> val trails =  trailsArray
+                // send data to the trail adapter and set to recycler view
+                rv_trails_list.adapter = TrailAdapter(trails, context!!, userLocation) {
+                    partItem : Trail -> partItemClicked(partItem)
+                }
+            }
+            llm.orientation = LinearLayoutManager.VERTICAL
+            rv_trails_list.layoutManager = llm
+
+            // When Map View is clicked, change bottom nav item id to map view
+            tv_map_view.setOnClickListener {
+                val view = activity!!.findViewById(R.id.navigationView) as BottomNavigationView
+                view.selectedItemId = R.id.navigation_mapView
             }
         }
+
         recyclerView = rv_trails_list
     }
 
@@ -92,19 +117,18 @@ class ListViewFragment : Fragment() {
     }
     // When trail is clicked open trail detail fragment
     private fun partItemClicked(partItem : Trail) {
-//        Log.d(partItem.filePath, "CLICK!")
         // Get JSONArray from json file
         val images = partItem.images
         // Prepare empty array list for conversion
         val list = ArrayList<Int>()
         // Change all image files names from json into Int image resources and add them to empty array list
-        for (i in 0 until images.length()) {
-            val imageInt = resources.getIdentifier(images[i].toString(), "drawable", context!!.packageName)
+        images.forEach{
+            val imageInt = resources.getIdentifier(it.toString(), "drawable", context!!.packageName)
             list.add(imageInt)
         }
-//        Log.e("HERE", list.toString())
         // Pass data of selected Trail into the Details fragment
         openFragment(DetailsFragment.newInstance(
+                partItem.id,
                 partItem.filePath,
                 partItem.title,
                 partItem.overview,
@@ -114,19 +138,20 @@ class ListViewFragment : Fragment() {
                 partItem.trailImage,
                 partItem.startingPointLat,
                 partItem.startingPointLong,
-                partItem.favorite,
+                partItem.favoritedBy,
                 list
         ))
     }
 
     // Opens selected fragment
     private fun openFragment(fragment: Fragment) {
-        val transaction = fragmentManager!!.beginTransaction()
-        transaction.setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left, R.anim.exit_to_right, R.anim.enter_from_left)
-        transaction.replace(R.id.container, fragment)
-        transaction.addToBackStack(null)
-        transaction.commit()
+        fragmentManager!!.beginTransaction()
+            .setCustomAnimations(R.anim.enter_from_right, R.anim.exit_to_left, R.anim.exit_to_right, R.anim.enter_from_left)
+            .replace(R.id.container, fragment)
+            .addToBackStack(fragment.toString())
+            .commit()
     }
+
 
     companion object {
         fun newInstance(): ListViewFragment = ListViewFragment()
