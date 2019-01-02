@@ -28,7 +28,8 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:textColor="@android:color/white"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            android:fontFamily="@font/latoregular"/>
         <TextView
             android:id="@+id/upload_pic"
             android:layout_width="wrap_content"
@@ -38,7 +39,8 @@
             android:clickable="true"
             android:focusable="true"
             android:textSize="20sp"
-            android:text="@string/upload_a_photo"/>
+            android:text="@string/upload_a_photo"
+            android:fontFamily="@font/latoregular"/>
 
 
     </TableLayout>
@@ -53,7 +55,8 @@
         android:focusable="true"
         android:text="@string/sign_out"
         android:textColor="@android:color/white"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:fontFamily="@font/latoregular"/>
 
 
 </LinearLayout>

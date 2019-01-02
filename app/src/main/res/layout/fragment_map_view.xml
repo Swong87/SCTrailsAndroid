@@ -44,7 +44,7 @@
                 android:text="Your guide to"
                 android:textColor="#ffffff"
                 android:textSize="25sp"
-                android:textStyle="italic" />
+                android:fontFamily="@font/latoitalic" />
 
             <TextView
                 android:id="@+id/exploring"
@@ -55,7 +55,7 @@
                 android:text="exploring"
                 android:textColor="@color/colorAccent"
                 android:textSize="25sp"
-                android:textStyle="italic" />
+                android:fontFamily="@font/latoitalic" />
 
             <TextView
                 android:id="@+id/bottomHeader"
@@ -67,7 +67,7 @@
                 android:text="Florida's Space Coast."
                 android:textColor="@android:color/white"
                 android:textSize="25sp"
-                android:textStyle="italic" />
+                android:fontFamily="@font/latoitalic" />
 
         </RelativeLayout>
 
@@ -84,7 +84,7 @@
             android:text="TRAILS NEAR YOU"
             android:textColor="@color/colorPrimary"
             android:textFontWeight=" "
-            android:textStyle="bold" />
+            android:fontFamily="@font/latobold" />
 
         <TextView
             android:id="@+id/tv_list_view"
@@ -99,7 +99,7 @@
             android:focusable="true"
             android:text="List View"
             android:textColor="@color/colorPrimary"
-            android:textStyle="bold" />
+            android:fontFamily="@font/latobold" />
     </RelativeLayout>
 
 

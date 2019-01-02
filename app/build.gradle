@@ -34,6 +34,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-database:16.0.1'
     implementation 'com.google.firebase:firebase-auth:16.0.3'
     implementation 'com.facebook.android:facebook-login:4.35.0'
+    implementation 'com.google.firebase:firebase-storage:16.0.1'
     implementation 'com.aurelhubert:ahbottomnavigation:2.1.0'
     //To load image
     implementation 'com.squareup.picasso:picasso:2.5.2'

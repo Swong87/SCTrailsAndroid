@@ -6,7 +6,6 @@ import android.support.design.widget.BottomNavigationView
 import android.support.v4.app.Fragment
 import android.util.Log
 import com.test.firebaseauthapp.R
-import com.test.firebaseauthapp.helper.TrailHelper
 import kotlinx.android.synthetic.main.activity_main.*
 import io.ticofab.androidgpxparser.parser.GPXParser
 import org.xmlpull.v1.XmlPullParserException
@@ -53,10 +52,10 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    override fun onSaveInstanceState(outState: Bundle) {
-        super.onSaveInstanceState(outState)
-        supportFragmentManager.putFragment(outState, "TabFragment", mContent)
-    }
+//    override fun onSaveInstanceState(outState: Bundle) {
+//        super.onSaveInstanceState(outState)
+//        supportFragmentManager.putFragment(outState, "TabFragment", mContent)
+//    }
 
     // Opens selected fragment
     private fun openFragment(fragment: Fragment) {

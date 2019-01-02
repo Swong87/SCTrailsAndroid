@@ -41,7 +41,8 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
             android:textColor="#ffffff"
-            android:text="Back" />
+            android:text="Back"
+            android:fontFamily="@font/latoregular"/>
 
         <TextView
             android:id="@+id/detailTitle"
@@ -53,7 +54,8 @@
             android:layout_centerHorizontal="true"
             android:text="Trail Name"
             android:textColor="#ffffff"
-            android:textSize="30sp" />
+            android:textSize="30sp"
+            android:fontFamily="@font/latoregular"/>
         <!--Trail Location-->
 
         <TextView
@@ -66,7 +68,7 @@
             android:text="Space Coast"
             android:textColor="@android:color/white"
             android:textSize="20sp"
-            android:textStyle="italic" />
+            android:fontFamily="@font/latoitalic" />
     </RelativeLayout>
 
     <!--Scroll Area-->
@@ -132,7 +134,8 @@
                 android:gravity="center"
                 android:text="Trail description goes here"
                 android:textColor="#000000"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:fontFamily="@font/latoregular"/>
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -147,7 +150,8 @@
                     android:background="@drawable/green_btn"
                     android:clickable="false"
                     android:text="DIFFICULTY"
-                    android:textColor="#fff" />
+                    android:textColor="#fff"
+                    android:fontFamily="@font/latoregular" />
                 <!--Path Image-->
                 <ImageView
                     android:layout_width="wrap_content"
@@ -171,7 +175,7 @@
                     android:text="Length"
                     android:textColor="@color/colorPrimary"
                     android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:fontFamily="@font/latobold" />
                 <!--Miles-->
                 <TextView
                     android:id="@+id/miles"
@@ -183,7 +187,7 @@
                     android:text="mi"
                     android:textColor="@color/colorPrimary"
                     android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:fontFamily="@font/latobold" />
 
             </RelativeLayout>
             <!--Map-->
@@ -225,7 +229,8 @@
                     android:paddingRight="10dp"
                     android:text="VIEW FULL MAP"
                     android:textColor="#fff"
-                    android:textSize="15sp" />
+                    android:textSize="15sp"
+                    android:fontFamily="@font/latoregular"/>
                 <!--Map it! clickable text-->
                 <TextView
                     android:id="@+id/mapit"
@@ -241,7 +246,7 @@
                     android:text="Map It!"
                     android:textColor="@color/colorPrimary"
                     android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:fontFamily="@font/latobold" />
                 <!--Favorite Button-->
                 <ImageButton
                     android:id="@+id/favButton"

@@ -18,18 +18,34 @@ import android.content.Intent
 import android.content.IntentSender
 import android.content.pm.PackageManager
 import android.location.Location
+import android.net.Uri
 import android.support.design.widget.BottomNavigationView
 import android.support.v4.app.ActivityCompat
+import android.util.Log
 import com.google.android.gms.common.api.ResolvableApiException
 import com.google.android.gms.location.*
-import com.test.firebaseauthapp.helper.Trail
 import com.test.firebaseauthapp.helper.TrailHelper
-import kotlinx.android.synthetic.main.fragment_list_view.*
 import kotlinx.android.synthetic.main.fragment_map_view.*
+import java.lang.Exception
 
 class MapViewFragment : Fragment(), OnMapReadyCallback,
         GoogleMap.OnMarkerClickListener {
-    override fun onMarkerClick(p0: Marker?) = false
+    override fun onMarkerClick(p0: Marker?): Boolean {
+        // When Map It! is clicked, open maps app with specified location
+        try {
+            val marker = p0!!
+            val lat = marker.position.latitude
+            val lon = marker.position.longitude
+            val title = marker.title
+            val uri = Uri.parse("geo:$lat,$lon?q=$lat,$lon($title)")
+            val intent = Intent(android.content.Intent.ACTION_VIEW, uri)
+            startActivity(intent)
+        } catch (e: Exception) {
+            Log.e("HERE", e.toString())
+        }
+
+        return false
+    }
 
     private lateinit var mMap: GoogleMap
     private lateinit var fusedLocationClient: FusedLocationProviderClient

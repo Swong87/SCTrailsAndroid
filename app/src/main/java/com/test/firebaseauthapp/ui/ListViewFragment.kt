@@ -44,77 +44,75 @@ class ListViewFragment : Fragment() {
 
         if (ContextCompat.checkSelfPermission(context!!,
                         android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+
             ActivityCompat.requestPermissions(activity!!,
-                    arrayOf(android.Manifest.permission.ACCESS_FINE_LOCATION), ListViewFragment.LOCATION_PERMISSION_REQUEST_CODE)
+                arrayOf(android.Manifest.permission.ACCESS_FINE_LOCATION), ListViewFragment.LOCATION_PERMISSION_REQUEST_CODE)
+
         }
 
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(context!!)
 
         var userLocation: LatLng? = null
 
-        fusedLocationClient.lastLocation.addOnSuccessListener { location: Location? ->
-            // After getting permission for device location, set it here
-            userLocation = LatLng(location!!.latitude, location.longitude)
-            // Set up recyclerView with data from json file
-            val llm = LinearLayoutManager(activity)
-            TrailHelper.getTrailsFromDB{trailsArray ->
-                // send data to the trail adapter and set to recycler view
-                rv_trails_list.adapter = TrailAdapter(trailsArray, context!!, userLocation) {
-                    partItem : Trail -> partItemClicked(partItem)
+        fusedLocationClient.lastLocation
+            .addOnSuccessListener { location: Location? ->
+                // After getting permission for device location, set it here
+                userLocation = LatLng(location!!.latitude, location.longitude)
+                // Set up recyclerView with data from json file
+                val llm = LinearLayoutManager(activity)
+                TrailHelper.getTrailsFromDB{trailsArray ->
+                    // send data to the trail adapter and set to recycler view
+                    rv_trails_list.adapter = TrailAdapter(trailsArray, context!!, userLocation) {
+                        partItem : Trail -> partItemClicked(partItem)
+                    }
+                }
+
+                llm.orientation = LinearLayoutManager.VERTICAL
+                rv_trails_list.layoutManager = llm
+
+                // When Map View is clicked, change bottom nav item id to map view
+                tv_map_view.setOnClickListener {
+                    val view = activity!!.findViewById(R.id.navigationView) as BottomNavigationView
+                    view.selectedItemId = R.id.navigation_mapView
                 }
             }
+            .addOnFailureListener {
 
+                // Set up recyclerView with data from json file
+                val llm = LinearLayoutManager(activity)
+                TrailHelper.getTrailsFromDB{trailsArray ->
+                    // send data to the trail adapter and set to recycler view
+                    rv_trails_list.adapter = TrailAdapter(trailsArray, context!!, userLocation) {
+                        partItem : Trail -> partItemClicked(partItem)
+                    }
+                }
+                llm.orientation = LinearLayoutManager.VERTICAL
+                rv_trails_list.layoutManager = llm
 
-            llm.orientation = LinearLayoutManager.VERTICAL
-            rv_trails_list.layoutManager = llm
-
-
-
-            // When Map View is clicked, change bottom nav item id to map view
-            tv_map_view.setOnClickListener {
-                val view = activity!!.findViewById(R.id.navigationView) as BottomNavigationView
-                view.selectedItemId = R.id.navigation_mapView
-            }
-
-
-        }
-        fusedLocationClient.lastLocation.addOnFailureListener { it ->
-            // Set up recyclerView with data from json file
-            val llm = LinearLayoutManager(activity)
-            TrailHelper.getTrailsFromDB{trailsArray -> val trails =  trailsArray
-                // send data to the trail adapter and set to recycler view
-                rv_trails_list.adapter = TrailAdapter(trails, context!!, userLocation) {
-                    partItem : Trail -> partItemClicked(partItem)
+                // When Map View is clicked, change bottom nav item id to map view
+                tv_map_view.setOnClickListener {
+                    val view = activity!!.findViewById(R.id.navigationView) as BottomNavigationView
+                    view.selectedItemId = R.id.navigation_mapView
                 }
             }
-            llm.orientation = LinearLayoutManager.VERTICAL
-            rv_trails_list.layoutManager = llm
-
-            // When Map View is clicked, change bottom nav item id to map view
-            tv_map_view.setOnClickListener {
-                val view = activity!!.findViewById(R.id.navigationView) as BottomNavigationView
-                view.selectedItemId = R.id.navigation_mapView
-            }
-        }
 
         recyclerView = rv_trails_list
     }
 
-    override fun onSaveInstanceState(outState: Bundle) {
-        super.onSaveInstanceState(outState)
-        fragmentManager!!.putFragment(outState, "ListViewFragment", mContent)
-    }
+//    override fun onSaveInstanceState(outState: Bundle) {
+//        super.onSaveInstanceState(outState)
+//        fragmentManager!!.putFragment(outState, "ListViewFragment", mContent)
+//    }
 
-    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
-
-        if (ActivityCompat.checkSelfPermission(context!!,
-                        android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            ActivityCompat.requestPermissions(activity!!,
-                    arrayOf(android.Manifest.permission.ACCESS_FINE_LOCATION), 1)
-            return
-        }
-    }
+//    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
+//        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
+//
+//        if (ActivityCompat.checkSelfPermission(context!!, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+//
+//            ActivityCompat.requestPermissions(activity!!, arrayOf(android.Manifest.permission.ACCESS_FINE_LOCATION), 1)
+//            return
+//        }
+//    }
     // When trail is clicked open trail detail fragment
     private fun partItemClicked(partItem : Trail) {
         // Get JSONArray from json file

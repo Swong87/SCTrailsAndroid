@@ -48,7 +48,8 @@
                 android:paddingLeft="5dp"
                 android:paddingRight="5dp"
                 android:textColor="@android:color/white"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:fontFamily="@font/latobold"/>
 
             <TextView
                 android:id="@+id/trail_distance"
@@ -61,7 +62,8 @@
                 android:layout_toLeftOf="@+id/unit"
                 android:text="@string/_2468_55"
                 android:textColor="@android:color/white"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:fontFamily="@font/latoregular"/>
 
             <TextView
                 android:id="@+id/unit"
@@ -74,7 +76,8 @@
                 android:layout_marginRight="10dp"
                 android:text="@string/mi_away"
                 android:textColor="@android:color/white"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:fontFamily="@font/latoregular"/>
 
         </RelativeLayout>
     </FrameLayout>

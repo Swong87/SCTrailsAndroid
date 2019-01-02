@@ -31,7 +31,7 @@
             android:text="Your Favorite Trails"
             android:textColor="@android:color/white"
             android:textSize="30sp"
-            android:textStyle="italic" />
+            android:fontFamily="@font/latoitalic" />
         <!--Heart Image-->
         <ImageView
             android:id="@+id/bottomHeader"
@@ -55,7 +55,7 @@
         android:text="SORT BY RECENT"
         android:textColor="@color/colorPrimary"
         android:textSize="14sp"
-        android:textStyle="bold" />
+        android:fontFamily="@font/latobold"/>
     <!--Scroll View Container-->
     <ScrollView
         android:layout_width="wrap_content"

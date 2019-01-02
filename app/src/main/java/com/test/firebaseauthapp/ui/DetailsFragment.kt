@@ -222,7 +222,7 @@ class DetailsFragment : Fragment(), OnMapReadyCallback,
         } else {
             // do something with the parsed track
             async {
-                uiThread { _ ->
+                uiThread {
                     val tracks = parsedGpx.tracks
                     // traversing through tracks
                     for (track in tracks) {
